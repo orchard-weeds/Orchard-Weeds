@@ -84,7 +84,7 @@ body {
 }
 
 .gif_container {
-    height: 500px;
+    height: 400px;
     width: 30%;
     margin: 0 auto;
     margin-top: 50px;
@@ -139,7 +139,12 @@ body {
     list-style: none;
 }
 
-
+@media only screen and (max-width: 1200px) {
+    .gif_container {
+        height: 400px;
+        width: 35%;
+    }
+}
 
 
 @media only screen and (max-width: 1082px) {
@@ -159,11 +164,19 @@ body {
         background-size: contain;
         background-color: rgb(153, 219, 255);
     }
+    .gif_container {
+        height: 400px;
+        width: 45%;
+    }
 }
 
 @media only screen and (max-width: 650px) {
     .about {
         height: 400px;
+    }
+    .gif_container {
+        height: 300px;
+        width: 50%;
     }
 }
 
@@ -188,5 +201,12 @@ body {
         background-repeat: no-repeat;
         background-size: contain;
         background-color: rgb(153, 219, 255);
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .gif_container {
+        height: 300px;
+        width: 70%;
     }
 }
