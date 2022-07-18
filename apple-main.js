@@ -1402,7 +1402,7 @@ function Cotula() {
     let img_image = 0;
     let img_title = 0;
     let img_text = 0;
-    let images_mitra = ['./images/mitracarpus-2.jpg', './images/mitracarpus-1.png'];
+    let images_mitra = ['./images/mitracarpus-2.png', './images/mitracarpus-1.png'];
     let images_hover_mitra = ['Mitracarpus hirtus', 'Mitracarpus hirtus'];
     let images_text_mitra = ['Mitracarpus hirtus', 'Mitracarpus hirtus']
     let im_len = images_mitra.length;
