@@ -1009,6 +1009,381 @@ const cotula = {
     ]
 }
 
+const hawkweed = {
+	common_name: 'Smooth Hawksbeard',
+    other_common_names: ["smooth hawk's-beard"],
+    botanical_name: '<em>Crepis capillaris</em> (L.) Wallr.',
+    family: 'Asteraceae',
+    uses: 'Reported to be edible.',
+    cultural: 'Smooth Hawksbeard is a annual or short-lived perennial, \
+    characterized by a shallow root system. The plant forms a dense rosette and leaves are described as \
+    toothed to runcinate-pinnatifid (lobed). Multiple yellow flowers form on erect slender stems. \
+    Smooth Hawksbeard is a weed of fields, pastures, roadsides and areas with disturbed soils. It can grow in a range of soil types but \
+    prefers moist well drained soils.',
+    hosts: 'Smooth Hawksbeard is known to attract a range of bees species. \
+    Pollinators include hoverflies, honeybee, bumblebees, solitary bees, meat flies, butterflies, \
+    beetles, and thrips (Pladias.cz). It is a reported host for aphids in the genus Nasonovia, which include \
+    important pests such as lettuce aphids (<em>Nasonovia ribisnigri</em>. It is also a host for \
+    <em>Sphaerotheca humuli</em> (powdery mildew), <em>Puccinia crepidis</em> (rust), <em>Synchytrium aureum</em> \
+     (False rust) and a small Miridae plant bug (<em>Labopidea pallida</em>)',
+    observations: 'Please complete the form to add your observations - go to the About page to access the form.<br><br>',
+    links: [
+        'The Jepson Herbarium', 'https://ucjeps.berkeley.edu/eflora/eflora_display.php?tid=2400',
+        'RBGS', 'https://plantnet.rbgsyd.nsw.gov.au/cgi-bin/NSWfl.pl?page=nswfl&lvl=sp&name=Crepis~capillaris',
+        'Game & wildlife conservation trust', 'https://www.gwct.org.uk/farming/research/pollinators/which-flowers-are-best-for-wild-bees/',
+        'Pladias.cz', 'https://pladias.cz/taxon/overview/Crepis%20capillaris',
+        'Discover Life', 'https://www.discoverlife.org/mp/20q',
+        'Castlemaine flora', 'https://www.castlemaineflora.org.au/pic/c/crepi/crcap.htm'
+    ],
+    pest_images: [
+        "<img title='a species of aphid' src='./images/sonchus-aphids.png'>",
+        "<img title='Puccinia crepidis: image by iNaturalistUK https://uk.inaturalist.org/taxa/1006690-Puccinia-crepidis' src='./images/Puccinia-crepidis.png'>",
+        "<img title='(Hoverfly - photo by ABC, Libbi Gorr)' src='./images/hoverfly.png'>"
+    ]
+}
+
+const smooth_catsear = {
+	common_name: 'Smooth Catsear',
+    other_common_names: ['Annual flatweed', "Cat's ear", 'Flat weed', 'Flatweed', "Glabrous cat's ear", "Smooth cat's ear",
+    "smooth cat's-ear"],
+    botanical_name: '<em>Hypochaeris glabra</em> L.',
+    family: 'Asteraceae',
+    uses: 'It is reported to have medicinal properties. It is also reported to be edible in some situations.',
+    cultural: 'Smooth catsear is a common weed of gardens, lawns, roadsides, footpaths, parks, pastures, waste areas and disturbed sites. \
+    It is an annual or perennial herb, ranging in height from 0.08 to 0.5 m high. \
+    Similar to other plants commonly called dandelion, it forms a rosette. Leaves are smooth with toothed or lobed margins. \
+    Flower are yellow and appear on branched stems. It grows in a range of situations, but prefers sandy to loam soils, and \
+    is drought tolerant.',
+    hosts: 'Flowers are pollinated by bees and flies. \
+    It is reported to be a host for a number of <em>Puccinia</em> species (rust): <em>P. chondrillae, P. hieracii, P. hypochoeridis, \
+    P. inquinans, P. prenanthis, P. troximontis</em> (Discover Life). \
+    Viruses include Alfalfa mosaic virus (AMV) and white clover mosaic virus (WCMV). \
+    An aphid, <em>Brachycaudus helichrysi</em> \
+    (leaf curl plum aphid), is known to feed on smooth catsear. This aphid has a world-wide distribution in \
+    temperate regions, with plums and other <em>Prunus</em> species its primary hosts. \
+    The larva of the cynipid wasp <em>Phanacis hypochoeridis</em> is known to cause galls on stems in both \
+    <em>H. glabra</em> and <em>P. radicata</em>. A much broader range of associations are recorded for <em>P. radicata</em>. \
+    It is not known if these associations are also present in Smooth catsear. Please record your observations \
+    so that we can start to build a knowledge base for this plant.',
+    observations: 'Please complete the form to add your observations - go to the About page to access the form.<br><br>',
+    links: [
+        'RBGS', 'https://plantnet.rbgsyd.nsw.gov.au/cgi-bin/NSWfl.pl?page=nswfl&lvl=sp&name=Hypochaeris~glabra',
+        'Weeds of Australia', 'https://keyserver.lucidcentral.org/weeds/data/media/Html/hypochaeris_glabra.htm',
+        'Weeds of Melbourne', 'https://weedsofmelbourne.org/smooth-cats-ear-hypochaeris-glabra',
+        'Useful temperate plants', 'http://temperate.theferns.info/plant/Hypochaeris+glabra',
+        'Discover Life', 'https://www.discoverlife.org/mp/20q',
+        'Australian Journal of Agricultural Research', 'https://www.publish.csiro.au/cp/a96040',
+        'Bio Info', 'https://www.bioinfo.org.uk/html/Phanacis_hypochoeridis.htm'
+    ],
+    pest_images: [
+        "<img title='Smooth catsear: image by Weeds of Melbourne (https://weedsofmelbourne.org/smooth-cats-ear-hypochaeris-glabra)' src='./images/smooth-catsear-hoverfly.png'>",
+        "<img title='(Hoverfly - photo by ABC, Libbi Gorr)' src='./images/hoverfly.png'>",
+        "<img title='(Plum leaf curl aphid. Photo by InfluentialPoints: https://influentialpoints.com/Gallery/Brachycaudus_helichrysi_Leaf-curling_plum_aphid.htm)' src='./images/plum-leaf-curl-aphid.png'>"
+    ]
+}
+
+const catsear = {
+	common_name: "Cat's ear",
+    other_common_names: ["Cat's ear dandelion", "Cat's-ear", 'Catsear', 'Common catsear', 'False dandelion',
+    'Flat weed', 'Flatweed', "Hairy cat's ear", "Hairy cat's-ear", "Hairy catsear"],
+    botanical_name: '<em>Hypochaeris radicata</em> L.',
+    family: 'Asteraceae',
+    uses: 'Both edible and medicinal uses are reported.',
+    cultural: "Cat's ear is a common weed of parks, gardens, footpaths, lawns, roadsides, disturbed sites, waste areas, \
+    cultivation and natural habitats. Cat's ear is a perennial herb, ranging in height from 15 to 80cm high. \
+    Similar to other plants commonly called dandelion, it forms a basal rosette. Leaves are toothed or lobed and \
+    covered with stiff hairs. Yellow daisy like flowers appear on branched stalks. Flowering begins in response to long days \
+    , with many insects reported to visit flowers - it is a source of both pollen and nectar. A single flower can produce many \
+    seeds, which are mainly dispersed by wind. Root systems can be substantial and are capable of re-sprouting \
+    following fire. Roots are also known to form associations with mycorrhizal fungi.",
+    hosts: "Cat's ear is eaten by a broad range of herbivores, although toxicity has been reported in horses (Australia & \
+        New Zealand). In addition to attracting a range of insects and bees (nectar and pollen), \
+        numerous associations have been reported. In one study undertaken in the Sheffield area, England UK, \
+        almost 200 associations were reported. Butterflies of various types are also attracted to the flowers. \
+        Listed associations (Discover Life) include <em>Puccinia hieracii</em> & <em>Puccinia hypochoeridis</em> (rust), \
+        Protomyces pachydermus</em> (Dandelion edema disease), <em>Pleospora media</em> (Pleospora species can cause fruit rot), \
+        <em>Phoma albicans</em> (leaf spot), <em>Erysiphe cichoracearum</em> & <em>Erysiphe lamprocarpa</em> (powdery mildew), \
+        <em>Ramularia hypochoeridis</em> (leaf spot), aphids (<em>Macrosiphum sp.</em>, <em>Uroleucon</em> (Large cat's ear aphid) \
+        & <em>Myzus sp.</em>). \
+        Another aphid reported on Cat's ear is <em>Aphis hypochoeridis</em> (Cat's-ear root aphid).",
+    observations: 'Please complete the form to add your observations - go to the About page to access the form.<br><br>',
+    links: [
+        'RBGS', 'https://plantnet.rbgsyd.nsw.gov.au/cgi-bin/NSWfl.pl?page=nswfl&lvl=sp&name=Hypochaeris~radicata',
+        'Weeds of Australia', 'https://keyserver.lucidcentral.org/weeds/data/media/Html/hypochaeris_radicata.htm#Notes',
+        'Florabase', 'https://florabase.dpaw.wa.gov.au/browse/profile/9352',
+        'ACCS', 'https://accs.uaa.alaska.edu/wp-content/uploads/Hypochaeris_radicata_BIO_HYRA3.pdf',
+        'Cabi', 'https://www.cabi.org/isc/datasheet/27895',
+        'Discover Life', 'https://www.discoverlife.org/mp/20q',
+        'InfluentialPoints', 'https://influentialpoints.com/Gallery/Aphis_hypochoeridis_cats_ear_root_aphid.htm',
+        'Grasslands', 'https://grasslands.ecolinc.vic.edu.au/fieldguide/flora/flat-weed#details',
+    ],
+    pest_images: [
+        "<img title='(Dandelion edema disease - photo source: http://chawantake.sakura.ne.jp/data/Protomyces_pachydermus.html)' src='./images/Dandelion-edema-disease.png'>",
+        "<img title='(Cats ear root aphid. Photo by InfluentialPoints: https://influentialpoints.com/Gallery/Aphis_hypochoeridis_cats_ear_root_aphid.htm)' src='./images/catsear-rootaphid.png'>",
+        "<img title='(Large cats ear aphid). Photo by InfluentialPoints: https://influentialpoints.com/Gallery/Uroleucon_hypochoeridis_Large_cats_ear_aphid.htm)' src='./images/Large-catsear-aphid.png'>"
+    ]
+}
+
+const dandelion = {
+	common_name: 'Dandelion',
+    other_common_names: ["Alpine dandelion", 'Arctic dandelion', 'Blowball', 'Bog dandelion', 'Cankerwort', "Common dandelion"],
+    botanical_name: '<em>Taraxacum officinale</em> F.H. Wigg.',
+    family: 'Asteraceae',
+    uses: 'Edible and medicinal uses are reported for Dandelion.',
+    cultural: 'Dandelion is a widespread weed of lawns, roadsides, wasteland, orchards, cultivation and pastures. \
+    Dandelion is a perennial herb, forming a basal rosette. Leaves are toothed to runcinate-pinnatifid \
+    (sharply incised lobes or teeth pointing towards the base and lobed). Leaves are hairless or sparsely hairy. \
+    Flowering stalks are 5–35 cm long and hollow, with flowers golden yellow and 10-20mm in diameter. \
+    Dandelion forms vesicular-arbuscular mycorrhizal associations (<em>Glomus mosseae</em>, <em>G. intraradices</em> and \
+    <em>Pythium ultimum</em>). It can grow in a range of soil types, with a pH range \
+    of 4.2 - 8.2, and can tolerate moderate salinity. Dandelion is reported to have a deep root system, \
+    with roots up to 1 metre long. The white coloured sap produced by dandelion is reported to cause\
+    a reaction in some people. It also has allelopathic properties that can reduce germination and growth of other plant species. \
+    Plants are capable of producing large amounts of seed per plant. Dispersal is mostly via wind, although seed can be spread \
+    by animals, machinery and people.',
+    hosts: 'A range of insects are known to visit dandelion flowers, including various bee and fly species. Dandelion is eaten \
+    by a range of herbivores throughout the world. Associations/hosts include Tomato ring spot virus, \
+    Tomato spotted wilt virus, Cucumber mosaic cucumovirus, Beet western yellows virus, Beet pseudo-yellows virus, \
+    Lettuce mosaic virus, Dandelion yellow mosaic virus, Lettuce pseudoyellows virus, Cherry rasp leaf virus, <em>Pseudomonas viridiflava</em>, \
+    Boll weevils, Cabbage looper, Yellow-striped armyworm, Green peach aphid, larvae of the apple moth \
+    (<em>Lacanobia subjuncta</em>) (Cabi). Other organisms known to attack/feed on dandelion \
+    include wasps, midges, mites, aphids, weevils, caterpillars, beetles, leafhoppers, slugs, snails and nematodes (Cabi). \
+    Organisms reported by Discover Life include <em>Uredo flosculosorum</em> & U. hieracii</em>, <em>Aecidium taraxaci</em> \
+    (rust), <em>Colletotrichum dematium</em> (anthracnose), <em>Synchytrium taraxaci</em>, Various types of rusts: \
+    <em>Puccinia dioicae</em>, <em>P. flosculosorum</em>, <em>P. hieracii</em>, <em>P. prenanthis</em>, \
+    <em>P. silvatica</em>, <em>P. silvaticella</em>, <em>P. taraxaci</em> and <em>Puccinia variabilis</em>',
+    observations: 'Please complete the form to add your observations - go to the About page to access the form.<br><br>',
+    links: [
+        'RBGS', 'https://plantnet.rbgsyd.nsw.gov.au/cgi-bin/NSWfl.pl?page=nswfl&lvl=sp&name=Taraxacum~officinale',
+        'FEIS', 'https://www.fs.fed.us/database/feis/plants/forb/taroff/all.html',
+        'PFAF', 'https://pfaf.org/user/plant.aspx?LatinName=Taraxacum+officinale',
+        'Cabi', 'https://www.cabi.org/isc/datasheet/52773#15F0093E-831A-430A-9951-D78C3B8A3EF2',
+        'Rust fungi', 'https://bsppjournals.onlinelibrary.wiley.com/doi/pdfdirect/10.1111/ppa.12672',
+        'Discover Life', 'https://www.discoverlife.org/mp/20q',
+        'Pollinators', 'https://link.springer.com/article/10.1007/s10841-014-9694-9',
+        'Co-flowering pollinators', 'https://www.mdpi.com/2075-4450/12/12/1096'
+    ],
+    pest_images: [
+        "<img title='(Bronze-brown dandelion aphid). Photo by InfluentialPoints: https://influentialpoints.com/Gallery/Uroleucon_taraxaci_bronze-brown_dandelion_aphid.htm)' src='./images/Aphis-taraxacicola.png'>",
+        "<img title='(Dandelion aphid). Photo by InfluentialPoints: https://influentialpoints.com/Gallery/Aphis_taraxacicola_dandelion_aphid.htm)' src='./images/dandelion-aphid.png'>",
+        "<img title='please upload your observations' alt='please upload your observations' src=''>"
+    ]
+}
+
+const mouseear = {
+	common_name: 'Mouse-ear Chickweed',
+    other_common_names: ['Sticky chickweed'],
+    botanical_name: '<em>Cerastium glomeratum</em> Thuill.',
+    family: 'Caryophyllaceae',
+    uses: 'Reported uses include medicinal and edible.',
+    cultural: 'Mouse-ear chickweed is a common weed of lawns, gardens, footpaths, pastures, disturbed sites, waste areas and crops. \
+    Mouse-ear chickweed is an annual herb with branched, hairy stems up to 45 centimeters in length. \
+    The hairy leaves are 2 or 3 centimeters long, while the small flowers have five hairy green sepals, and five white two-lobed petals. \
+    It forms a slender taproot. Fruit is a capsule 6-10mm long. Cerastium species are capable of both cross and self pollination. \
+    It tolerates a range of soil types and commonly grows in potting media.',
+    hosts: 'The nectar and pollen of <em>C. glomeratum</em> attract small bees, flies and some moth species (www.brickfieldspark.org). \
+    <em>Bombus pensylvanicus</em> has also been reported visiting flowers. <em>Cheilosia capillata</em> (\
+        Scar-horned blacklet - type of syrphid fly) is a reported pollinator (globalbioticinteractions.org). \
+        Assocations include Western flower thrips (<em>Frankliniella occidentalis</em>), <em>Thrips palmi</em>, Beet mosaic potyvirus \
+        (BtMV), <em>Ralstonia solanacearum bacterium</em> and Impatiens necrotic \
+        spot virus (Okuda). Other associations include <em>Septoria cerastii</em> (leaf spot), <em>Peronospora alsinearum, P. conferta, P. tomentosa</em>, \
+        <em>Ustilago duriaeana</em> and <em>Fabraea cerastiorum</em> (Discover Life).',
+    observations: 'Please complete the form to add your observations - go to the About page to access the form.<br><br>',
+    links: [
+        'RBGS', 'https://plantnet.rbgsyd.nsw.gov.au/cgi-bin/NSWfl.pl?page=nswfl&lvl=sp&name=Cerastium~glomeratum',
+        'Atlas of living Australia', 'https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2903560',
+        'Brisbane Weeds', 'https://weeds.brisbane.qld.gov.au/weeds/mouse-ear-chickweed',
+        'Weeds of Melbourne', 'https://weedsofmelbourne.org/sticky-mouse-eared-chickweed-cerastium-glomeratum',
+        'Brick fields park', 'https://www.brickfieldspark.org/data/mouseearclustered.htm',
+        'Okuda', 'http://www.sipav.org/main/jpp/index.php/jpp/article/view/177',
+        'Discover Life', 'https://www.discoverlife.org/mp/20q'
+    ],
+    pest_images: [
+        "<img title='please upload your observations' alt='please upload your observations' src=''>",
+        "<img title='please upload your observations' alt='please upload your observations' src=''>",
+        "<img title='please upload your observations' alt='please upload your observations' src=''>"
+    ]
+}
+
+const chickweed = {
+	common_name: 'Chickweed',
+    other_common_names: ['Common Chickweed', 'satin flower', 'starwort'],
+    botanical_name: '<em>Stellaria media</em> (L.) Vill.',
+    family: 'Caryophyllaceae',
+    uses: 'Reported to be edible and have medicinal properties. Erosion control or dune stabilization',
+    cultural: 'Chickweed is common throughout the world, where it can be found in lawns, cultivation, orchards \
+    nurseries, waste places and fields. \
+    Chickweed is often an annual in cooler climates, while becoming perennial in warmer zones. The slender stems have a spreading \
+    growth habit and can reach up to 40 cm. Plants are sparsely hairy and a distinguishing feature \
+    is one line of fine hairs on the stem. Plants have small white flowers. A single plant can produce a few thousand seeds, \
+    which are reported to remain viable in the soil for 25-40 years. \
+    Even in cooler climates, several generations are produced per year. Plants can reach flowering after only 5 weeks \
+    in some conditions. Chickweed is capable of self and cross pollination. \
+    Chickweed will tolerate a range of soil conditions, but thrives in moist soil where nitrogen is \
+    plentiful.',
+    hosts: 'The nectar and pollen of the flowers attract primarily small bees and flies, while less common floral visitors include \
+    nectar-seeking butterflies and parasitoid wasps (Illinois Wildflowers). \
+    Illinois Wildflowers also provides a list of insects known to target chickweed plants: \
+    <em>Cassida flaveola</em> (Pale Tortoise Beetle), <em>Abstrusomyzus phloxae</em> (Aphids), <em>Coleophora coenosipennella</em> \
+    (Case-bearer Moths), <em>Euphyia unangulata</em> (Sharp-angled Carpet), <em>Haematopis grataria</em> \
+    (Chickweed Geometer), <em>Lobocleta ossularia</em> (Drab Brown Wave), <em>Scopula junctaria</em> (Simple Wave), \
+    <em>Xanthorhoe ferrugata</em> (Dark-barred Twin-spot), <em>Agnorisma badinodis</em> (Pale-banded Dart), \
+    <em>Agrotis venerabilis</em> (Venerable Dart), <em>Feltia jaculifera</em> (Dingy Cutworm Moth), \
+    <em>Lacinipolia renigera</em> (Bristly Cutworm Moth), <em>Peridroma saucia</em> (Variegated Cutworm Moth), \
+    <em>Xestia c-nigrum</em> (Lesser Black-letter Dart), <em>Hyles lineata</em> (White-lined Sphinx) \
+    (Illinois Wildflowers <a href="https://www.illinoiswildflowers.info/weeds/tables/table62.html">Link</a>). \
+    <em>Myzus ascalonicus</em> has also been reported on Chickweed. \
+    Chickweed is susceptible to downy mildew, which is caused by the oomycete species Peronospora alsinearum. \
+    A number of nematode species which carry viral diseases are associated with Chickweed, some of these include \
+    strawberry nematode (<em>Aphelenchoides fragariae</em>), <em>Meloidogyne ardenensis</em>, <em>Heterodera schachtii</em>, \
+    <em>>Ditylenchus dispaci</em>, <em>Longidorus elongatus</em>, <em>Meloidogyne hapla</em>, <em>Pratylenchus penetrans</em>, \
+    <em>Trichodorus pachydermus</em> and <em>T. primitivus</em> (Cabi). A number of viruses have also been isolated, \
+    including Oat blue dwarf virus, Beet western yellows virus, Tomato spotted wilt virus, Carnation ringspot virus, \
+    Cucumber mosaic virus, Lettuce mosaic virus, Raspberry ringspot virus and Strawberry latent ringspot virus (Cabi). \
+    Other viruses include beet mild yellowing virus, and tomato blackring virus.',
+    observations: 'Please complete the form to add your observations - go to the About page to access the form.<br><br>',
+    links: [
+        'Illinois Wildflowers', 'https://www.illinoiswildflowers.info/weeds/plants/cm_chickweed.htm',
+        'inaturalist', 'https://www.inaturalist.org/guide_taxa/355764',
+        'Weeds of Melbourne', 'https://weedsofmelbourne.org/common-chickweed-stellaria-media-2',
+        'Atlas of Living Australia', 'https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2896776',
+        'UNE Fact Sheet', 'https://www.une.edu.au/__data/assets/pdf_file/0010/378190/une-weeds-chickweed.pdf',
+        'RBGS', 'https://plantnet.rbgsyd.nsw.gov.au/cgi-bin/NSWfl.pl?page=nswfl&lvl=sp&name=stellaria~media',
+        'InfluentialPoints', 'https://influentialpoints.com/Gallery/Myzus_ascalonicus_Shallot_aphid.htm'
+    ],
+    pest_images: [
+        "<img title='(Shallot aphid). Photo by InfluentialPoints: https://influentialpoints.com/Gallery/Myzus_ascalonicus_Shallot_aphid.htm)' src='./images/Shallot-aphid-chickweed.png'>",
+        "<img title='(Shallot aphid). Photo by InfluentialPoints: https://influentialpoints.com/Gallery/Myzus_ascalonicus_Shallot_aphid.htm)' src='./images/Shallot-aphid-chickweed-1.png'>",
+        "<img title='(Shallot aphid). Photo by InfluentialPoints: https://influentialpoints.com/Gallery/Myzus_ascalonicus_Shallot_aphid.htm)' src='./images/Shallot-aphid-chickweed-2.png'>"
+    ]
+}
+
+const flickweed = {
+	common_name: 'Flickweed',
+    other_common_names: ['Hairy bitter-cress', 'Hairy Bittercress', 'Pennsylvania bittercress', 'Popping cress', 'Wavy bitter cress'],
+    botanical_name: '<em>Cardamine hirsuta</em> L.',
+    family: 'Brassicaceae',
+    uses: 'Reported to be edible.',
+    cultural: 'Flickweed or Hairy Bittercress is a common weed of damp areas, recently disturbed soil, open ground, \
+    gardens, turf, cultivation, nurseries and wasteplaces. It is particularly prevalent in nurseries. The common name, \
+    Flickweed, refers to the rapid release of the seed when ripe. Due to structural features, often the slightest touch or wind triggers \
+    the release of the seed. Seed move in all directions and travel some distance (up to a metre). \
+    The botanical term is called ballochory, which is a type of rapid plant movement. Many people in the nursery industry \
+    also know that the seeds can sometimes come in contact with eyes, which results in irritation. \
+    Flickweed seed can remain viable in the soil or potting for several years. \
+    Following germination, flickweed can reach maturity within five weeks if conditions are suitable. \
+    Flickweed is a lender annual to 30 cm high, branched, sparsely hirsute (thick covering of stiff hairs). \
+    Flowers are small and white, with the siliqua (a dry dehiscent fruit) 15–25 mm long containing the seeds. \
+    ',
+    hosts: 'The small white flowers are known to attract bees and butterflies. \
+    Flickweed is a known host for whiteflies, mites, and some diseases. \
+    The caterpillars of the butterfly <em>Anthocharis midea</em> (Falcate Orangetip) and the moth \
+    <em>Evergestis pallidata</em> (Purple-Backed Cabbageworm) are reported to feed on flickweed. \
+    It is also a source of nectar (adult) and host plant (larvae) of the cabbage white butterfly (<em>Pieris napi</em>).',
+    observations: 'Please complete the form to add your observations - go to the About page to access the form.<br><br>',
+    links: [
+        'IFAS', 'https://edis.ifas.ufl.edu/pdf/EP/EP51100.pdf',
+        'NC State factsheet', 'https://plants.ces.ncsu.edu/plants/cardamine-hirsuta/',
+        'RBGS', 'https://plantnet.rbgsyd.nsw.gov.au/cgi-bin/NSWfl.pl?page=nswfl&lvl=sp&name=cardamine~hirsuta',
+        'Castlemaine Flora', 'https://www.castlemaineflora.org.au/pic/c/carda/cahir.htm',
+        'Friends of Edgewood', 'https://friendsofedgewood.org/hairy-bittercress',
+        'e-grow.org', 'https://www.e-gro.org/pdf/2022-11-23.pdf'
+    ],
+    pest_images: [
+        "<img title='(Mealy cabbage aphid). Photo by InfluentialPoints: https://influentialpoints.com/Gallery/Brevicoryne_brassicae_Mealy_cabbage_aphid.htm)' src='./images/Mealy-cabbage-aphid.png'>",
+        "<img title='(Mealy cabbage aphid). Photo by InfluentialPoints: https://influentialpoints.com/Gallery/Brevicoryne_brassicae_Mealy_cabbage_aphid.htm)' src='./images/Mealy-cabbage-aphid-1.png'>",
+        "<img title='Cabbage butterfly caterpillar. Photo: courtesy of Harold McQueen - Butterfly House' alt='Cabbage butterfly caterpillar. Photo: courtesy of Harold McQueen - Butterfly House' src='./images/cabbage-butterfly-caterpillar.png'>"
+    ]
+}
+
+const fathen = {
+	common_name: 'Fat Hen',
+    other_common_names: ["fat-hen", 'fathen', 'frost bite', 'goosefoot', "lamb's quarters", "lamb's-quarters"],
+    botanical_name: '<em>Chenopodium album</em> L.',
+    family: 'Chenopodiaceae',
+    uses: 'Reported to be edible and medicinal.',
+    cultural: 'Fat hen is one of the most widely distributed weed species in the world. It is related to commonly cultivated \
+    vegetable crops, such as beetroot and silverbeet. \
+    It is a common weed in gardens, horticulture, agriculture, orchards and waste areas. \
+    Fat hen thrives in well drained cultivated soils, however it tolerates a wide range of soil types \
+    and conditions. Fat hen is a large leafy annual up to 2.5 m high. Lower leaves rhombic (2-dimensional diamond-shaped figure) to \
+    ovate, grading into elliptic (oval) to linear (narrow) up the stem. \
+    The small flowers are radially symmetrical and grow in small cymes on a dense branched inflorescence 10–40 cm long. \
+    Plants produce both dormant and ready to germinate seeds, with approximate seed quantities ranging from 200 to \
+    75,000 seeds per plant. Dormant seed can remain viable in the soil for decades. \
+    Allelopathic effects (reduced growth) have been reported for a number of important crops, such as maize, soyabeans, \
+    carrots, cucumbers, onions, tomatoes, sunflowers, lettuce and squash. Fat hen is also resistant to multiple herbicides.',
+    hosts: 'Fat hen is apparently attractive to leaf miners and is used as a trap crop for this purpose. \
+    It is also a host plant for the beet leafhopper, an insect \
+    which transmits curly top virus to beet crops. Aphids are also attracted to fat hen. \
+    Fat hen is a known host of viruses, some of which include cucumber mosaic virus, bean yellow mosaic virus, potato virus, \
+    tobacco etch virus, turnip mosaic virus, beet necrotic yellow vein virus (BNYVV),  peanut stunt cucumovirus, \
+    prunus necrotic ring spot virus, beet yellows virus (BYV) and watermelon mosaic virus. BYV is reported to be transmitted by <em>Myzus persicae</em> \
+    (Green peach aphid). Nematodes include northern root-knot (<em>nematode Meloidogyne halpa</em> and \
+    potato root-knot nematode (<em>Ditylenchus destructor</em>). \
+    Fat hen is a host for the common stalkborer. \
+    Caterpillars known to feed on fat hen leaves include <em>Amyna octo</em> (Eight spot) and \
+    <em>Theclinesthes serpentatus</em> (Chequered or Saltbush Blue).',
+    observations: 'Please complete the form to add your observations - go to the About page to access the form.<br><br>',
+    links: [
+        'UNE factsheet', 'https://www.une.edu.au/__data/assets/pdf_file/0007/190825/une-weeds-fathen.pdf',
+        'Weeds of Australia', 'https://keyserver.lucidcentral.org/weeds/data/media/Html/chenopodium_album.htm',
+        'RBGS', 'https://plantnet.rbgsyd.nsw.gov.au/cgi-bin/NSWfl.pl?page=nswfl&lvl=sp&name=Chenopodium~album',
+        'Atlas of living Australia', 'https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2907347',
+        'Cabi', 'https://www.cabi.org/isc/datasheet/12648',
+        'Butterfly House', 'http://www.butterflyhouse.com.au/'
+    ],
+    pest_images: [
+        "<img title='(Eight Spot). Photo: courtesy of Daniel H. Janzen. http://lepidoptera.butterflyhouse.com.au/acon/octo.html)' src='./images/fathen-pest-1.png'>",
+        "<img title='(Chequered or Saltbush Blue). Photo: courtesy of Martin Purvis, Sydney, New South Wales. http://lepidoptera.butterflyhouse.com.au/lyca/serpentatus.html)' src='./images/fathen-pest-2.png'>",
+        "<img title='(Green peach aphid). Photo by InfluentialPoints: https://influentialpoints.com/Gallery/Myzus_persicae_Peach-potato_aphid.htm)' src='./images/Green-peach-aphid.png'>"
+    ]
+}
+
+const burmedic = {
+	common_name: 'Burr Medic',
+    other_common_names: ['bur clover', 'Bur-clover', 'Burclover', 'Burr medic', 'Burr-medic', 'California bur-clover',
+    'California burclover', 'Californian bur clover', 'common burr medic'],
+    botanical_name: '<em>Medicago polymorpha</em> L.',
+    family: 'Fabaceae',
+    uses: 'Forage, soil improvement and medicinal. Also reports of it being edible.',
+    cultural: 'Burr medic is an annual herbaceous plant that is found in a variety of situtaions, from parks and gardens, \
+    lawns, bushland, cultivation, \
+    orchards, nurseries and bushland. It tolerates a range of soils. Burr medic has prostrate stems to 50 cm long, \
+    with leaves trifoliate. Leaves and stems \
+    are hairless. Small pea shaped flowers are yellow, while the pod is covered with slightly \
+    hooked spines. These spines attach to most things, enabling seed to be distributed over large areas. \
+    It has a taproot and nitrogen-fixing nodules. Germination and growth occur mostly \
+    in the cooler parts of the year. Burr medic produces hard coated dormant seeds, which can remain viable in the soil \
+    for many years.',
+    hosts: 'Major pests of Burr medic include redlegged earth mite (<em>Halotydeus destructor</em>), \
+    lucerne flea (<em>Sminthurus viridis</em>), bluegreen aphid (<em>Acyrthosiphon kondoi</em>), cowpea aphid \
+    (<em>Aphis craccivora</em>), spotted alfalfa aphid (<em>Therioaphis trifolii</em>), sitona weevil \
+    (<em>Sitona discoideus</em>), root lesion nematode (<em>Pratylenchus neglectus</em>, Majorphoma black-stem \
+    (<em>Phoma medicaginis</em>), rhizoctonia bare-patch (<em>Rhizoctonia solani</em>), powdery mildew (<em>Erysiphe trifolii</em>), \
+    <em>Uromyces ciceris-arietini</em> (chickpea rust), <em>U. pisi-sativi</em>, and <em>U. anthyllidis</em>.<br> \
+    The small yellow flowers are reported to attract small butterflies and other pollinating insects. \
+    In the publication, Honey and Pollen Flora by Alan Clemson, burr medic is described as having good \
+    pollen and nectar supplies.',
+    observations: 'Please complete the form to add your observations - go to the About page to access the form.<br><br>',
+    links: [
+        'Florabase', 'https://florabase.dpaw.wa.gov.au/browse/profile/4079',
+        'RBGS', 'https://plantnet.rbgsyd.nsw.gov.au/cgi-bin/NSWfl.pl?page=nswfl&lvl=sp&name=Medicago~polymorpha',
+        'Agriculture Victoria', 'https://vro.agriculture.vic.gov.au/dpi/vro/vrosite.nsf/pages/water_sss_burr_medic',
+        'Brisbane weeds', 'https://weeds.brisbane.qld.gov.au/weeds/burr-medic',
+        'Cabi', 'https://www.cabi.org/isc/datasheet/33031',
+        'Useful temperate plants', 'http://temperate.theferns.info/plant/Medicago+polymorpha',
+        'Monatana field guide', 'https://fieldguide.mt.gov/speciesDetail.aspx?elcode=PDFAB2G080',
+        'Butterfly House', 'http://lepidoptera.butterflyhouse.com.au/lare/sodaliata.html'
+    ],
+    pest_images: [
+        "<img title='(Spotted alfalfa aphid). Photo by InfluentialPoints: https://influentialpoints.com/Gallery/Therioaphis_trifolii_spotted_alfalfa_aphid.htm)' src='./images/spotted-alfalfa-aphid-1.png'>",
+        "<img title='(spotted alfalfa aphid). Photo by InfluentialPoints: https://influentialpoints.com/Gallery/Therioaphis_trifolii_spotted_alfalfa_aphid.htm)' src='./images/spotted-alfalfa-aphid-2.png'>",
+        "<img title='(Sodaliata Moth). Photo: courtesy of Steve Williams (Moths of Victoria, Part 3: http://lepidoptera.butterflyhouse.com.au/peterm/peterm.html): http://lepidoptera.butterflyhouse.com.au/lare/sodaliata.html)' src='./images/Sodaliata-Moth.png'>"
+    ]
+}
+
+
 /*
 const template = {
 	common_name: '',
@@ -1026,7 +1401,8 @@ const template = {
 const combined = [Mallow, shade, Gomphrena, purpletop, crasso, amaranth, tropChick, 
     capsella, heliotropium, khaki, fleabane, cobblers, potato_weed, willowHerb, BalloonCotton,
     Brazilian_nightshade, mitracarpus, richardia, sida_acuta, sida_rhombifolia, sida_cordifolia, malvastrum, indigo,
-    crotalaria, sonchus, coronopus, cudweed, cotula];
+    crotalaria, sonchus, coronopus, cudweed, cotula, hawkweed, smooth_catsear, catsear, dandelion, 
+    mouseear, chickweed, flickweed, fathen, burmedic];
 
 const testprint = `${JSON.stringify(Mallow)}, ${JSON.stringify(shade)}`;
 console.log(testprint);
