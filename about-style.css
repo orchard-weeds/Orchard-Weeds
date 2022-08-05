@@ -139,6 +139,16 @@ body {
     list-style: none;
 }
 
+.copyright {
+    margin-top: 50px;
+    background-color: gainsboro;
+    width: 100%;
+    padding-top: 10px;
+}
+.copyright p {
+    text-align: center;
+}
+
 @media only screen and (max-width: 1200px) {
     .gif_container {
         height: 400px;
