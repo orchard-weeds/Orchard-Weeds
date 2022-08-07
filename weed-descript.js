@@ -159,7 +159,8 @@ const shade = {
     - mites<br>\
     - ladybirds<br>\
     - spiders<br>\
-    - mealy bugs<br>',
+    - mealy bugs<br>\
+    - Hoverflies<br>',
     links: [
         'Weeds of Australia', 'https://keyserver.lucidcentral.org/weeds/data/media/Html/solanum_nigrum.htm', 
         'UNE', 'https://www.une.edu.au/__data/assets/pdf_file/0020/305471/une-weeds-blackberry-nightshade.pdf',
@@ -364,7 +365,9 @@ const cobblers = {
 	<em>Aspergillus sp.</em> and <em>Sclerotinia sclerotiorum</em> (<a href="https://www.cabi.org/isc/datasheet/9148">Cabi</a>. \
 	See Cabi link for a more complete list pests and diseases. \
     Bidens is a known host of the Fall armyworm (<em>Spodoptera frugiperda</em>)',
-    observations: 'Please complete the form to add your observations - go to the About page to access the form',
+    observations: 'Please complete the form to add your observations - go to the About page to access the form.<br>\
+    - Honey bees<br>\
+    - Hoverflies<br>',
     links: [
         'International Environmental Weed Foundation', 'https://www.iewf.org/weedid/Bidens_pilosa.htm', 
 	    'Weeds of Australia', 'https://keyserver.lucidcentral.org/weeds/data/media/Html/bidens_pilosa.htm', 
