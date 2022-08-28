@@ -1386,6 +1386,153 @@ const burmedic = {
     ]
 }
 
+const euphorbia = {
+	common_name: 'Spotted spurge',
+    other_common_names: ['Caustic weed', 'Eyebane', 'Milk purslane', 'Milk spurge', 'Prostrate spotted spurge', 
+    'Prostrate spurge', 'Red caustic-creeper,'],
+    botanical_name: '<em>Euphorbia maculata</em> L.    previously known as <em>Chamaesyce maculata</em>',
+    family: 'Euphorbiaceae',
+    uses: 'Medicinal',
+    cultural: 'Spotted spurge is generally a prostrate annual herb, with several stems up to 30 cm long and a taproot. \
+    It often forms dense mats, as can be seen in the image. The small leaves (3–8 mm long) have a \
+    characteristic reddish brown spot in the middle. Flowers are white to pink and very small (0.5 mm). \
+    Like many of the plants in the family Euphorbiaceae, the sap is a milky colour. The sap from Spotted \
+    spurge is known to cause irritation in some people. It is also reported to be poisonous to sheep. \
+    Sheep grazing in pastures where it is the predominant weed and have consumed as little as 0.62% \
+    of their body weight of this plant, have died within a few hours (<a href="http://ipm.ucanr.edu/PMG/PESTNOTES/pn7445.html">UC IPM</a>). \
+    Spotted spurge is a common weed in gardens, cultivated agricultural, roadsides, pastures, lawns, \
+    walkways, woodland, orchards and disturbed areas. It is a common weed of nurseries, where plants can quickly \
+    cover the surface of pots. \
+    Results from a study <a href="https://www.cambridge.org/core/journals/weed-science/article/abs/phenolic-deposits-and-kranz-syndrome-in-leaf-tissues-of-spotted-euphorbia-maculata-and-prostrate-euphorbia-supina-spurge/C3C7001CDA29A3AB30F38A85F230C846">(link)</a> \
+    indicated that spotted spurge is likely to be allelopathic. \
+    It can tolerate a range of soil conditions, including compacted soils.',
+    hosts: 'Floral nectar is reported to attract small bees, flower flies, and wasps. \
+    It is also reported to be a habitat for undesirable insects in citrus groves, \
+    serves as an intermediate host for fungal diseases of cultivated crops, and attracts ants with its seed \
+    (<a href="http://ipm.ucanr.edu/PMG/PESTNOTES/pn7445.html">UC IPM</a>). \
+    Spotted spurge is a host for plant bugs from the Miridae family such as <em>Lygus lineolaris</em> (Tarnished plant bug), \
+    <em>Semium hirtum</em> and \
+    <em>Spanagonicus albofasciatus</em> (Whitemarked fleahopper). \
+    Animals recorded eating seeds from Spotted spurge include \
+    Ground dove, Mourning dove, Bobwhite quail, Gambel quail, Chestnut-bellied scaled quail, Painted bunting, \
+    Horned lark, American pipit, and Chipping sparrow, while a type of Antelope is reported to eat the plant \
+    <a href="https://warcapps.usgs.gov/PlantID/Species/Details/377">USGS</a>.',
+    observations: 'Please complete the form to add your observations - go to the About page to access the form \
+    or post your observations on Facebook.<br><br>',
+    links: [
+        'RBGS', 'https://plantnet.rbgsyd.nsw.gov.au/cgi-bin/NSWfl.pl?page=nswfl&lvl=sp&name=Euphorbia~maculata',
+        'hort.extension.wisc', 'https://hort.extension.wisc.edu/articles/spotted-spurge-chamaesyce-euphorbia-maculata/',
+        'Living Atlas of Australia', 'https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2891273',
+        'Weeds of Melbourne', 'https://weedsofmelbourne.org/spotted-spurge-euphorbia-maculata',
+        'UC IPM', 'http://ipm.ucanr.edu/PMG/PESTNOTES/pn7445.html',
+        'Illinois Wildflowers', 'https://www.illinoiswildflowers.info/weeds/plants/prostrate_spurge.htm',
+        'MSU', 'https://www.canr.msu.edu/nursery/uploads/files/Spotted-Spurge-E3461_FINAL-AA_2021-08-26.pdf',
+        'Coast Plain Plants', 'http://coastalplainplants.org/wiki/index.php/Euphorbia_maculata'
+    ],
+    pest_images: [
+        "<img title='please upload your observations' alt='please upload your observations' src='./images/blank_pest_image.png'>",
+        "<img title='please upload your observations' alt='please upload your observations' src='./images/blank_pest_image.png'>",
+        "<img title='please upload your observations' alt='please upload your observations' src='./images/blank_pest_image.png'>"
+    ]
+}
+
+const emilia = {
+	common_name: 'Lilac Tasselflower',
+    other_common_names: ["Red Tassel Flower", "Cupid's Shaving-brush", 
+    "Emilia", "Purple Sow Thistle", "Flora's Paintbrush"],
+    botanical_name: '<em>Emilia sonchifolia</em> (L.) DC.',
+    family: 'Asteraceae',
+    uses: 'Medicinal. Also reported to be edible.',
+    cultural: 'Lilac tasselflower is an erect (15–90 cm high) annual herb with purple coloured flowers. \
+    Flower colour is variable, with scarlet, red, pink, orange, white or lilac colours reported. \
+    Leaf shape is also variable, ranging from lyrate-pinnatisect or ovate, while leaf size ranges from 1.5–14 cm long and 0.8–6 cm wide. \
+    Liliac tasselflower is a common weed of crops, pastures, orchards, gardens, roadsides, footpaths, parks, \
+    nurseries, lawns, disturbed sites and waste areas. \
+    Self and cross pollination is reported, with bees and flies the main pollinators. \
+    The fruit have structures that facilitates wind-dispersal. Seeds can also be dispersed by water, \
+    contaminant in crop and pasture seeds, on soil, vehicles and agricultural machinery. It tolerates a range of soil types and \
+    conditions. ',
+    hosts: 'Lilac tasselflower is an alternative host for a number of crop pathogens, some of which include \
+    Tomato spotted wilt virus (TSWV), <em>Xanthomonas campestris pv. phaseoli</em>, Peanut Witches Broom Phytoplasma \
+    <a href="https://apsjournals.apsnet.org/doi/10.1094/PDIS-06-20-1304-PDN">(link)</a>, and yellow spot virus of pineapple. \
+    It is also a host for a nematode, <em>Rotylenchulus reniformis</em> and an insect pest of onions \
+    <em>Liriomyza huidobrensis</em>. Thrips use this plant as breeding and feeding sites \
+    <a href="https://www.researchgate.net/publication/329208572_Pump_mechanism_secondary_pollen_presentation_psychophily_and_anemochory_in_Emilia_sonchifolia_L_DC_Asteraceae">(link)</a>. <br>\
+    It is also a host for <em>Aphis middletonii</em> (Erigeron Root Aphid). \
+    Other organisms associated with Lilac tasselflower include <em>Septoria emiliae</em>, \
+    <em>Puccinia cnici-oleracei</em> (rust), <em>p. emiliae</em> (rust), <em>p. melampodii</em> (rust), <em>p. synedrellae</em> (rust), \
+    <em>Synchytrium fuscum</em> (false rust or wart disease), <em>Aecidium formosanum</em> (rust) and <em>Lipaleyrodes emiliae</em> (Whitefly). \
+    According to one source <a href="https://www.somemagneticislandplants.com.au/lilac-tasselflower">(link)</a> \
+    it is a good butterfly nectar plant, and the larvae of the moth <em>Nyctemera baulus</em> have been found feeding on it. \
+    Another source states that bees and butterflies are attracted to this plant \
+    <a href="https://edis.ifas.ufl.edu/publication/EP606">(link)</a>',
+    observations: 'Please complete the form to add your observations - go to the About page to access the form \
+    or post your observations on Facebook.<br><br>',
+    links: [
+        'RBGS', 'https://plantnet.rbgsyd.nsw.gov.au/cgi-bin/NSWfl.pl?page=nswfl&lvl=sp&name=Emilia~sonchifolia',
+        'Brisbane Weeds', 'https://weeds.brisbane.qld.gov.au/weeds/emilia',
+        'Cabi', 'https://www.cabi.org/isc/datasheet/20833',
+        'Australian Tropical Rainforest Plants', 'https://apps.lucidcentral.org/rainforest/text/entities/emilia_sonchifolia_var._sonchifolia.htm',
+        'Magnetic Island Plants', 'https://www.somemagneticislandplants.com.au/lilac-tasselflower',
+        'IFAS extension', 'https://edis.ifas.ufl.edu/publication/EP606',
+        'Extension Hawaii', 'http://www.extento.hawaii.edu/Kbase/Crop/Type/aphis_m.htm',
+        'Discover Life', 'https://www.discoverlife.org/mp/20q'
+    ],
+    pest_images: [
+        "<img title='please upload your observations' alt='please upload your observations' src='./images/blank_pest_image.png'>",
+        "<img title='please upload your observations' alt='please upload your observations' src='./images/blank_pest_image.png'>",
+        "<img title='please upload your observations' alt='please upload your observations' src='./images/blank_pest_image.png'>"
+    ]
+}
+
+const raphanus = {
+	common_name: 'Wild radish',
+    other_common_names: ['Jointed charlock, Wild charlock', 'White charlock', 'wild rape', 'wild turnip'],
+    botanical_name: '<em>Raphanus raphanistrum</em> L.',
+    family: 'Brassicaceae',
+    uses: 'Medicinal and edible uses are reported.',
+    cultural: 'Wild radish is annual plant, with germination and growth occurring in the cooler months of the year. \
+    In the early stages of growth, basal leaves form a characteristic rosette. The plant is also known to form a taproot. \
+    It has an upright growth habit (40 - 100 cm tall) and is generally short lived (annual or biennial). \
+    Flowers are yellow to white. Siliqua (fruit) is 1–5 cm long, 3–5 mm wide, markedly constricted between seeds and \
+    breaking into 1-seeded portions. Wild radish produces prolific seed quantities (800 per plant) with high longevity and dormancy. \
+    Wild radish is a weed of disturbed sites, waste areas, roadsides, crops, pastures, orchards, waterways, floodplains and open woodlands. \
+    It has a wide distribution from temperate regions, sub-tropical, semi-arid and sometimes tropical regions. \
+    Wild radish tolerates a range of soil types, but has been shown to have a preference for acidic sandy soils. \
+    Herbicide resistance has been reported for chlorsulfuron in South Africa and multiple resistance to several \
+    herbicide groups in other regions.',
+    hosts: 'Wild radish hosts a range of vegetable crop pests and diseases, some of which include thrips, flea beetle, cabbage \
+    seedpod weevil, cabbage root fly, several moth species, <em>Fusarium oxysporum</em> f<em>.sp melonis</em>, \
+    club root, blackleg, turnip yellow mosaic virus, beet western yellows virus, turnip mosaic virus, cauliflower mosaic \
+    virus and cucumber mosaic virus <a href="https://www.une.edu.au/__data/assets/pdf_file/0005/350249/une-weeds-wild-radish.pdf">(Link)</a>. \
+    It also hosts a number of bacteria that can act as disease reservoirs in \
+    vegetable crops <a href="https://www.une.edu.au/__data/assets/pdf_file/0005/350249/une-weeds-wild-radish.pdf">(Link)</a>. <br>\
+    Wild radish is known to be a source of pollen and nectar for honey bees. This weed is highly attractive to honey bees and \
+    the native Australian stingless bee (<em>Tetragonula</em>). A range of other bees are known to visit flowers (Discover Life). \
+    In addition to honey bees and stingless bees, butterflies and syrphyd flies are also known to visit \
+    flowers <a href="https://link.springer.com/article/10.1007/BF00328588">(Link)</a>',
+    observations: 'Please complete the form to add your observations - go to the About page to access the form \
+    or post your observations on Facebook.<br><br>\
+    Bundaberg: <br>\
+    Honey bees<br>\
+    Stingless bees (<em>Tetragonula</em>)<br>',
+    links: [
+        'Weeds of Australia', 'https://keyserver.lucidcentral.org/weeds/data/media/Html/raphanus_raphanistrum.htm',
+        'Florabase', 'https://florabase.dpaw.wa.gov.au/browse/profile/3061',
+        'RBGS', 'https://plantnet.rbgsyd.nsw.gov.au/cgi-bin/NSWfl.pl?page=nswfl&lvl=sp&name=Raphanus~raphanistrum',
+        'UNE', 'https://www.une.edu.au/__data/assets/pdf_file/0005/350249/une-weeds-wild-radish.pdf',
+        'Agriculture WA', 'https://www.agric.wa.gov.au/grains-research-development/wild-radish',
+        'Discover Life', 'https://www.discoverlife.org/20/q?search=Raphanus+raphanistrum',
+        'Cabi', 'https://www.cabi.org/isc/datasheet/46795'
+    ],
+    pest_images: [
+        "<img title='Cabbage white butterfly. Photo: courtesy of Harold McQueen, Goodna, Queensland (http://lepidoptera.butterflyhouse.com.au/pier/rapae.html)' alt='Cabbage white butterfly' src='./images/cabbage-butterfly-caterpillar.png'>",
+        "<img title='Honey bee' alt='Honey bee visiting flower' src='./images/wild-radish-bee.png'>",
+        "<img title='Stingless bee' alt='Stingless bee on flower' src='./images/wild-radish-nativebee-1.png'>"
+    ]
+}
+
+
 
 /*
 const template = {
@@ -1405,7 +1552,7 @@ const combined = [Mallow, shade, Gomphrena, purpletop, crasso, amaranth, tropChi
     capsella, heliotropium, khaki, fleabane, cobblers, potato_weed, willowHerb, BalloonCotton,
     Brazilian_nightshade, mitracarpus, richardia, sida_acuta, sida_rhombifolia, sida_cordifolia, malvastrum, indigo,
     crotalaria, sonchus, coronopus, cudweed, cotula, hawkweed, smooth_catsear, catsear, dandelion, 
-    mouseear, chickweed, flickweed, fathen, burmedic];
+    mouseear, chickweed, flickweed, fathen, burmedic, euphorbia, emilia, raphanus];
 
 const testprint = `${JSON.stringify(Mallow)}, ${JSON.stringify(shade)}`;
 console.log(testprint);
