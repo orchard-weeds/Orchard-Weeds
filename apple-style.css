@@ -104,7 +104,9 @@ button {
 .hide-cap, .hide-hel, .hide-kha, .hide-flea, .hide-bid, .hide-pot, .hide-willow, .hide-balloon, .hide-brazil, .hide-mitra, 
 .hide-rich, .hide-si, .hide-rhom, .hide-mal, .hide-indi, .hide-crot, .hide-cord, .hide-coro, .hide-cud, .hide-cotula,  
 .hide-hawk, .hide-smcatsear, .hide-catsear, .hide-dand, .hide-cera, .hide-chick, .hide-flick, .hide-fat, 
-.hide-bur, .hide-spot, .hide-tassel, .hide-radish {
+.hide-bur, .hide-spot, .hide-tassel, .hide-radish, 
+.hide-turnip, .hide-tdaisy, .hide-rhodesgrass, .hide-carpetgr, .hide-ntgrass, .hide-crab, .hide-vetch, .hide-hexham, 
+.hide-hare, .hide-hare, .hide-burrgrass, .hide-ago, .hide-gras {
     position:absolute;
     margin-left: -91.5%;
     z-index: 100;
@@ -121,7 +123,10 @@ button {
 .hide-brazil:hover, .hide-mitra:hover, .hide-rich:hover, .hide-si:hover, .hide-rhom:hover, .hide-mal:hover, 
 .hide-indi:hover, .hide-crot:hover, .hide-cord:hover, .hide-coro:hover, .hide-cud:hover, .hide-cotula:hover, 
 .hide-hawk:hover, .hide-smcatsear:hover, .hide-catsear:hover, .hide-dand:hover, .hide-cera:hover, .hide-chick:hover, 
-.hide-flick:hover, .hide-fat:hover, .hide-bur:hover, .hide-spot:hover, .hide-tassel:hover, .hide-radish:hover {
+.hide-flick:hover, .hide-fat:hover, .hide-bur:hover, .hide-spot:hover, .hide-tassel:hover, .hide-radish:hover, 
+.hide-turnip:hover, .hide-tdaisy:hover, .hide-rhodesgrass:hover, .hide-carpetgr:hover, .hide-ntgrass:hover, 
+.hide-crab:hover, .hide-vetch:hover, .hide-hexham:hover, .hide-hare:hover, .hide-burrgrass:hover, 
+.hide-ago:hover, .hide-gras:hover {
     background-color: midnightblue;
     color: white;
 }
@@ -132,7 +137,9 @@ button {
 .hide-indi:active, .hide-crot:active, .hide-cord:active, .hide-coro:active, .hide-cud:active, .hide-cotula:active, 
 .hide-hawk:active, .hide-smcatsear:active, .hide-catsear:active, .hide-dand:active, .hide-cera:active, 
 .hide-chick:active, .hide-flick:active, .hide-fat:active, .hide-bur:active, .hide-spot:active, .hide-tassel:active, 
-.hide-radish:active {
+.hide-radish:active, .hide-turnip:active, .hide-tdaisy:active, .hide-rhodesgrass:active, .hide-carpetgr:active, 
+.hide-ntgrass:active, .hide-crab:active, .hide-vetch:active, .hide-hexham:active, .hide-burrgrass:active, .hide-hare:active, 
+.hide-ago:active, .hide-gras:active {
     border: 2px white inset;
 }
 
@@ -143,7 +150,10 @@ button {
 #image-text-indi, #image-text-crot, #image-text-cord, #image-text-coro, #image-text-cud, #image-text-cotula, 
 #image-text-hawk, #image-text-smcatsear, #image-text-catsear, 
 #image-text-dand, #image-text-cera, #image-text-chick, #image-text-flick, #image-text-fat, #image-text-bur,
-#image-text-spot, #image-text-tassel, #image-text-radish {
+#image-text-spot, #image-text-tassel, #image-text-radish, 
+#image-text-turnip, #image-text-tdaisy, #image-text-rhodesgrass, #image-text-carpetgr, #image-text-ntgrass, 
+#image-text-crab, #image-text-vetch, #image-text-hexham, #image-text-hare, #image-text-burrgrass, 
+#image-text-ago, #image-text-gras {
     position:absolute;
     margin-left: 20%;
     z-index: 110;
@@ -162,7 +172,9 @@ button {
 #image1-indi, #image1-crot, #image1-cord, #image1-coro, #image1-cud, #image1-cotula, 
 #image1-hawk, #image1-smcatsear, #image1-catsear, 
 #image1-dand, #image1-cera, #image1-chick, #image1-flick, #image1-fat, #image1-bur,
-#image1-spot, #image1-tassel, #image1-radish {
+#image1-spot, #image1-tassel, #image1-radish, #image1-turnip, #image1-tdaisy, #image1-rhodesgrass, 
+#image1-carpetgr, #image1-ntgrass, #image1-crab, #image1-vetch, #image1-hexham, #image1-hare, #image1-burrgrass, 
+#image1-ago, #image1-gras {
     visibility:hidden;
     z-index: 50;
     width: 90%;
@@ -180,7 +192,9 @@ button {
 #image2-indi, #image2-crot, #image2-cord, #image2-coro, #image2-cud, #image2-cotula, 
 #image2-hawk, #image2-smcatsear, #image2-catsear, #image2-dand, 
 #image2-cera, #image2-chick, #image2-flick, #image2-fat, #image2-bur,
-#image2-spot, #image2-tassel, #image2-radish {
+#image2-spot, #image2-tassel, #image2-radish, #image2-turnip, #image2-tdaisy, #image2-rhodesgrass, 
+#image2-carpetgr, #image2-ntgrass, #image2-crab, #image2-vetch, #image2-hexham, #image2-hare, #image2-burrgrass, 
+#image2-ago, #image2-gras {
     position:absolute;
     margin-left: -80%;
     z-index: 100;
@@ -199,7 +213,10 @@ button {
 #image2-indi:hover, #image2-crot:hover, #image2-cord:hover, #image2-coro:hover, #image2-cud:hover, #image2-cotula:hover, 
 #image2-hawk:hover, #image2-smcatsear:hover, #image2-catsear:hover,
 #image2-dand:hover, #image2-cera:hover, #image2-chick:hover, #image2-flick:hover, #image2-fat:hover, #image2-bur:hover,
-#image2-spot:hover, #image2-tassel:hover, #image2-radish:hover {
+#image2-spot:hover, #image2-tassel:hover, #image2-radish:hover, 
+#image2-turnip:hover, #image2-tdaisy:hover, #image2-rhodesgrass:hover, 
+#image2-carpetgr:hover, #image2-ntgrass:hover, #image2-crab:hover, #image2-vetch:hover, #image2-hexham:hover, 
+#image2-hare:hover, #image2-burrgrass:hover, #image2-ago:hover, #image2-gras:hover {
     background-color: midnightblue;
     color: white;
 }
@@ -210,7 +227,10 @@ button {
 #image2-indi:active, #image2-crot:active, #image2-cord:active, #image2-coro:active, #image2-cud:active, #image2-cotula:active, 
 #image2-hawk:active, #image2-smcatsear:active, #image2-catsear:active, 
 #image2-dand:active, #image2-cera:active, #image2-chick:active, #image2-flick:active, #image2-fat:active, #image2-bur:active,
-#image2-spot:active, #image2-tassel:active, #image2-radish:active {
+#image2-spot:active, #image2-tassel:active, #image2-radish:active, 
+#image2-turnip:active, #image2-tdaisy:active, #image2-rhodesgrass:active, 
+#image2-carpetgr:active, #image2-ntgrass:active, #image2-crab:active, #image2-vetch:active, #image2-hexham:active, 
+#image2-hare:active, #image2-burrgrass:active, #image2-ago:active, #image2-gras:active {
     border: 2px white inset;
 }
 
@@ -239,16 +259,19 @@ button {
 .hide-cap, .hide-hel, .hide-kha, .hide-flea, .hide-bid, .hide-pot, .hide-willow, .hide-balloon, .hide-brazil, .hide-mitra, 
 .hide-rich, .hide-si, .hide-rhom, .hide-mal, .hide-indi, .hide-crot, .hide-cord, .hide-coro, .hide-cud, .hide-cotula,  
 .hide-hawk, .hide-smcatsear, .hide-catsear, .hide-dand, .hide-cera, .hide-chick, .hide-flick, .hide-fat, 
-.hide-bur, .hide-spot, .hide-tassel, .hide-radish {
+.hide-bur, .hide-spot, .hide-tassel, .hide-radish, .hide-turnip, .hide-tdaisy, .hide-rhodesgrass, .hide-carpetgr, 
+.hide-ntgrass, .hide-crab, .hide-vetch, .hide-hexham, .hide-hare, .hide-burrgrass, .hide-ago, .hide-gras {
     margin-top: 51.5%;
     }
     #image2-mallow, #image2-sonchus, #image2-black, #image2-thick, #image2-ama, #image2-top, 
-#image2-gom, #image2-trop, #image2-cap, #image2-hel, #image2-kha, 
-#image2-flea, #image2-bid, #image2-pot, #image2-willow, #image2-balloon, 
-#image2-brazil, #image2-mitra, #image2-rich, #image2-si, #image2-rhom, #image2-mal, 
-#image2-indi, #image2-crot, #image2-cord, #image2-coro, #image2-cud, #image2-cotula, 
-#image2-hawk, #image2-smcatsear, #image2-catsear, #image2-dand, 
-#image2-cera, #image2-chcik, #image2-flick, #image2-fat, #image2-bur, #image2-spot, #image2-tassel, #image2-radish {
+    #image2-gom, #image2-trop, #image2-cap, #image2-hel, #image2-kha, 
+    #image2-flea, #image2-bid, #image2-pot, #image2-willow, #image2-balloon, 
+    #image2-brazil, #image2-mitra, #image2-rich, #image2-si, #image2-rhom, #image2-mal, 
+    #image2-indi, #image2-crot, #image2-cord, #image2-coro, #image2-cud, #image2-cotula, 
+    #image2-hawk, #image2-smcatsear, #image2-catsear, #image2-dand, 
+    #image2-cera, #image2-chcik, #image2-flick, #image2-fat, #image2-bur, #image2-spot, #image2-tassel, #image2-radish, 
+    #image2-turnip, #image2-tdaisy, #image2-rhodesgrass, 
+    #image2-carpetgr, #image2-ntgrass, #image2-crab, #image2-vetch, #image2-hexham, #image2-hare, #image2-burrgrass {
     margin-top: 51.5%;
     }
     #image-text-mallow, #image-text-sonchus, #image-text-black, #image-text-thick, #image-text-ama, #image-text-top, 
@@ -258,7 +281,10 @@ button {
     #image-text-indi, #image-text-crot, #image-text-cord, #image-text-coro, #image-text-cud, #image-text-cotula, 
     #image-text-hawk, #image-text-smcatsear, #image-text-catsear, 
     #image-text-dand, #image-text-cera, #image-text-chick, #image-text-flick, #image-text-fat, #image-text-bur,
-    #image-text-spot, #image-text-tassel, #image-text-radish {
+    #image-text-spot, #image-text-tassel, #image-text-radish, #image-text-turnip, #image-text-tdaisy, 
+    #image-text-rhodesgrass, #image-text-carpetgr, #image-text-ntgrass, 
+    #image-text-crab, #image-text-vetch, #image-text-hexham, #image-text-hare, #image-text-burrgrass, 
+    #image-text-ago, #image-text-gras {
     margin-top: 54%;
     }
 }
@@ -276,7 +302,10 @@ button {
 #image1-indi, #image1-crot, #image1-cord, #image1-coro, #image1-cud, #image1-cotula, 
 #image1-hawk, #image1-smcatsear, #image1-catsear, 
 #image1-dand, #image1-cera, #image1-chick, #image1-flick, #image1-fat, #image1-bur, 
-#image1-spot, #image1-tassel, #image1-radish {
+#image1-spot, #image1-tassel, #image1-radish, 
+#image1-turnip, #image1-tdaisy, #image1-rhodesgrass, 
+#image1-carpetgr, #image1-ntgrass, #image1-crab, #image1-vetch, #image1-hexham, #image1-hare, #image1-burrgrass, 
+#image1-ago, #image1-gras {
     visibility:hidden;
     z-index: 50;
     width: 90%;
@@ -291,7 +320,9 @@ button {
 .hide-cap, .hide-hel, .hide-kha, .hide-flea, .hide-bid, .hide-pot, .hide-willow, .hide-balloon, .hide-brazil, .hide-mitra, 
 .hide-rich, .hide-si, .hide-rhom, .hide-mal, .hide-indi, .hide-crot, .hide-cord, .hide-coro, .hide-cud, .hide-cotula,  
 .hide-hawk, .hide-smcatsear, .hide-catsear, .hide-dand, .hide-cera, .hide-chick, .hide-flick, .hide-fat, 
-.hide-bur, .hide-spot, .hide-tassel, .hide-radish {
+.hide-bur, .hide-spot, .hide-tassel, .hide-radish, 
+.hide-turnip, .hide-tdaisy, .hide-rhodesgrass, .hide-carpetgr, .hide-ntgrass, .hide-crab, .hide-vetch, .hide-hexham, 
+.hide-hare, .hide-ago, .hide-gras {
     font-size: 0.5rem;
     margin-top: 53.5%;
     }
@@ -301,7 +332,10 @@ button {
 #image2-brazil, #image2-mitra, #image2-rich, #image2-si, #image2-rhom, #image2-mal, 
 #image2-indi, #image2-crot, #image2-cord, #image2-coro, #image2-cud, #image2-cotula, 
 #image2-hawk, #image2-smcatsear, #image2-catsear, #image2-dand, 
-#image2-cera, #image2-chick, #image2-flick, #image2-fat, #image2-bur, #image2-spot, #image2-tassel, #image2-radish {
+#image2-cera, #image2-chick, #image2-flick, #image2-fat, #image2-bur, #image2-spot, #image2-tassel, #image2-radish, 
+#image2-turnip, #image2-tdaisy, #image2-rhodesgrass, 
+#image2-carpetgr, #image2-ntgrass, #image2-crab, #image2-vetch, #image2-hexham, #image2-hare, #image2-burrgrass, 
+#image2-ago, #image2-gras {
     font-size: 0.5rem;
     margin-top: 53.5%;
     }
@@ -312,7 +346,10 @@ button {
 #image-text-indi, #image-text-crot, #image-text-cord, #image-text-coro, #image-text-cud, #image-text-cotula, 
 #image-text-hawk, #image-text-smcatsear, #image-text-catsear, 
 #image-text-dand, #image-text-cera, #image-text-chick, #image-text-flick, #image-text-fat, #image-text-bur, 
-#image-text-spot, #image-text-tassel, #image-text-radish {
+#image-text-spot, #image-text-tassel, #image-text-radish, 
+#image-text-turnip, #image-text-tdaisy, #image-text-rhodesgrass, #image-text-carpetgr, #image-text-ntgrass, 
+#image-text-crab, #image-text-vetch, #image-text-hexham, #image-text-hare, #image-text-burrgrass, 
+#image-text-ago, #image-text-gras {
     margin-top: 55%;
     }
     .image-container-dimensions {
@@ -346,7 +383,9 @@ button {
 .hide-cap, .hide-hel, .hide-kha, .hide-flea, .hide-bid, .hide-pot, .hide-willow, .hide-balloon, .hide-brazil, .hide-mitra, 
 .hide-rich, .hide-si, .hide-rhom, .hide-mal, .hide-indi, .hide-crot, .hide-cord, .hide-coro, .hide-cud, .hide-cotula,  
 .hide-hawk, .hide-smcatsear, .hide-catsear, .hide-dand, .hide-cera, .hide-chick, .hide-flick, .hide-fat, 
-.hide-bur, .hide-spot, .hide-tassel, .hide-radish {
+.hide-bur, .hide-spot, .hide-tassel, .hide-radish, 
+.hide-turnip, .hide-tdaisy, .hide-rhodesgrass, .hide-carpetgr, .hide-ntgrass, .hide-crab, .hide-vetch, .hide-hexham, .hide-burrgrass, 
+.hide-ago, .hide-gras {
         font-size: 0.4rem;
         margin-top: 49%;
     }
@@ -356,7 +395,10 @@ button {
 #image2-brazil, #image2-mitra, #image2-rich, #image2-si, #image2-rhom, #image2-mal, 
 #image2-indi, #image2-crot, #image2-cord, #image2-coro, #image2-cud, #image2-cotula, 
 #image2-hawk, #image2-smcatsear, #image2-catsear, #image2-dand, 
-#image2-cera, #image2-chick, #image2-flick, #image2-fat, #image2-bur {
+#image2-cera, #image2-chick, #image2-flick, #image2-fat, #image2-bur, 
+#image2-turnip, #image2-tdaisy, #image2-rhodesgrass, 
+#image2-carpetgr, #image2-ntgrass, #image2-crab, #image2-vetch, #image2-hexham, #image2-hare, #image2-burrgrass, 
+#image2-ago, #image2-gras {
         font-size: 0.4rem;
         margin-top: 49%;
     }
@@ -367,7 +409,10 @@ button {
 #image-text-indi, #image-text-crot, #image-text-cord, #image-text-coro, #image-text-cud, #image-text-cotula, 
 #image-text-hawk, #image-text-smcatsear, #image-text-catsear, 
 #image-text-dand, #image-text-cera, #image-text-chick, #image-text-flick, #image-text-fat, #image-text-bur, 
-#image-text-spot, #image-text-tassel, #image-text-radish {
+#image-text-spot, #image-text-tassel, #image-text-radish, 
+#image-text-turnip, #image-text-tdaisy, #image-text-rhodesgrass, #image-text-carpetgr, #image-text-ntgrass, 
+#image-text-crab, #image-text-vetch, #image-text-hexham, #image-text-hare, #image-text-burrgrass, #image-text-ago, 
+#image-text-gras {
         font-size: 0.4rem;
         margin-top: 50%;
     }
@@ -391,7 +436,9 @@ button {
 .hide-cap, .hide-hel, .hide-kha, .hide-flea, .hide-bid, .hide-pot, .hide-willow, .hide-balloon, .hide-brazil, .hide-mitra, 
 .hide-rich, .hide-si, .hide-rhom, .hide-mal, .hide-indi, .hide-crot, .hide-cord, .hide-coro, .hide-cud, .hide-cotula,  
 .hide-hawk, .hide-smcatsear, .hide-catsear, .hide-dand, .hide-cera, .hide-chick, .hide-flick, .hide-fat, 
-.hide-bur, .hide-spot, .hide-tassel, .hide-radish {
+.hide-bur, .hide-spot, .hide-tassel, .hide-radish, 
+.hide-turnip, .hide-tdaisy, .hide-rhodesgrass, .hide-carpetgr, .hide-ntgrass, .hide-crab, .hide-vetch, .hide-hexham, 
+.hide-hare, .hide-burrgrass, .hide-ago, .hide-gras {
         font-size: 0.3rem;
         margin-top: 32%;
     }
@@ -401,7 +448,10 @@ button {
 #image2-brazil, #image2-mitra, #image2-rich, #image2-si, #image2-rhom, #image2-mal, 
 #image2-indi, #image2-crot, #image2-cord, #image2-coro, #image2-cud, #image2-cotula, 
 #image2-hawk, #image2-smcatsear, #image2-catsear, #image2-dand, 
-#image2-cera, #image2-chick, #image2-flick, #image2-fat, #image2-bur, #image2-spot, #image2-tassel, #image2-radish {
+#image2-cera, #image2-chick, #image2-flick, #image2-fat, #image2-bur, #image2-spot, #image2-tassel, #image2-radish, 
+#image2-turnip, #image2-tdaisy, #image2-rhodesgrass, 
+#image2-carpetgr, #image2-ntgrass, #image2-crab, #image2-vetch, #image2-hexham, #image2-hare, #image2-burrgrass, 
+#image2-ago, #image2-gras {
         font-size: 0.3rem;
         margin-top: 32%;
     }
@@ -412,7 +462,10 @@ button {
 #image-text-indi, #image-text-crot, #image-text-cord, #image-text-coro, #image-text-cud, #image-text-cotula, 
 #image-text-hawk, #image-text-smcatsear, #image-text-catsear, 
 #image-text-dand, #image-text-cera, #image-text-chick, #image-text-flick, #image-text-fat, #image-text-bur, 
-#image-text-spot, #image-text-tassel, #image-text-radish {
+#image-text-spot, #image-text-tassel, #image-text-radish, 
+#image-text-turnip, #image-text-tdaisy, #image-text-rhodesgrass, #image-text-carpetgr, #image-text-ntgrass, 
+#image-text-crab, #image-text-vetch, #image-text-hexham, #image-text-hare, #image-text-burrgrass, 
+#image-text-ago, #image-text-gras {
         font-size: 0.3rem;
         margin-top: 32%;
 }
@@ -435,7 +488,9 @@ button {
 .hide-cap, .hide-hel, .hide-kha, .hide-flea, .hide-bid, .hide-pot, .hide-willow, .hide-balloon, .hide-brazil, .hide-mitra, 
 .hide-rich, .hide-si, .hide-rhom, .hide-mal, .hide-indi, .hide-crot, .hide-cord, .hide-coro, .hide-cud, .hide-cotula,  
 .hide-hawk, .hide-smcatsear, .hide-catsear, .hide-dand, .hide-cera, .hide-chick, .hide-flick, .hide-fat, 
-.hide-bur, .hide-spot, .hide-tassel, .hide-radish {
+.hide-bur, .hide-spot, .hide-tassel, .hide-radish, 
+.hide-turnip, .hide-tdaisy, .hide-rhodesgrass, .hide-carpetgr, .hide-ntgrass, .hide-crab, .hide-vetch, .hide-hexham, 
+.hide-hare, .hide-burrgrass, .hide-ago, .hide-gras {
         font-size: 0.3rem;
         margin-top: 24%;
     }
@@ -445,7 +500,10 @@ button {
 #image2-brazil, #image2-mitra, #image2-rich, #image2-si, #image2-rhom, #image2-mal, 
 #image2-indi, #image2-crot, #image2-cord, #image2-coro, #image2-cud, #image2-cotula, 
 #image2-hawk, #image2-smcatsear, #image2-catsear, #image2-dand, 
-#image2-cera, #image2-chick, #image2-flick, #image2-fat, #image2-bur, #image2-spot, #image2-tassel, #image2-radish {
+#image2-cera, #image2-chick, #image2-flick, #image2-fat, #image2-bur, #image2-spot, #image2-tassel, #image2-radish, 
+#image2-turnip, #image2-tdaisy, #image2-rhodesgrass, 
+#image2-carpetgr, #image2-ntgrass, #image2-crab, #image2-vetch, #image2-hexham, #image2-hare, #image2-burrgrass, 
+#image2-ago, #image2-gras {
         font-size: 0.3rem;
         margin-top: 24%;
     }
@@ -456,7 +514,10 @@ button {
 #image-text-indi, #image-text-crot, #image-text-cord, #image-text-coro, #image-text-cud, #image-text-cotula, 
 #image-text-hawk, #image-text-smcatsear, #image-text-catsear, 
 #image-text-dand, #image-text-cera, #image-text-chick, #image-text-flick, #image-text-fat, #image-text-bur, 
-#image-text-spot, #image-text-tassel, #image-text-radish {
+#image-text-spot, #image-text-tassel, #image-text-radish, 
+#image-text-turnip, #image-text-tdaisy, #image-text-rhodesgrass, #image-text-carpetgr, #image-text-ntgrass, 
+#image-text-crab, #image-text-vetch, #image-text-hexham, #image-text-hare, #image-text-burrgrass, 
+#image-text-ago, #image-text-gras {
         font-size: 0.3rem;
         margin-top: 24%;
 }
