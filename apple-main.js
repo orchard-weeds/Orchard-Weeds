@@ -43,6 +43,19 @@ const info37 = document.getElementById('info-37');
 const info38 = document.getElementById('info-38');
 const info39 = document.getElementById('info-39');
 const info40 = document.getElementById('info-40');
+const info41 = document.getElementById('info-41');
+const info42 = document.getElementById('info-42');
+const info43 = document.getElementById('info-43');
+const info44 = document.getElementById('info-44');
+const info45 = document.getElementById('info-45');
+const info46 = document.getElementById('info-46');
+const info47 = document.getElementById('info-47');
+const info48 = document.getElementById('info-48');
+const info49 = document.getElementById('info-49');
+const info50 = document.getElementById('info-50');
+const info51 = document.getElementById('info-51');
+const info52 = document.getElementById('info-52');
+
 
 function mallow() {
     document.querySelector('.display').style.visibility = 'visible';
@@ -974,6 +987,316 @@ function Raphanus () {
     document.getElementById('insect1').innerHTML = `${raphanus.pest_images[2]}`;
 }
 
+function  Brassica() {
+    document.querySelector('.display').style.visibility = 'visible';
+    description.innerHTML =
+    `<h1>${brassica.common_name}</h1> <h3>(${brassica.botanical_name})</h3> <p> \
+    ${brassica.cultural}</p><p>${brassica.hosts}.</p><p>Uses: ${brassica.uses}</p>\
+    <p>Links: <a href='${brassica.links[1]}' target='_blank'>${brassica.links[0]}</a></p>\
+    <p>Links: <a href='${brassica.links[3]}' target='_blank'>${brassica.links[2]}</a></p>\
+    <p>Links: <a href='${brassica.links[5]}' target='_blank'>${brassica.links[4]}</a></p>\
+    <p>Links: <a href='${brassica.links[7]}' target='_blank'>${brassica.links[6]}</a></p>\
+    <p>Links: <a href='${brassica.links[9]}' target='_blank'>${brassica.links[8]}</a></p>\
+    <p>Links: <a href='${brassica.links[11]}' target='_blank'>${brassica.links[10]}</a></p>\
+    <p>Links: <a href='${brassica.links[13]}' target='_blank'>${brassica.links[12]}</a></p>\
+    <p>Field Observations:</p>\
+    <p>${brassica.observations}</p>
+    <p>Click to enlarge images</p>`;
+    
+    pic3.innerHTML = `${brassica.pest_images[0]}`;
+    pic2.innerHTML = `${brassica.pest_images[1]}`;
+    pic1.innerHTML = `${brassica.pest_images[2]}`;
+    document.getElementById('insect3').innerHTML = `${brassica.pest_images[0]}`;
+    document.getElementById('insect2').innerHTML = `${brassica.pest_images[1]}`;
+    document.getElementById('insect1').innerHTML = `${brassica.pest_images[2]}`;
+}
+
+function  Plantago() {
+    document.querySelector('.display').style.visibility = 'visible';
+    description.innerHTML =
+    `<h1>${plantago.common_name}</h1> <h3>(${plantago.botanical_name})</h3> <p> \
+    ${plantago.cultural}</p><p>${plantago.hosts}.</p><p>Uses: ${plantago.uses}</p>\
+    <p>Links: <a href='${plantago.links[1]}' target='_blank'>${plantago.links[0]}</a></p>\
+    <p>Links: <a href='${plantago.links[3]}' target='_blank'>${plantago.links[2]}</a></p>\
+    <p>Links: <a href='${plantago.links[5]}' target='_blank'>${plantago.links[4]}</a></p>\
+    <p>Links: <a href='${plantago.links[7]}' target='_blank'>${plantago.links[6]}</a></p>\
+    <p>Links: <a href='${plantago.links[9]}' target='_blank'>${plantago.links[8]}</a></p>\
+    <p>Links: <a href='${plantago.links[11]}' target='_blank'>${plantago.links[10]}</a></p>\
+    <p>Links: <a href='${plantago.links[13]}' target='_blank'>${plantago.links[12]}</a></p>\
+    <p>Links: <a href='${plantago.links[15]}' target='_blank'>${plantago.links[14]}</a></p>\
+    <p>Links: <a href='${plantago.links[17]}' target='_blank'>${plantago.links[16]}</a></p>\
+    <p>Links: <a href='${plantago.links[19]}' target='_blank'>${plantago.links[18]}</a></p>\
+    <p>Links: <a href='${plantago.links[21]}' target='_blank'>${plantago.links[20]}</a></p>\
+    <p>Links: <a href='${plantago.links[23]}' target='_blank'>${plantago.links[22]}</a></p>\
+    <p>Links: <a href='${plantago.links[25]}' target='_blank'>${plantago.links[24]}</a></p>\
+    <p>Links: <a href='${plantago.links[27]}' target='_blank'>${plantago.links[26]}</a></p>\
+    <p>Links: <a href='${plantago.links[29]}' target='_blank'>${plantago.links[28]}</a></p>\
+    <p>Field Observations:</p>\
+    <p>${plantago.observations}</p>
+    <p>Click to enlarge images</p>`;
+    
+    pic3.innerHTML = `${plantago.pest_images[0]}`;
+    pic2.innerHTML = `${plantago.pest_images[1]}`;
+    pic1.innerHTML = `${plantago.pest_images[2]}`;
+    document.getElementById('insect3').innerHTML = `${plantago.pest_images[0]}`;
+    document.getElementById('insect2').innerHTML = `${plantago.pest_images[1]}`;
+    document.getElementById('insect1').innerHTML = `${plantago.pest_images[2]}`;
+}
+
+function  Plant_ago() {
+    document.querySelector('.display').style.visibility = 'visible';
+    description.innerHTML =
+    `<h1>${plant_ago.common_name}</h1> <h3>${plant_ago.botanical_name}</h3> <p> \
+    ${plant_ago.cultural}</p><p>${plant_ago.hosts}.</p><p>Uses: ${plant_ago.uses}</p>\
+    <p>Links: <a href='${plant_ago.links[1]}' target='_blank'>${plant_ago.links[0]}</a></p>\
+    <p>Links: <a href='${plant_ago.links[3]}' target='_blank'>${plant_ago.links[2]}</a></p>\
+    <p>Links: <a href='${plant_ago.links[5]}' target='_blank'>${plant_ago.links[4]}</a></p>\
+    <p>Links: <a href='${plant_ago.links[7]}' target='_blank'>${plant_ago.links[6]}</a></p>\
+    <p>Links: <a href='${plant_ago.links[9]}' target='_blank'>${plant_ago.links[8]}</a></p>\
+    <p>Links: <a href='${plant_ago.links[11]}' target='_blank'>${plant_ago.links[10]}</a></p>\
+    <p>Links: <a href='${plant_ago.links[13]}' target='_blank'>${plant_ago.links[12]}</a></p>\
+    <p>Links: <a href='${plant_ago.links[15]}' target='_blank'>${plant_ago.links[14]}</a></p>\
+    <p>Links: <a href='${plant_ago.links[17]}' target='_blank'>${plant_ago.links[16]}</a></p>\
+    <p>Links: <a href='${plant_ago.links[19]}' target='_blank'>${plant_ago.links[18]}</a></p>\
+    <p>Field Observations:</p>\
+    <p>${plant_ago.observations}</p>
+    <p>Click to enlarge images</p>`;
+    
+    pic3.innerHTML = `${plant_ago.pest_images[0]}`;
+    pic2.innerHTML = `${plant_ago.pest_images[1]}`;
+    pic1.innerHTML = `${plant_ago.pest_images[2]}`;
+    document.getElementById('insect3').innerHTML = `${plant_ago.pest_images[0]}`;
+    document.getElementById('insect2').innerHTML = `${plant_ago.pest_images[1]}`;
+    document.getElementById('insect1').innerHTML = `${plant_ago.pest_images[2]}`;
+}
+
+function  Tridax() {
+    document.querySelector('.display').style.visibility = 'visible';
+    description.innerHTML =
+    `<h1>${tridax.common_name}</h1> <h3>(${tridax.botanical_name})</h3> <p> \
+    ${tridax.cultural}</p><p>${tridax.hosts}.</p><p>Uses: ${tridax.uses}</p>\
+    <p>Links: <a href='${tridax.links[1]}' target='_blank'>${tridax.links[0]}</a></p>\
+    <p>Links: <a href='${tridax.links[3]}' target='_blank'>${tridax.links[2]}</a></p>\
+    <p>Links: <a href='${tridax.links[5]}' target='_blank'>${tridax.links[4]}</a></p>\
+    <p>Links: <a href='${tridax.links[7]}' target='_blank'>${tridax.links[6]}</a></p>\
+    <p>Links: <a href='${tridax.links[9]}' target='_blank'>${tridax.links[8]}</a></p>\
+    <p>Links: <a href='${tridax.links[11]}' target='_blank'>${tridax.links[10]}</a></p>\
+    <p>Links: <a href='${tridax.links[13]}' target='_blank'>${tridax.links[12]}</a></p>\
+    <p>Field Observations:</p>\
+    <p>${tridax.observations}</p>
+    <p>Click to enlarge images</p>`;
+    
+    pic3.innerHTML = `${tridax.pest_images[0]}`;
+    pic2.innerHTML = `${tridax.pest_images[1]}`;
+    pic1.innerHTML = `${tridax.pest_images[2]}`;
+    document.getElementById('insect3').innerHTML = `${tridax.pest_images[0]}`;
+    document.getElementById('insect2').innerHTML = `${tridax.pest_images[1]}`;
+    document.getElementById('insect1').innerHTML = `${tridax.pest_images[2]}`;
+}
+
+function  Grass() {
+    document.querySelector('.display').style.visibility = 'visible';
+    description.innerHTML =
+    `<h1>${grass.common_name}</h1> <h3>(${grass.botanical_name})</h3> <p> \
+    ${grass.cultural}</p><p>${grass.hosts}.</p><p>Uses: ${grass.uses}</p>\
+    <p>Links: <a href='${grass.links[1]}' target='_blank'>${grass.links[0]}</a></p>\
+    <p>Links: <a href='${grass.links[3]}' target='_blank'>${grass.links[2]}</a></p>\
+    <p>Links: <a href='${grass.links[5]}' target='_blank'>${grass.links[4]}</a></p>\
+    <p>Links: <a href='${grass.links[7]}' target='_blank'>${grass.links[6]}</a></p>\
+    <p>Links: <a href='${grass.links[9]}' target='_blank'>${grass.links[8]}</a></p>\
+    <p>Links: <a href='${grass.links[11]}' target='_blank'>${grass.links[10]}</a></p>\
+    <p>Field Observations:</p>\
+    <p>${grass.observations}</p>
+    <p>Click to enlarge images</p>`;
+    
+    pic3.innerHTML = `${grass.pest_images[0]}`;
+    pic2.innerHTML = `${grass.pest_images[1]}`;
+    pic1.innerHTML = `${grass.pest_images[2]}`;
+    document.getElementById('insect3').innerHTML = `${rhodes.pest_images[0]}`;
+    document.getElementById('insect2').innerHTML = `${rhodes.pest_images[1]}`;
+    document.getElementById('insect1').innerHTML = `${rhodes.pest_images[2]}`;
+}
+
+function  Rhodes() {
+    document.querySelector('.display').style.visibility = 'visible';
+    description.innerHTML =
+    `<h1>${rhodes.common_name}</h1> <h3>(${rhodes.botanical_name})</h3> <p> \
+    ${rhodes.cultural}</p><p>${rhodes.hosts}.</p><p>Uses: ${rhodes.uses}</p>\
+    <p>Links: <a href='${rhodes.links[1]}' target='_blank'>${rhodes.links[0]}</a></p>\
+    <p>Links: <a href='${rhodes.links[3]}' target='_blank'>${rhodes.links[2]}</a></p>\
+    <p>Links: <a href='${rhodes.links[5]}' target='_blank'>${rhodes.links[4]}</a></p>\
+    <p>Links: <a href='${rhodes.links[7]}' target='_blank'>${rhodes.links[6]}</a></p>\
+    <p>Links: <a href='${rhodes.links[9]}' target='_blank'>${rhodes.links[8]}</a></p>\
+    <p>Links: <a href='${rhodes.links[11]}' target='_blank'>${rhodes.links[10]}</a></p>\
+    <p>Links: <a href='${rhodes.links[13]}' target='_blank'>${rhodes.links[12]}</a></p>\
+    <p>Links: <a href='${rhodes.links[15]}' target='_blank'>${rhodes.links[14]}</a></p>\
+    <p>Links: <a href='${rhodes.links[17]}' target='_blank'>${rhodes.links[16]}</a></p>\
+    <p>Field Observations:</p>\
+    <p>${rhodes.observations}</p>
+    <p>Click to enlarge images</p>`;
+    
+    pic3.innerHTML = `${rhodes.pest_images[0]}`;
+    pic2.innerHTML = `${rhodes.pest_images[1]}`;
+    pic1.innerHTML = `${rhodes.pest_images[2]}`;
+    document.getElementById('insect3').innerHTML = `${rhodes.pest_images[0]}`;
+    document.getElementById('insect2').innerHTML = `${rhodes.pest_images[1]}`;
+    document.getElementById('insect1').innerHTML = `${rhodes.pest_images[2]}`;
+}
+
+function  Cenchrus() {
+    document.querySelector('.display').style.visibility = 'visible';
+    description.innerHTML =
+    `<h1>${cenchrus.common_name}</h1> <h3>${cenchrus.botanical_name}</h3> <p> \
+    ${cenchrus.cultural}</p><p>${cenchrus.hosts}.</p><p>Uses: ${cenchrus.uses}</p>\
+    <p>Links: <a href='${cenchrus.links[1]}' target='_blank'>${cenchrus.links[0]}</a></p>\
+    <p>Links: <a href='${cenchrus.links[3]}' target='_blank'>${cenchrus.links[2]}</a></p>\
+    <p>Links: <a href='${cenchrus.links[5]}' target='_blank'>${cenchrus.links[4]}</a></p>\
+    <p>Links: <a href='${cenchrus.links[7]}' target='_blank'>${cenchrus.links[6]}</a></p>\
+    <p>Links: <a href='${cenchrus.links[9]}' target='_blank'>${cenchrus.links[8]}</a></p>\
+    <p>Links: <a href='${cenchrus.links[11]}' target='_blank'>${cenchrus.links[10]}</a></p>\
+    <p>Links: <a href='${cenchrus.links[13]}' target='_blank'>${cenchrus.links[12]}</a></p>\
+    <p>Links: <a href='${cenchrus.links[15]}' target='_blank'>${cenchrus.links[14]}</a></p>\
+    <p>Links: <a href='${cenchrus.links[17]}' target='_blank'>${cenchrus.links[16]}</a></p>\
+    <p>Field Observations:</p>\
+    <p>${cenchrus.observations}</p>
+    <p>Click to enlarge images</p>`;
+    
+    pic3.innerHTML = `${cenchrus.pest_images[0]}`;
+    pic2.innerHTML = `${cenchrus.pest_images[1]}`;
+    pic1.innerHTML = `${cenchrus.pest_images[2]}`;
+    document.getElementById('insect3').innerHTML = `${cenchrus.pest_images[0]}`;
+    document.getElementById('insect2').innerHTML = `${cenchrus.pest_images[1]}`;
+    document.getElementById('insect1').innerHTML = `${cenchrus.pest_images[2]}`;
+}
+
+function  Carpetgrass() {
+    document.querySelector('.display').style.visibility = 'visible';
+    description.innerHTML =
+    `<h1>${carpetgrass.common_name}</h1> <h3>(${carpetgrass.botanical_name})</h3> <p> \
+    ${carpetgrass.cultural}</p><p>${carpetgrass.hosts}.</p><p>Uses: ${carpetgrass.uses}</p>\
+    <p>Links: <a href='${carpetgrass.links[1]}' target='_blank'>${carpetgrass.links[0]}</a></p>\
+    <p>Links: <a href='${carpetgrass.links[3]}' target='_blank'>${carpetgrass.links[2]}</a></p>\
+    <p>Links: <a href='${carpetgrass.links[5]}' target='_blank'>${carpetgrass.links[4]}</a></p>\
+    <p>Links: <a href='${carpetgrass.links[7]}' target='_blank'>${carpetgrass.links[6]}</a></p>\
+    <p>Links: <a href='${carpetgrass.links[9]}' target='_blank'>${carpetgrass.links[8]}</a></p>\
+    <p>Links: <a href='${carpetgrass.links[11]}' target='_blank'>${carpetgrass.links[10]}</a></p>\
+    <p>Links: <a href='${carpetgrass.links[13]}' target='_blank'>${carpetgrass.links[12]}</a></p>\
+    <p>Field Observations:</p>\
+    <p>${carpetgrass.observations}</p>
+    <p>Click to enlarge images</p>`;
+    
+    pic3.innerHTML = `${carpetgrass.pest_images[0]}`;
+    pic2.innerHTML = `${carpetgrass.pest_images[1]}`;
+    pic1.innerHTML = `${carpetgrass.pest_images[2]}`;
+    document.getElementById('insect3').innerHTML = `${carpetgrass.pest_images[0]}`;
+    document.getElementById('insect2').innerHTML = `${carpetgrass.pest_images[1]}`;
+    document.getElementById('insect1').innerHTML = `${carpetgrass.pest_images[2]}`;
+}
+
+function  Nutgrass() {
+    document.querySelector('.display').style.visibility = 'visible';
+    description.innerHTML =
+    `<h1>${nutgrass.common_name}</h1> <h3>${nutgrass.botanical_name}</h3> <p> \
+    ${nutgrass.cultural}</p><p>${nutgrass.hosts}.</p><p>Uses: ${nutgrass.uses}</p>\
+    <p>Links: <a href='${nutgrass.links[1]}' target='_blank'>${nutgrass.links[0]}</a></p>\
+    <p>Links: <a href='${nutgrass.links[3]}' target='_blank'>${nutgrass.links[2]}</a></p>\
+    <p>Links: <a href='${nutgrass.links[5]}' target='_blank'>${nutgrass.links[4]}</a></p>\
+    <p>Links: <a href='${nutgrass.links[7]}' target='_blank'>${nutgrass.links[6]}</a></p>\
+    <p>Links: <a href='${nutgrass.links[9]}' target='_blank'>${nutgrass.links[8]}</a></p>\
+    <p>Links: <a href='${nutgrass.links[11]}' target='_blank'>${nutgrass.links[10]}</a></p>\
+    <p>Links: <a href='${nutgrass.links[13]}' target='_blank'>${nutgrass.links[12]}</a></p>\
+    <p>Links: <a href='${nutgrass.links[15]}' target='_blank'>${nutgrass.links[14]}</a></p>\
+    <p>Links: <a href='${nutgrass.links[17]}' target='_blank'>${nutgrass.links[16]}</a></p>\
+    <p>Links: <a href='${nutgrass.links[19]}' target='_blank'>${nutgrass.links[18]}</a></p>\
+    <p>Field Observations:</p>\
+    <p>${nutgrass.observations}</p>
+    <p>Click to enlarge images</p>`;
+    
+    pic3.innerHTML = `${nutgrass.pest_images[0]}`;
+    pic2.innerHTML = `${nutgrass.pest_images[1]}`;
+    pic1.innerHTML = `${nutgrass.pest_images[2]}`;
+    document.getElementById('insect3').innerHTML = `${nutgrass.pest_images[0]}`;
+    document.getElementById('insect2').innerHTML = `${nutgrass.pest_images[1]}`;
+    document.getElementById('insect1').innerHTML = `${nutgrass.pest_images[2]}`;
+}
+
+function  Crabgrass() {
+    document.querySelector('.display').style.visibility = 'visible';
+    description.innerHTML =
+    `<h1>${crabgrass.common_name}</h1> <h3>(${crabgrass.botanical_name})</h3> <p> \
+    ${crabgrass.cultural}</p><p>${crabgrass.hosts}.</p><p>Uses: ${crabgrass.uses}</p>\
+    <p>Links: <a href='${crabgrass.links[1]}' target='_blank'>${crabgrass.links[0]}</a></p>\
+    <p>Links: <a href='${crabgrass.links[3]}' target='_blank'>${crabgrass.links[2]}</a></p>\
+    <p>Links: <a href='${crabgrass.links[5]}' target='_blank'>${crabgrass.links[4]}</a></p>\
+    <p>Links: <a href='${crabgrass.links[7]}' target='_blank'>${crabgrass.links[6]}</a></p>\
+    <p>Links: <a href='${crabgrass.links[9]}' target='_blank'>${crabgrass.links[8]}</a></p>\
+    <p>Links: <a href='${crabgrass.links[11]}' target='_blank'>${crabgrass.links[10]}</a></p>\
+    <p>Links: <a href='${crabgrass.links[13]}' target='_blank'>${crabgrass.links[12]}</a></p>\
+    <p>Links: <a href='${crabgrass.links[15]}' target='_blank'>${crabgrass.links[14]}</a></p>\
+    <p>Links: <a href='${crabgrass.links[17]}' target='_blank'>${crabgrass.links[16]}</a></p>\
+    <p>Links: <a href='${crabgrass.links[19]}' target='_blank'>${crabgrass.links[18]}</a></p>\
+    <p>Field Observations:</p>\
+    <p>${crabgrass.observations}</p>
+    <p>Click to enlarge images</p>`;
+    
+    pic3.innerHTML = `${crabgrass.pest_images[0]}`;
+    pic2.innerHTML = `${crabgrass.pest_images[1]}`;
+    pic1.innerHTML = `${crabgrass.pest_images[2]}`;
+    document.getElementById('insect3').innerHTML = `${crabgrass.pest_images[0]}`;
+    document.getElementById('insect2').innerHTML = `${crabgrass.pest_images[1]}`;
+    document.getElementById('insect1').innerHTML = `${crabgrass.pest_images[2]}`;
+}
+
+function  Vicia() {
+    document.querySelector('.display').style.visibility = 'visible';
+    description.innerHTML =
+    `<h1>${vicia.common_name}</h1> <h3>(${vicia.botanical_name})</h3> <p> \
+    ${vicia.cultural}</p><p>${vicia.hosts}.</p><p>Uses: ${vicia.uses}</p>\
+    <p>Links: <a href='${vicia.links[1]}' target='_blank'>${vicia.links[0]}</a></p>\
+    <p>Links: <a href='${vicia.links[3]}' target='_blank'>${vicia.links[2]}</a></p>\
+    <p>Links: <a href='${vicia.links[5]}' target='_blank'>${vicia.links[4]}</a></p>\
+    <p>Links: <a href='${vicia.links[7]}' target='_blank'>${vicia.links[6]}</a></p>\
+    <p>Links: <a href='${vicia.links[9]}' target='_blank'>${vicia.links[8]}</a></p>\
+    <p>Links: <a href='${vicia.links[11]}' target='_blank'>${vicia.links[10]}</a></p>\
+    <p>Links: <a href='${vicia.links[13]}' target='_blank'>${vicia.links[12]}</a></p>\
+    <p>Links: <a href='${vicia.links[15]}' target='_blank'>${vicia.links[14]}</a></p>\
+    <p>Links: <a href='${vicia.links[17]}' target='_blank'>${vicia.links[16]}</a></p>\
+    <p>Links: <a href='${vicia.links[19]}' target='_blank'>${vicia.links[18]}</a></p>\
+    <p>Field Observations:</p>\
+    <p>${vicia.observations}</p>
+    <p>Click to enlarge images</p>`;
+    
+    pic3.innerHTML = `${vicia.pest_images[0]}`;
+    pic2.innerHTML = `${vicia.pest_images[1]}`;
+    pic1.innerHTML = `${vicia.pest_images[2]}`;
+    document.getElementById('insect3').innerHTML = `${vicia.pest_images[0]}`;
+    document.getElementById('insect2').innerHTML = `${vicia.pest_images[1]}`;
+    document.getElementById('insect1').innerHTML = `${vicia.pest_images[2]}`;
+}
+
+function Melilotus() {
+    document.querySelector('.display').style.visibility = 'visible';
+    description.innerHTML =
+    `<h1>${melilotus.common_name}</h1> <h3>(${melilotus.botanical_name})</h3> <p> \
+    ${melilotus.cultural}</p><p>${melilotus.hosts}.</p><p>Uses: ${melilotus.uses}</p>\
+    <p>Links: <a href='${melilotus.links[1]}' target='_blank'>${melilotus.links[0]}</a></p>\
+    <p>Links: <a href='${melilotus.links[3]}' target='_blank'>${melilotus.links[2]}</a></p>\
+    <p>Links: <a href='${melilotus.links[5]}' target='_blank'>${melilotus.links[4]}</a></p>\
+    <p>Links: <a href='${melilotus.links[7]}' target='_blank'>${melilotus.links[6]}</a></p>\
+    <p>Links: <a href='${melilotus.links[9]}' target='_blank'>${melilotus.links[8]}</a></p>\
+    <p>Links: <a href='${melilotus.links[11]}' target='_blank'>${melilotus.links[10]}</a></p>\
+    <p>Links: <a href='${melilotus.links[13]}' target='_blank'>${melilotus.links[12]}</a></p>\
+    <p>Field Observations:</p>\
+    <p>${melilotus.observations}</p>
+    <p>Click to enlarge images</p>`;
+    
+    pic3.innerHTML = `${melilotus.pest_images[0]}`;
+    pic2.innerHTML = `${melilotus.pest_images[1]}`;
+    pic1.innerHTML = `${melilotus.pest_images[2]}`;
+    document.getElementById('insect3').innerHTML = `${melilotus.pest_images[0]}`;
+    document.getElementById('insect2').innerHTML = `${melilotus.pest_images[1]}`;
+    document.getElementById('insect1').innerHTML = `${melilotus.pest_images[2]}`;
+}
 
 /*
 function () {
@@ -2990,6 +3313,650 @@ function () {
     };    
 })();
 
+/* wild turnip     */
+
+(function() {    
+    let img_image = 0;
+    let img_title = 0;
+    let img_text = 0;
+    let images_turnip = ['./images/wild-radish-1.png', './images/wild-radish-2.png', './images/wild-radish-3.png', './images/wild-radish-4.png'];
+    let images_hover_turnip = ['Wild radish', 'Wild radish', 'Wild radish', 'Wild radish'];
+    let images_text_turnip = ['Wild radish', 'Wild radish', 'Wild radish', 'Wild radish']
+    let im_len = images_turnip.length;
+
+    document.getElementById('turnip').onclick = function() { 
+        let display_image = document.getElementById('image1-turnip');
+        let hide_button = document.getElementById('hide-turnip');
+        let move_button = document.getElementById('image2-turnip');
+        let image_text = document.getElementById('image-text-turnip');
+        hide_button.style.visibility = 'visible';     
+        display_image.style.visibility = 'visible';
+        move_button.style.visibility = 'visible';
+        image_text.style.visibility = 'visible';
+    };
+
+    let turnip_ol = document.getElementById('image2-turnip');
+    turnip_ol.addEventListener('click', function() {
+        let image_text = document.getElementById('image-text-turnip');
+        let display_image = document.getElementById('image1-turnip');
+        if (img_image > im_len-1) {
+            img_image = 0;
+        }
+        if (img_title > im_len-1) {
+            img_title = 0;
+        }
+        if (img_text > im_len-1) {
+            img_text = 0;
+        }
+        display_image.src = images_turnip[img_image++]
+        display_image.title = images_hover_turnip[img_title++]
+        image_text.innerText = images_text_turnip[img_text++]
+        image_text.style.fontStyle = 'italic';
+    });
+    
+    document.getElementById('hide-turnip').onclick = function() {  
+        let display_image = document.getElementById('image1-turnip');
+        let hide_button= document.getElementById('hide-turnip');  
+        let move_button = document.getElementById('image2-turnip');
+        let image_text = document.getElementById('image-text-turnip');
+        display_image.style.visibility = 'hidden';  
+        hide_button.style.visibility = 'hidden';
+        move_button.style.visibility = 'hidden';  
+        image_text.style.visibility = 'hidden';
+    };    
+})();
+
+/* Plantago     */
+
+(function() {    
+    let img_image = 0;
+    let img_title = 0;
+    let img_text = 0;
+    let images_hare = ['./images/plantago-lanceolata.png'];
+    let images_hover_hare = ['Plantago lanceolata. Image by Josh Teyler (https://www.inaturalist.org/photos/127256441)'];
+    let images_text_hare = ['Plantago lanceolata. Image by Josh Teyler']
+    let im_len = images_hare.length;
+
+    document.getElementById('hare').onclick = function() { 
+        let display_image = document.getElementById('image1-hare');
+        let hide_button = document.getElementById('hide-hare');
+        let move_button = document.getElementById('image2-hare');
+        let image_text = document.getElementById('image-text-hare');
+        hide_button.style.visibility = 'visible';     
+        display_image.style.visibility = 'visible';
+        move_button.style.visibility = 'visible';
+        image_text.style.visibility = 'visible';
+    };
+
+    let hare_ol = document.getElementById('image2-hare');
+    hare_ol.addEventListener('click', function() {
+        let image_text = document.getElementById('image-text-hare');
+        let display_image = document.getElementById('image1-hare');
+        if (img_image > im_len-1) {
+            img_image = 0;
+        }
+        if (img_title > im_len-1) {
+            img_title = 0;
+        }
+        if (img_text > im_len-1) {
+            img_text = 0;
+        }
+        display_image.src = images_hare[img_image++]
+        display_image.title = images_hover_hare[img_title++]
+        image_text.innerText = images_text_hare[img_text++]
+        image_text.style.fontStyle = 'italic';
+    });
+    
+    document.getElementById('hide-hare').onclick = function() {  
+        let display_image = document.getElementById('image1-hare');
+        let hide_button= document.getElementById('hide-hare');  
+        let move_button = document.getElementById('image2-hare');
+        let image_text = document.getElementById('image-text-hare');
+        display_image.style.visibility = 'hidden';  
+        hide_button.style.visibility = 'hidden';
+        move_button.style.visibility = 'hidden';  
+        image_text.style.visibility = 'hidden';
+    };    
+})();
+
+/*  Plantago species   */
+
+(function() {    
+    let img_image = 0;
+    let img_title = 0;
+    let img_text = 0;
+    let images_ago = ['./images/plantago_major.png', './images/plantago_varia.png', './images/plantago_debilis_1.png', 
+    './images/plantago_debilis_2.png'];
+    let images_hover_ago = ['Plantago major - Photo 85519437, (c) lemonsnapp, some rights reserved (CC BY) - https://www.inaturalist.org/photos/85519437',
+     'Plantago varia - Photo 51088040, (c) Paul George, some rights reserved (CC BY-NC-SA) - https://www.inaturalist.org/photos/51088040', 
+     'Plantago debilis', 'Plantago debilis'];
+    let images_text_ago = ['Plantago major', 'Plantago varia', 'Plantago debilis', 'Plantago debilis']
+    let im_len = images_ago.length;
+
+    document.getElementById('ago').onclick = function() { 
+        let display_image = document.getElementById('image1-ago');
+        let hide_button = document.getElementById('hide-ago');
+        let move_button = document.getElementById('image2-ago');
+        let image_text = document.getElementById('image-text-ago');
+        hide_button.style.visibility = 'visible';     
+        display_image.style.visibility = 'visible';
+        move_button.style.visibility = 'visible';
+        image_text.style.visibility = 'visible';
+    };
+
+    let ago_ol = document.getElementById('image2-ago');
+    ago_ol.addEventListener('click', function() {
+        let image_text = document.getElementById('image-text-ago');
+        let display_image = document.getElementById('image1-ago');
+        if (img_image > im_len-1) {
+            img_image = 0;
+        }
+        if (img_title > im_len-1) {
+            img_title = 0;
+        }
+        if (img_text > im_len-1) {
+            img_text = 0;
+        }
+        display_image.src = images_ago[img_image++]
+        display_image.title = images_hover_ago[img_title++]
+        image_text.innerText = images_text_ago[img_text++]
+        image_text.style.fontStyle = 'italic';
+    });
+    
+    document.getElementById('hide-ago').onclick = function() {  
+        let display_image = document.getElementById('image1-ago');
+        let hide_button= document.getElementById('hide-ago');  
+        let move_button = document.getElementById('image2-ago');
+        let image_text = document.getElementById('image-text-ago');
+        display_image.style.visibility = 'hidden';  
+        hide_button.style.visibility = 'hidden';
+        move_button.style.visibility = 'hidden';  
+        image_text.style.visibility = 'hidden';
+    };    
+})();
+
+/* Tridax daisy    */
+
+(function() {    
+    let img_image = 0;
+    let img_title = 0;
+    let img_text = 0;
+    let images_tdaisy = ['./images/Tridax_daisy_leaf.png', './images/Tridax_daisy_flower.png', './images/Tridax_daisy_plant.png'];
+    let images_hover_tdaisy = ['Tridax daisy', 'Tridax daisy', 'Tridax daisy'];
+    let images_text_tdaisy = ['Tridax daisy', 'Tridax daisy', 'Tridax daisy']
+    let im_len = images_tdaisy.length;
+
+    document.getElementById('tdaisy').onclick = function() { 
+        let display_image = document.getElementById('image1-tdaisy');
+        let hide_button = document.getElementById('hide-tdaisy');
+        let move_button = document.getElementById('image2-tdaisy');
+        let image_text = document.getElementById('image-text-tdaisy');
+        hide_button.style.visibility = 'visible';     
+        display_image.style.visibility = 'visible';
+        move_button.style.visibility = 'visible';
+        image_text.style.visibility = 'visible';
+    };
+
+    let tdaisy_ol = document.getElementById('image2-tdaisy');
+    tdaisy_ol.addEventListener('click', function() {
+        let image_text = document.getElementById('image-text-tdaisy');
+        let display_image = document.getElementById('image1-tdaisy');
+        if (img_image > im_len-1) {
+            img_image = 0;
+        }
+        if (img_title > im_len-1) {
+            img_title = 0;
+        }
+        if (img_text > im_len-1) {
+            img_text = 0;
+        }
+        display_image.src = images_tdaisy[img_image++]
+        display_image.title = images_hover_tdaisy[img_title++]
+        image_text.innerText = images_text_tdaisy[img_text++]
+        image_text.style.fontStyle = 'italic';
+    });
+    
+    document.getElementById('hide-tdaisy').onclick = function() {  
+        let display_image = document.getElementById('image1-tdaisy');
+        let hide_button= document.getElementById('hide-tdaisy');  
+        let move_button = document.getElementById('image2-tdaisy');
+        let image_text = document.getElementById('image-text-tdaisy');
+        display_image.style.visibility = 'hidden';  
+        hide_button.style.visibility = 'hidden';
+        move_button.style.visibility = 'hidden';  
+        image_text.style.visibility = 'hidden';
+    };    
+})();
+
+/*  Grasses general  */
+
+(function() {    
+    let img_image = 0;
+    let img_title = 0;
+    let img_text = 0;
+    let images_gras = ['./images/grasses/barn-grass.png', './images/grasses/barn-grass-1.png', './images/grasses/grass-1.png',
+    './images/grasses/grass-2.png', './images/grasses/grass-3.png', './images/grasses/grass-in-pot.png', 
+    './images/grasses/grass-ladybug.png', './images/grasses/grass-mixed.png', './images/grasses/mixed-grasses.png', 
+    './images/grasses/mixed-grasses-orchard.png'];
+    let images_hover_gras = ['Grass', 'Grass', 'Grass', 'Grass', 'Grass', 
+    'Grass in a pot', 'Grass with ladybug', 'Mixed grasses', 'Mixed grasses', 'Various grasses in an orchard'];
+    let images_text_gras = ['Grass', 'Grass', 'Grass', 'Grass', 'Grass', 
+    'Grass in a pot', 'Grass with ladybug', 'Mixed grasses', 'Mixed grasses', 'Various grasses in an orchard']
+    let im_len = images_gras.length;
+
+    document.getElementById('gras').onclick = function() { 
+        let display_image = document.getElementById('image1-gras');
+        let hide_button = document.getElementById('hide-gras');
+        let move_button = document.getElementById('image2-gras');
+        let image_text = document.getElementById('image-text-gras');
+        hide_button.style.visibility = 'visible';     
+        display_image.style.visibility = 'visible';
+        move_button.style.visibility = 'visible';
+        image_text.style.visibility = 'visible';
+    };
+
+    let gras_ol = document.getElementById('image2-gras');
+    gras_ol.addEventListener('click', function() {
+        let image_text = document.getElementById('image-text-gras');
+        let display_image = document.getElementById('image1-gras');
+        if (img_image > im_len-1) {
+            img_image = 0;
+        }
+        if (img_title > im_len-1) {
+            img_title = 0;
+        }
+        if (img_text > im_len-1) {
+            img_text = 0;
+        }
+        display_image.src = images_gras[img_image++]
+        display_image.title = images_hover_gras[img_title++]
+        image_text.innerText = images_text_gras[img_text++]
+        image_text.style.fontStyle = 'italic';
+    });
+    
+    document.getElementById('hide-gras').onclick = function() {  
+        let display_image = document.getElementById('image1-gras');
+        let hide_button= document.getElementById('hide-gras');  
+        let move_button = document.getElementById('image2-gras');
+        let image_text = document.getElementById('image-text-gras');
+        display_image.style.visibility = 'hidden';  
+        hide_button.style.visibility = 'hidden';
+        move_button.style.visibility = 'hidden';  
+        image_text.style.visibility = 'hidden';
+    };    
+})();
+
+/*  Purple top rhodes grass   */
+
+(function() {    
+    let img_image = 0;
+    let img_title = 0;
+    let img_text = 0;
+    let images_rhodesgrass = ['./images/chloris-inflata-1.png', './images/chloris-inflata-3.png', './images/chloris-inflata-2.png'];
+    let images_hover_rhodesgrass = ['Purpletop Rhodes grass', 'Purpletop Rhodes grass', 'Purpletop Rhodes grass'];
+    let images_text_rhodesgrass = ['Purpletop Rhodes grass', 'Purpletop Rhodes grass', 'Purpletop Rhodes grass']
+    let im_len = images_rhodesgrass.length;
+
+    document.getElementById('rhodesgrass').onclick = function() { 
+        let display_image = document.getElementById('image1-rhodesgrass');
+        let hide_button = document.getElementById('hide-rhodesgrass');
+        let move_button = document.getElementById('image2-rhodesgrass');
+        let image_text = document.getElementById('image-text-rhodesgrass');
+        hide_button.style.visibility = 'visible';     
+        display_image.style.visibility = 'visible';
+        move_button.style.visibility = 'visible';
+        image_text.style.visibility = 'visible';
+    };
+
+    let rhodesgrass_ol = document.getElementById('image2-rhodesgrass');
+    rhodesgrass_ol.addEventListener('click', function() {
+        let image_text = document.getElementById('image-text-rhodesgrass');
+        let display_image = document.getElementById('image1-rhodesgrass');
+        if (img_image > im_len-1) {
+            img_image = 0;
+        }
+        if (img_title > im_len-1) {
+            img_title = 0;
+        }
+        if (img_text > im_len-1) {
+            img_text = 0;
+        }
+        display_image.src = images_rhodesgrass[img_image++]
+        display_image.title = images_hover_rhodesgrass[img_title++]
+        image_text.innerText = images_text_rhodesgrass[img_text++]
+        image_text.style.fontStyle = 'italic';
+    });
+    
+    document.getElementById('hide-rhodesgrass').onclick = function() {  
+        let display_image = document.getElementById('image1-rhodesgrass');
+        let hide_button= document.getElementById('hide-rhodesgrass');  
+        let move_button = document.getElementById('image2-rhodesgrass');
+        let image_text = document.getElementById('image-text-rhodesgrass');
+        display_image.style.visibility = 'hidden';  
+        hide_button.style.visibility = 'hidden';
+        move_button.style.visibility = 'hidden';  
+        image_text.style.visibility = 'hidden';
+    };    
+})();
+
+/*  Burrgrass   */
+
+(function() {    
+    let img_image = 0;
+    let img_title = 0;
+    let img_text = 0;
+    let images_burrgrass = ['./images/burrgrass.png'];
+    let images_hover_burrgrass = ['Spiny Burrgrass'];
+    let images_text_burrgrass = ['Spiny Burrgrass']
+    let im_len = images_burrgrass.length;
+
+    document.getElementById('burrgrass').onclick = function() { 
+        let display_image = document.getElementById('image1-burrgrass');
+        let hide_button = document.getElementById('hide-burrgrass');
+        let move_button = document.getElementById('image2-burrgrass');
+        let image_text = document.getElementById('image-text-burrgrass');
+        hide_button.style.visibility = 'visible';     
+        display_image.style.visibility = 'visible';
+        move_button.style.visibility = 'visible';
+        image_text.style.visibility = 'visible';
+    };
+
+    let burrgrass_ol = document.getElementById('image2-burrgrass');
+    burrgrass_ol.addEventListener('click', function() {
+        let image_text = document.getElementById('image-text-burrgrass');
+        let display_image = document.getElementById('image1-burrgrass');
+        if (img_image > im_len-1) {
+            img_image = 0;
+        }
+        if (img_title > im_len-1) {
+            img_title = 0;
+        }
+        if (img_text > im_len-1) {
+            img_text = 0;
+        }
+        display_image.src = images_burrgrass[img_image++]
+        display_image.title = images_hover_burrgrass[img_title++]
+        image_text.innerText = images_text_burrgrass[img_text++]
+        image_text.style.fontStyle = 'italic';
+    });
+    
+    document.getElementById('hide-burrgrass').onclick = function() {  
+        let display_image = document.getElementById('image1-burrgrass');
+        let hide_button= document.getElementById('hide-burrgrass');  
+        let move_button = document.getElementById('image2-burrgrass');
+        let image_text = document.getElementById('image-text-burrgrass');
+        display_image.style.visibility = 'hidden';  
+        hide_button.style.visibility = 'hidden';
+        move_button.style.visibility = 'hidden';  
+        image_text.style.visibility = 'hidden';
+    };    
+})();
+
+
+/*  Carpet grass   */
+
+(function() {    
+    let img_image = 0;
+    let img_title = 0;
+    let img_text = 0;
+    let images_carpetgr = ['./images/carpet_grass.png'];
+    let images_hover_carpetgr = ['Broad-leafed Carpet Grass'];
+    let images_text_carpetgr = ['Broad-leafed Carpet Grass']
+    let im_len = images_carpetgr.length;
+
+    document.getElementById('carpetgr').onclick = function() { 
+        let display_image = document.getElementById('image1-carpetgr');
+        let hide_button = document.getElementById('hide-carpetgr');
+        let move_button = document.getElementById('image2-carpetgr');
+        let image_text = document.getElementById('image-text-carpetgr');
+        hide_button.style.visibility = 'visible';     
+        display_image.style.visibility = 'visible';
+        move_button.style.visibility = 'visible';
+        image_text.style.visibility = 'visible';
+    };
+
+    let carpetgr_ol = document.getElementById('image2-carpetgr');
+    carpetgr_ol.addEventListener('click', function() {
+        let image_text = document.getElementById('image-text-carpetgr');
+        let display_image = document.getElementById('image1-carpetgr');
+        if (img_image > im_len-1) {
+            img_image = 0;
+        }
+        if (img_title > im_len-1) {
+            img_title = 0;
+        }
+        if (img_text > im_len-1) {
+            img_text = 0;
+        }
+        display_image.src = images_carpetgr[img_image++]
+        display_image.title = images_hover_carpetgr[img_title++]
+        image_text.innerText = images_text_carpetgr[img_text++]
+        image_text.style.fontStyle = 'italic';
+    });
+    
+    document.getElementById('hide-carpetgr').onclick = function() {  
+        let display_image = document.getElementById('image1-carpetgr');
+        let hide_button= document.getElementById('hide-carpetgr');  
+        let move_button = document.getElementById('image2-carpetgr');
+        let image_text = document.getElementById('image-text-carpetgr');
+        display_image.style.visibility = 'hidden';  
+        hide_button.style.visibility = 'hidden';
+        move_button.style.visibility = 'hidden';  
+        image_text.style.visibility = 'hidden';
+    };    
+})();
+
+/*  Nutgrass   */
+
+(function() {    
+    let img_image = 0;
+    let img_title = 0;
+    let img_text = 0;
+    let images_ntgrass = ['./images/nutgrass_2.png', './images/nutgrass_3.png', './images/nutgrass_interrow.png', './images/nutgrass_1.png'];
+    let images_hover_ntgrass = ['Cyperus species', 'Cyperus species', 'Nutgrass rapidly growing following orchard interrow disturbance', 'Nutgrass'];
+    let images_text_ntgrass = ['Cyperus species', 'Cyperus species', 'Nutgrass', 'Nutgrass']
+    let im_len = images_ntgrass.length;
+
+    document.getElementById('ntgrass').onclick = function() { 
+        let display_image = document.getElementById('image1-ntgrass');
+        let hide_button = document.getElementById('hide-ntgrass');
+        let move_button = document.getElementById('image2-ntgrass');
+        let image_text = document.getElementById('image-text-ntgrass');
+        hide_button.style.visibility = 'visible';     
+        display_image.style.visibility = 'visible';
+        move_button.style.visibility = 'visible';
+        image_text.style.visibility = 'visible';
+    };
+
+    let ntgrass_ol = document.getElementById('image2-ntgrass');
+    ntgrass_ol.addEventListener('click', function() {
+        let image_text = document.getElementById('image-text-ntgrass');
+        let display_image = document.getElementById('image1-ntgrass');
+        if (img_image > im_len-1) {
+            img_image = 0;
+        }
+        if (img_title > im_len-1) {
+            img_title = 0;
+        }
+        if (img_text > im_len-1) {
+            img_text = 0;
+        }
+        display_image.src = images_ntgrass[img_image++]
+        display_image.title = images_hover_ntgrass[img_title++]
+        image_text.innerText = images_text_ntgrass[img_text++]
+        image_text.style.fontStyle = 'italic';
+    });
+    
+    document.getElementById('hide-ntgrass').onclick = function() {  
+        let display_image = document.getElementById('image1-ntgrass');
+        let hide_button= document.getElementById('hide-ntgrass');  
+        let move_button = document.getElementById('image2-ntgrass');
+        let image_text = document.getElementById('image-text-ntgrass');
+        display_image.style.visibility = 'hidden';  
+        hide_button.style.visibility = 'hidden';
+        move_button.style.visibility = 'hidden';  
+        image_text.style.visibility = 'hidden';
+    };    
+})();
+
+/*  Crabgrass   */
+
+(function() {    
+    let img_image = 0;
+    let img_title = 0;
+    let img_text = 0;
+    let images_crab = ['./images/crabgrass.png', './images/crabgrass_1.png'];
+    let images_hover_crab = ['Crabgrass', 'Crabgrass'];
+    let images_text_crab = ['Crabgrass', 'Crabgrass']
+    let im_len = images_crab.length;
+
+    document.getElementById('crab').onclick = function() { 
+        let display_image = document.getElementById('image1-crab');
+        let hide_button = document.getElementById('hide-crab');
+        let move_button = document.getElementById('image2-crab');
+        let image_text = document.getElementById('image-text-crab');
+        hide_button.style.visibility = 'visible';     
+        display_image.style.visibility = 'visible';
+        move_button.style.visibility = 'visible';
+        image_text.style.visibility = 'visible';
+    };
+
+    let crab_ol = document.getElementById('image2-crab');
+    crab_ol.addEventListener('click', function() {
+        let image_text = document.getElementById('image-text-crab');
+        let display_image = document.getElementById('image1-crab');
+        if (img_image > im_len-1) {
+            img_image = 0;
+        }
+        if (img_title > im_len-1) {
+            img_title = 0;
+        }
+        if (img_text > im_len-1) {
+            img_text = 0;
+        }
+        display_image.src = images_crab[img_image++]
+        display_image.title = images_hover_crab[img_title++]
+        image_text.innerText = images_text_crab[img_text++]
+        image_text.style.fontStyle = 'italic';
+    });
+    
+    document.getElementById('hide-crab').onclick = function() {  
+        let display_image = document.getElementById('image1-crab');
+        let hide_button= document.getElementById('hide-crab');  
+        let move_button = document.getElementById('image2-crab');
+        let image_text = document.getElementById('image-text-crab');
+        display_image.style.visibility = 'hidden';  
+        hide_button.style.visibility = 'hidden';
+        move_button.style.visibility = 'hidden';  
+        image_text.style.visibility = 'hidden';
+    };    
+})();
+
+/*  vicia grass   */
+
+(function() {    
+    let img_image = 0;
+    let img_title = 0;
+    let img_text = 0;
+    let images_vetch = ['./images/vetch-flower.png', './images/vetch.png'];
+    let images_hover_vetch = ['Common vetch', 'Common vetch'];
+    let images_text_vetch = ['Common vetch', 'Common vetch'];
+    let im_len = images_vetch.length;
+
+    document.getElementById('vetch').onclick = function() { 
+        let display_image = document.getElementById('image1-vetch');
+        let hide_button = document.getElementById('hide-vetch');
+        let move_button = document.getElementById('image2-vetch');
+        let image_text = document.getElementById('image-text-vetch');
+        hide_button.style.visibility = 'visible';     
+        display_image.style.visibility = 'visible';
+        move_button.style.visibility = 'visible';
+        image_text.style.visibility = 'visible';
+    };
+
+    let vetch_ol = document.getElementById('image2-vetch');
+    vetch_ol.addEventListener('click', function() {
+        let image_text = document.getElementById('image-text-vetch');
+        let display_image = document.getElementById('image1-vetch');
+        if (img_image > im_len-1) {
+            img_image = 0;
+        }
+        if (img_title > im_len-1) {
+            img_title = 0;
+        }
+        if (img_text > im_len-1) {
+            img_text = 0;
+        }
+        display_image.src = images_vetch[img_image++]
+        display_image.title = images_hover_vetch[img_title++]
+        image_text.innerText = images_text_vetch[img_text++]
+        image_text.style.fontStyle = 'italic';
+    });
+    
+    document.getElementById('hide-vetch').onclick = function() {  
+        let display_image = document.getElementById('image1-vetch');
+        let hide_button= document.getElementById('hide-vetch');  
+        let move_button = document.getElementById('image2-vetch');
+        let image_text = document.getElementById('image-text-vetch');
+        display_image.style.visibility = 'hidden';  
+        hide_button.style.visibility = 'hidden';
+        move_button.style.visibility = 'hidden';  
+        image_text.style.visibility = 'hidden';
+    };    
+})();
+
+/*  Melilotus   */
+
+(function() {    
+    let img_image = 0;
+    let img_title = 0;
+    let img_text = 0;
+    let images_hexham = ['./images/melilotus-1.png', './images/melilotus-flower.png', './images/melilotus.png'];
+    let images_hover_hexham = ['Hexham scent', 'Hexham scent', 'Hexham scent'];
+    let images_text_hexham = ['Hexham scent', 'Hexham scent', 'Hexham scent']
+    let im_len = images_hexham.length;
+
+    document.getElementById('hexham').onclick = function() { 
+        let display_image = document.getElementById('image1-hexham');
+        let hide_button = document.getElementById('hide-hexham');
+        let move_button = document.getElementById('image2-hexham');
+        let image_text = document.getElementById('image-text-hexham');
+        hide_button.style.visibility = 'visible';     
+        display_image.style.visibility = 'visible';
+        move_button.style.visibility = 'visible';
+        image_text.style.visibility = 'visible';
+    };
+
+    let hexham_ol = document.getElementById('image2-hexham');
+    hexham_ol.addEventListener('click', function() {
+        let image_text = document.getElementById('image-text-hexham');
+        let display_image = document.getElementById('image1-hexham');
+        if (img_image > im_len-1) {
+            img_image = 0;
+        }
+        if (img_title > im_len-1) {
+            img_title = 0;
+        }
+        if (img_text > im_len-1) {
+            img_text = 0;
+        }
+        display_image.src = images_hexham[img_image++]
+        display_image.title = images_hover_hexham[img_title++]
+        image_text.innerText = images_text_hexham[img_text++]
+        image_text.style.fontStyle = 'italic';
+    });
+    
+    document.getElementById('hide-hexham').onclick = function() {  
+        let display_image = document.getElementById('image1-hexham');
+        let hide_button= document.getElementById('hide-hexham');  
+        let move_button = document.getElementById('image2-hexham');
+        let image_text = document.getElementById('image-text-hexham');
+        display_image.style.visibility = 'hidden';  
+        hide_button.style.visibility = 'hidden';
+        move_button.style.visibility = 'hidden';  
+        image_text.style.visibility = 'hidden';
+    };    
+})();
 
 /* TEST CODE TO MOVE THROUGH PHOTOS */
 /* CROTALARIA      */
@@ -3310,3 +4277,52 @@ info40.addEventListener('click', function(e) {
     e.preventDefault();
     Raphanus();
 })
+info41.addEventListener('click', function(e) {
+    e.preventDefault();
+    Brassica();
+})
+info42.addEventListener('click', function(e) {
+    e.preventDefault();
+    Plantago();
+})
+info43.addEventListener('click', function(e) {
+    e.preventDefault();
+    Plant_ago();
+})
+info44.addEventListener('click', function(e) {
+    e.preventDefault();
+    Tridax();
+})
+info45.addEventListener('click', function(e) {
+    e.preventDefault();
+    Grass();
+})
+info46.addEventListener('click', function(e) {
+    e.preventDefault();
+    Rhodes();
+})
+info47.addEventListener('click', function(e) {
+    e.preventDefault();
+    Cenchrus();
+})
+info48.addEventListener('click', function(e) {
+    e.preventDefault();
+    Carpetgrass();
+})
+info49.addEventListener('click', function(e) {
+    e.preventDefault();
+    Nutgrass();
+})
+info50.addEventListener('click', function(e) {
+    e.preventDefault();
+    Crabgrass();
+})
+info51.addEventListener('click', function(e) {
+    e.preventDefault();
+    Vicia();
+})
+info52.addEventListener('click', function(e) {
+    e.preventDefault();
+    Melilotus();
+})
+
