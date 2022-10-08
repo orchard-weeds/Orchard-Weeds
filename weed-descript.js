@@ -191,8 +191,8 @@ const tropChick = {
         'Researchgate', 'https://www.researchgate.net/publication/260148614_Effects_of_Weed_Cover_Composition_on_Insect_Pest_and_Natural_Enemy_Abundance_in_a_Field_of_Dracaena_marginata_Asparagales_Asparagaceae_in_Costa_Rica'],
     pest_images: [
         "<img title='Click to enlarge' src='./images/spider.png'>", 
-        "<img title='go to form & upload images' src=''> alt='upload your images'", 
-        "<img title='go to form & upload images' src=''> alt='upload your images'"]
+        "<img title='go to form & upload images' src='./images/blank_pest_image.png'> alt='upload your images'", 
+        "<img title='go to form & upload images' src='./images/blank_pest_image.png'> alt='upload your images'"]
 }
 
 const capsella = {
@@ -324,89 +324,6 @@ const khaki = {
         "<img title='Click to enlarge (thrips)' src='./images/thrips.png'>"]
 }
 
-const fleabane = {
-	common_name: 'Fleabane',
-    other_common_names: ['Horseweed'],
-    botanical_name: 'Erigeron bonariensis',
-    other_species: '<em>Erigeron canadensis</em> and <em>Erigeron sumatrensis</em>',
-    family: 'Asteraceae',
-    uses: '',
-    cultural: 'A common fleabane found in orchards is <em>Erigeron bonariensis</em>, however any of the known fleabane \
-    species can occur in and around orchards. Fleabane is a common weed found in crops, pastures, coastal and riparian areas, \
-    roadsides, disturbed sites and gardens. It reproduces primarily by seed and is dispersed by the wind. Seed is also dispersed by \
-    machinery, water, vehicles, animals and on clothing.',
-    hosts: 'In its natural environment (America), a broad range of insects are known to visit this plant, from nectar feeding \
-    insects to those that eat the leaves <a href="https://www.illinoiswildflowers.info/weeds/plants/horseweed.htm">link</a>. It \
-    likely that there are a similarly broad range of insects visiting plants growing in Australia. \
-    <em>Puccinia cyperi</em> (rust).',
-    observations: 'Please complete the form to add your observations - go to the About page to access the form',
-    links: [
-        'Northern IWM fact sheet', 'https://www.daf.qld.gov.au/__data/assets/pdf_file/0005/65903/Flaxleaf-fleabane.pdf', 
-        'Brisbane Weeds', 'https://weeds.brisbane.qld.gov.au/weeds/flaxleaf-fleabane',
-        'Discover Life', 'https://www.discoverlife.org'
-    ],
-    pest_images: [
-        "<img title='go to form & upload images' alt='go to form & upload images' src=''>", 
-        "<img title='go to form & upload images' alt='go to form & upload images' src=''>", 
-        "<img title='go to form & upload images' alt='go to form & upload images' src=''>"]
-}
-
-const cobblers = {
-	common_name: "Cobbler's pegs",
-    other_common_names: ["cobbler's pegs", "farmer's friend", "stick-tights", "pitch-forks", "burr marigold"],
-    botanical_name: '<em>Bidens pilosa</em> L.',
-    family: 'Asteraceae',
-    uses: 'Medicinal',
-    cultural: 'This weed grows in a range of habitats. It is a common weed of gardens, parks, crops, pastures, \
-	roadsides, and disturbed areas. A single plant can produce 6000 seeds. Studies have shown <em>Bidens pilosa</em> to have strong \
-	allelopathic influences, which suppresses germination and growth of other plants.',
-    hosts: 'A wide range of pests and diseases have been recorded as affecting <em>Bidens pilosa</em> including \
-	Sonchus yellow net virus, Bidens mosaic virus, <em>Cladosporium sp.</em>, <em>Alternaria sp.</em>, <em>Penicillium sp.</em>, \
-	<em>Aspergillus sp.</em> and <em>Sclerotinia sclerotiorum</em> (<a href="https://www.cabi.org/isc/datasheet/9148">Cabi</a>. \
-	See Cabi link for a more complete list pests and diseases. \
-    Bidens is a known host of the Fall armyworm (<em>Spodoptera frugiperda</em>)',
-    observations: 'Please complete the form to add your observations - go to the About page to access the form.<br>\
-    - Honey bees<br>\
-    - Hoverflies<br>',
-    links: [
-        'International Environmental Weed Foundation', 'https://www.iewf.org/weedid/Bidens_pilosa.htm', 
-	    'Weeds of Australia', 'https://keyserver.lucidcentral.org/weeds/data/media/Html/bidens_pilosa.htm', 
-        'Cabi', 'https://www.cabi.org/isc/datasheet/9148', 
-        'Victoria Agriculture', 'http://vro.agriculture.vic.gov.au/dpi/vro/vrosite.nsf/pages/invasive_cobblers_pegs'],
-    pest_images: [
-        "<img title='Click to enlarge (aphids)' src='./images/Bidens_aphids.jpg'>", 
-        "<img title='Click to enlarge' alt='go to form & upload images' src=''>", 
-        "<img title='Click to enlarge' alt='go to form & upload images' src=''>"]
-}
-
-const potato_weed = {
-	common_name: 'Potato weed',
-    other_common_names: [],
-    botanical_name: '<em>Galinsoga parviflora</em> Cav.',
-    family: 'Asteraceae',
-    uses: 'Medicinal, eaten in some countries',
-    cultural: 'Potato weed will grow on a range of soil types (sandy, loamy and clay soils) and will\
-    cope with acidic, neutral and basic conditions. It prefers a moit soil and can grow in full sun or partial shade. \
-    It can be found growing gardens, parks, crops, pastures and disturbed areas. \
-    Potato weed is an annual weed with a short life cycle of less than 40 days in warm climates.',
-    hosts: 'Several mite species have been found on potato weed. A broad range of fungi have been found on this weed, \
-    some of which cause disease in other plants. Viruses include, Tomato spotted mosaic wilt virus, \
-    Cucumber mosaic virus, Turnip mosaic virus and Sunflower mosaic virus. A range of insects have been \
-    found on potato weed. In one extensive study, 122 insects were collected from potato weed, with 22 of these \
-    being crop pests. Parasitized aphids have also been observed, which indicates some type of aphid Parasitoids \
-    (small wasp visit potato weed. This link has a lot of useful information <a href="https://www.cabi.org/isc/datasheet/25299"\
-    >Cabi</a>.',
-    observations: 'Please complete the form to add your observations - go to the About page to access the form',
-    links: [
-        'International Environmental Weed Foundation', 'https://www.iewf.org/weedid/Galinsoga_parviflora.htm', 
-        'Cabi', 'https://www.cabi.org/isc/datasheet/25299', 
-        'Useful tropical plants', 'https://tropical.theferns.info/viewtropical.php?id=Galinsoga+parviflora', 
-        'Insects Associated with Weeds of the Northeastern United States:', 'https://academic.oup.com/ee/article/8/6/1078/2396504?login=false'],
-    pest_images: [
-        "<img title='Click to enlarge (mites)' src='./images/mite2.png'>", 
-        "<img title='Click to enlarge (aphids)' src='./images/aphids.png'>",
-        "<img title='Click to enlarge (thrips)' src='./images/thrips.png'>"]
-}
 
 const willowHerb = {
 	common_name: 'Willowherb',
@@ -883,6 +800,91 @@ const crotalaria = {
     ]
 }
 
+const fleabane = {
+	common_name: 'Fleabane',
+    other_common_names: ['Horseweed'],
+    botanical_name: 'Erigeron bonariensis',
+    other_species: '<em>Erigeron canadensis</em> and <em>Erigeron sumatrensis</em>',
+    family: 'Asteraceae',
+    uses: '',
+    cultural: 'A common fleabane found in orchards is <em>Erigeron bonariensis</em>, however any of the known fleabane \
+    species can occur in and around orchards. Fleabane is a common weed found in crops, pastures, coastal and riparian areas, \
+    roadsides, disturbed sites and gardens. It reproduces primarily by seed and is dispersed by the wind. Seed is also dispersed by \
+    machinery, water, vehicles, animals and on clothing.',
+    hosts: 'In its natural environment (America), a broad range of insects are known to visit this plant, from nectar feeding \
+    insects to those that eat the leaves <a href="https://www.illinoiswildflowers.info/weeds/plants/horseweed.htm">link</a>. It \
+    likely that there are a similarly broad range of insects visiting plants growing in Australia. \
+    <em>Puccinia cyperi</em> (rust).',
+    observations: 'Please complete the form to add your observations - go to the About page to access the form',
+    links: [
+        'Northern IWM fact sheet', 'https://www.daf.qld.gov.au/__data/assets/pdf_file/0005/65903/Flaxleaf-fleabane.pdf', 
+        'Brisbane Weeds', 'https://weeds.brisbane.qld.gov.au/weeds/flaxleaf-fleabane',
+        'Discover Life', 'https://www.discoverlife.org'
+    ],
+    pest_images: [
+        "<img title='go to form & upload images' alt='go to form & upload images' src='./images/blank_pest_image.png'>", 
+        "<img title='go to form & upload images' alt='go to form & upload images' src='./images/blank_pest_image.png'>", 
+        "<img title='go to form & upload images' alt='go to form & upload images' src='./images/blank_pest_image.png'>"]
+}
+
+const cobblers = {
+	common_name: "Cobbler's pegs",
+    other_common_names: ["cobbler's pegs", "farmer's friend", "stick-tights", "pitch-forks", "burr marigold"],
+    botanical_name: '<em>Bidens pilosa</em> L.',
+    family: 'Asteraceae',
+    uses: 'Medicinal',
+    cultural: 'This weed grows in a range of habitats. It is a common weed of gardens, parks, crops, pastures, \
+	roadsides, and disturbed areas. A single plant can produce 6000 seeds. Studies have shown <em>Bidens pilosa</em> to have strong \
+	allelopathic influences, which suppresses germination and growth of other plants.',
+    hosts: 'A wide range of pests and diseases have been recorded as affecting <em>Bidens pilosa</em> including \
+	Sonchus yellow net virus, Bidens mosaic virus, <em>Cladosporium sp.</em>, <em>Alternaria sp.</em>, <em>Penicillium sp.</em>, \
+	<em>Aspergillus sp.</em> and <em>Sclerotinia sclerotiorum</em> (<a href="https://www.cabi.org/isc/datasheet/9148">Cabi</a>. \
+	See Cabi link for a more complete list pests and diseases. \
+    Bidens is a known host of the Fall armyworm (<em>Spodoptera frugiperda</em>)',
+    observations: 'Please complete the form to add your observations - go to the About page to access the form.<br>\
+    - Honey bees<br>\
+    - Hoverflies<br>',
+    links: [
+        'International Environmental Weed Foundation', 'https://www.iewf.org/weedid/Bidens_pilosa.htm', 
+	    'Weeds of Australia', 'https://keyserver.lucidcentral.org/weeds/data/media/Html/bidens_pilosa.htm', 
+        'Cabi', 'https://www.cabi.org/isc/datasheet/9148', 
+        'Victoria Agriculture', 'http://vro.agriculture.vic.gov.au/dpi/vro/vrosite.nsf/pages/invasive_cobblers_pegs'],
+    pest_images: [
+        "<img title='Click to enlarge (aphids)' src='./images/Bidens_aphids.jpg'>", 
+        "<img title='Click to enlarge' alt='go to form & upload images' src='./images/blank_pest_image.png'>", 
+        "<img title='Click to enlarge' alt='go to form & upload images' src='./images/blank_pest_image.png'>"]
+}
+
+const potato_weed = {
+	common_name: 'Potato weed',
+    other_common_names: [],
+    botanical_name: '<em>Galinsoga parviflora</em> Cav.',
+    family: 'Asteraceae',
+    uses: 'Medicinal, eaten in some countries',
+    cultural: 'Potato weed will grow on a range of soil types (sandy, loamy and clay soils) and will\
+    cope with acidic, neutral and basic conditions. It prefers a moit soil and can grow in full sun or partial shade. \
+    It can be found growing gardens, parks, crops, pastures and disturbed areas. \
+    Potato weed is an annual weed with a short life cycle of less than 40 days in warm climates.',
+    hosts: 'Several mite species have been found on potato weed. A broad range of fungi have been found on this weed, \
+    some of which cause disease in other plants. Viruses include, Tomato spotted mosaic wilt virus, \
+    Cucumber mosaic virus, Turnip mosaic virus and Sunflower mosaic virus. A range of insects have been \
+    found on potato weed. In one extensive study, 122 insects were collected from potato weed, with 22 of these \
+    being crop pests. Parasitized aphids have also been observed, which indicates some type of aphid Parasitoids \
+    (small wasp visit potato weed. This link has a lot of useful information <a href="https://www.cabi.org/isc/datasheet/25299"\
+    >Cabi</a>.',
+    observations: 'Please complete the form to add your observations - go to the About page to access the form',
+    links: [
+        'International Environmental Weed Foundation', 'https://www.iewf.org/weedid/Galinsoga_parviflora.htm', 
+        'Cabi', 'https://www.cabi.org/isc/datasheet/25299', 
+        'Useful tropical plants', 'https://tropical.theferns.info/viewtropical.php?id=Galinsoga+parviflora', 
+        'Insects Associated with Weeds of the Northeastern United States:', 'https://academic.oup.com/ee/article/8/6/1078/2396504?login=false'],
+    pest_images: [
+        "<img title='Click to enlarge (mites)' src='./images/mite2.png'>", 
+        "<img title='Click to enlarge (aphids)' src='./images/aphids.png'>",
+        "<img title='Click to enlarge (thrips)' src='./images/thrips.png'>"]
+}
+
+
 const sonchus = {
 	common_name: 'Common sowthistle',
     other_common_names: ['annual sowthistle', 'colewort', 'field sow-thistle', 'hare’s lettuce', 'hare’s thistle', 'milk thistle'],
@@ -915,8 +917,8 @@ const sonchus = {
     and corky rot (<em>Rhizomonas suberifaciens</em>) (UNE). \
     Common sowthistle is a known host plant for Green vegetable bugs (NZAC FACT SHEET). Green vegetable bugs were \
     also recorded on common sowthistle in macadamia orchards (Jones).',
-    observations: 'Please complete the form to add your observations - go to the About page to access the form.<br><br>\
-    Bundaberg:<br>\
+    oobservations: 'Please complete the form to add your observations - go to the About page to access the form \
+    or post your observations on Facebook.<br><br>\
     - Aphids<br>\
     - Powdery mildew<br>\
     - Fungus-eating ladybird<br>',
@@ -966,7 +968,8 @@ const cudweed = {
     Cudweed is also reported to be a host for <em>Vanessa virginiensis</em> (American Lady Butterfly). Other types of \
     cudweed are reported to attract a range of insects, \
     including various bee types, wasps and butterflies. ",
-    observations: 'Please complete the form to add your observations - go to the About page to access the form.<br><br>',
+    observations: 'Please complete the form to add your observations - go to the About page to access the form \
+    or post your observations on Facebook.<br><br>',
     links: [
         'Discover Life', 'https://www.discoverlife.org',
         'PlantNet', 'https://plantnet.rbgsyd.nsw.gov.au/cgi-bin/NSWfl.pl?page=nswfl&lvl=sp&name=Gamochaeta~purpurea',
@@ -996,7 +999,8 @@ const cotula = {
     associations. Known hosts include <em>Albugo tragopogonis</em> (White rust), <em>Desiantha variabilis</em> (Cotula weevil) \
     (<a href="https://www.tandfonline.com/action/showCitFormats?doi=10.1080/03036758.1977.10427160">DOI</a>) and \
     Potato virus Y (potato mottle) (Cabi).',
-    observations: 'Please complete the form to add your observations - go to the About page to access the form.<br><br>',
+    observations: 'Please complete the form to add your observations - go to the About page to access the form \
+    or post your observations on Facebook.<br><br>',
     links: [
         'Discover Life', 'https://www.discoverlife.org',
         'tandfonline', 'https://www.tandfonline.com/doi/pdf/10.1080/03036758.1977.10427160',
@@ -1006,9 +1010,9 @@ const cotula = {
         'Agriculture Victoria', 'https://vro.agriculture.vic.gov.au/dpi/vro/vrosite.nsf/pages/sip_common_cotula'
     ],
     pest_images: [
-        "<img title='please upload your observations' alt='please upload your observations' src=''>", 
-        "<img title='please upload your observations' alt='please upload your observations' src=''>", 
-        "<img title='please upload your observations' alt='please upload your observations' src=''>"
+        "<img title='please upload your observations' alt='please upload your observations' src='./images/blank_pest_image.png'>", 
+        "<img title='please upload your observations' alt='please upload your observations' src='./images/blank_pest_image.png'>", 
+        "<img title='please upload your observations' alt='please upload your observations' src='./images/blank_pest_image.png'>"
     ]
 }
 
@@ -1029,7 +1033,8 @@ const hawkweed = {
     important pests such as lettuce aphids (<em>Nasonovia ribisnigri</em>. It is also a host for \
     <em>Sphaerotheca humuli</em> (powdery mildew), <em>Puccinia crepidis</em> (rust), <em>Synchytrium aureum</em> \
      (False rust) and a small Miridae plant bug (<em>Labopidea pallida</em>)',
-    observations: 'Please complete the form to add your observations - go to the About page to access the form.<br><br>',
+     observations: 'Please complete the form to add your observations - go to the About page to access the form \
+     or post your observations on Facebook.<br><br>',
     links: [
         'The Jepson Herbarium', 'https://ucjeps.berkeley.edu/eflora/eflora_display.php?tid=2400',
         'RBGS', 'https://plantnet.rbgsyd.nsw.gov.au/cgi-bin/NSWfl.pl?page=nswfl&lvl=sp&name=Crepis~capillaris',
@@ -1068,7 +1073,8 @@ const smooth_catsear = {
     <em>H. glabra</em> and <em>P. radicata</em>. A much broader range of associations are recorded for <em>P. radicata</em>. \
     It is not known if these associations are also present in Smooth catsear. Please record your observations \
     so that we can start to build a knowledge base for this plant.',
-    observations: 'Please complete the form to add your observations - go to the About page to access the form.<br><br>',
+    observations: 'Please complete the form to add your observations - go to the About page to access the form \
+    or post your observations on Facebook.<br><br>',
     links: [
         'RBGS', 'https://plantnet.rbgsyd.nsw.gov.au/cgi-bin/NSWfl.pl?page=nswfl&lvl=sp&name=Hypochaeris~glabra',
         'Weeds of Australia', 'https://keyserver.lucidcentral.org/weeds/data/media/Html/hypochaeris_glabra.htm',
@@ -1109,7 +1115,8 @@ const catsear = {
         <em>Ramularia hypochoeridis</em> (leaf spot), aphids (<em>Macrosiphum sp.</em>, <em>Uroleucon</em> (Large cat's ear aphid) \
         & <em>Myzus sp.</em>). \
         Another aphid reported on Cat's ear is <em>Aphis hypochoeridis</em> (Cat's-ear root aphid).",
-    observations: 'Please complete the form to add your observations - go to the About page to access the form.<br><br>',
+        observations: 'Please complete the form to add your observations - go to the About page to access the form \
+        or post your observations on Facebook.<br><br>',
     links: [
         'RBGS', 'https://plantnet.rbgsyd.nsw.gov.au/cgi-bin/NSWfl.pl?page=nswfl&lvl=sp&name=Hypochaeris~radicata',
         'Weeds of Australia', 'https://keyserver.lucidcentral.org/weeds/data/media/Html/hypochaeris_radicata.htm#Notes',
@@ -1155,7 +1162,8 @@ const dandelion = {
     (rust), <em>Colletotrichum dematium</em> (anthracnose), <em>Synchytrium taraxaci</em>, Various types of rusts: \
     <em>Puccinia dioicae</em>, <em>P. flosculosorum</em>, <em>P. hieracii</em>, <em>P. prenanthis</em>, \
     <em>P. silvatica</em>, <em>P. silvaticella</em>, <em>P. taraxaci</em> and <em>Puccinia variabilis</em>',
-    observations: 'Please complete the form to add your observations - go to the About page to access the form.<br><br>',
+    observations: 'Please complete the form to add your observations - go to the About page to access the form \
+    or post your observations on Facebook.<br><br>',
     links: [
         'RBGS', 'https://plantnet.rbgsyd.nsw.gov.au/cgi-bin/NSWfl.pl?page=nswfl&lvl=sp&name=Taraxacum~officinale',
         'FEIS', 'https://www.fs.fed.us/database/feis/plants/forb/taroff/all.html',
@@ -1191,7 +1199,8 @@ const mouseear = {
         (BtMV), <em>Ralstonia solanacearum bacterium</em> and Impatiens necrotic \
         spot virus (Okuda). Other associations include <em>Septoria cerastii</em> (leaf spot), <em>Peronospora alsinearum, P. conferta, P. tomentosa</em>, \
         <em>Ustilago duriaeana</em> and <em>Fabraea cerastiorum</em> (Discover Life).',
-    observations: 'Please complete the form to add your observations - go to the About page to access the form.<br><br>',
+        observations: 'Please complete the form to add your observations - go to the About page to access the form \
+        or post your observations on Facebook.<br><br>',
     links: [
         'RBGS', 'https://plantnet.rbgsyd.nsw.gov.au/cgi-bin/NSWfl.pl?page=nswfl&lvl=sp&name=Cerastium~glomeratum',
         'Atlas of living Australia', 'https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2903560',
@@ -1202,9 +1211,9 @@ const mouseear = {
         'Discover Life', 'https://www.discoverlife.org/mp/20q'
     ],
     pest_images: [
-        "<img title='please upload your observations' alt='please upload your observations' src=''>",
-        "<img title='please upload your observations' alt='please upload your observations' src=''>",
-        "<img title='please upload your observations' alt='please upload your observations' src=''>"
+        "<img title='please upload your observations' alt='please upload your observations' src='./images/blank_pest_image.png'>",
+        "<img title='please upload your observations' alt='please upload your observations' src='./images/blank_pest_image.png'>",
+        "<img title='please upload your observations' alt='please upload your observations' src='./images/blank_pest_image.png'>"
     ]
 }
 
@@ -1244,7 +1253,8 @@ const chickweed = {
     including Oat blue dwarf virus, Beet western yellows virus, Tomato spotted wilt virus, Carnation ringspot virus, \
     Cucumber mosaic virus, Lettuce mosaic virus, Raspberry ringspot virus and Strawberry latent ringspot virus (Cabi). \
     Other viruses include beet mild yellowing virus, and tomato blackring virus.',
-    observations: 'Please complete the form to add your observations - go to the About page to access the form.<br><br>',
+    observations: 'Please complete the form to add your observations - go to the About page to access the form \
+    or post your observations on Facebook.<br><br>',
     links: [
         'Illinois Wildflowers', 'https://www.illinoiswildflowers.info/weeds/plants/cm_chickweed.htm',
         'inaturalist', 'https://www.inaturalist.org/guide_taxa/355764',
@@ -1283,7 +1293,8 @@ const flickweed = {
     The caterpillars of the butterfly <em>Anthocharis midea</em> (Falcate Orangetip) and the moth \
     <em>Evergestis pallidata</em> (Purple-Backed Cabbageworm) are reported to feed on flickweed. \
     It is also a source of nectar (adult) and host plant (larvae) of the cabbage white butterfly (<em>Pieris napi</em>).',
-    observations: 'Please complete the form to add your observations - go to the About page to access the form.<br><br>',
+    observations: 'Please complete the form to add your observations - go to the About page to access the form \
+    or post your observations on Facebook.<br><br>',
     links: [
         'IFAS', 'https://edis.ifas.ufl.edu/pdf/EP/EP51100.pdf',
         'NC State factsheet', 'https://plants.ces.ncsu.edu/plants/cardamine-hirsuta/',
@@ -1327,7 +1338,8 @@ const fathen = {
     Fat hen is a host for the common stalkborer. \
     Caterpillars known to feed on fat hen leaves include <em>Amyna octo</em> (Eight spot) and \
     <em>Theclinesthes serpentatus</em> (Chequered or Saltbush Blue).',
-    observations: 'Please complete the form to add your observations - go to the About page to access the form.<br><br>',
+    observations: 'Please complete the form to add your observations - go to the About page to access the form \
+    or post your observations on Facebook.<br><br>',
     links: [
         'UNE factsheet', 'https://www.une.edu.au/__data/assets/pdf_file/0007/190825/une-weeds-fathen.pdf',
         'Weeds of Australia', 'https://keyserver.lucidcentral.org/weeds/data/media/Html/chenopodium_album.htm',
@@ -1368,7 +1380,8 @@ const burmedic = {
     The small yellow flowers are reported to attract small butterflies and other pollinating insects. \
     In the publication, Honey and Pollen Flora by Alan Clemson, burr medic is described as having good \
     pollen and nectar supplies.',
-    observations: 'Please complete the form to add your observations - go to the About page to access the form.<br><br>',
+    observations: 'Please complete the form to add your observations - go to the About page to access the form \
+    or post your observations on Facebook.<br><br>',
     links: [
         'Florabase', 'https://florabase.dpaw.wa.gov.au/browse/profile/4079',
         'RBGS', 'https://plantnet.rbgsyd.nsw.gov.au/cgi-bin/NSWfl.pl?page=nswfl&lvl=sp&name=Medicago~polymorpha',
@@ -1532,7 +1545,546 @@ const raphanus = {
     ]
 }
 
+const  brassica = {
+	common_name: 'Mediterranean Turnip',
+    other_common_names: ["African mustard, Asian mustard", "long fruited wild turnip", "long-fruited wild turnip", 
+    "Mediterranean mustard", "Mediterranean turnip", "Moroccan mustard", "prickly turnip", "Sahara mustard", 
+    "turnip weed", "wild turnip"],
+    botanical_name: '<em>Brassica tournefortii</em> Gouan',
+    family: 'Brassicaceae',
+    uses: 'Mediterranean turnip is an annual plant in the cabbage or brassicaceae family. \
+    It forms a well developed taproot and branched stem that can reach up to 100 cm.\
+    The plant forms a large basal rosette, with leaves lobed and ranging in size from \
+    15 to 30cm. The lower stem leaves are large, but reduce in size upwards along the stem (becoming speared shaped). \
+    Flowers are small and yellow (5-8 mm wide) that fade to white. Fruit (siliqua) is spreading, 3–7 cm long, and \
+    approximately 3 mm wide. At maturity, the large branched stems can break and forming tumbleweeds to disperse seeds. \
+    ',
+    cultural: '',
+    hosts: '',
+    observations: 'Please complete the form to add your observations - go to the About page to access the form \
+    or post your observations on Facebook.<br><br>',
+    links: [
+        'RBGS', 'https://plantnet.rbgsyd.nsw.gov.au/cgi-bin/NSWfl.pl?page=nswfl&lvl=sp&name=Brassica~tournefortii',
+        'UCDAVIS', 'https://wric.ucdavis.edu/information/natural%20areas/wr_B/Brassica_tournefortii.pdf',
+        'USDA', 'https://www.aphis.usda.gov/plant_health/plant_pest_info/weeds/downloads/wra/brassica-tournefortii.pdf'
+    ],
+    pest_images: [
+        "<img title='please upload your observations' alt='please upload your observations' src='./images/blank_pest_image.png'>",
+        "<img title='please upload your observations' alt='please upload your observations' src='./images/blank_pest_image.png'>",
+        "<img title='please upload your observations' alt='please upload your observations' src='./images/blank_pest_image.png'>"
+    ]
+}
 
+const  plantago = {
+	common_name: "Lamb's Tongues",
+    other_common_names: ["Plantain", 'black jack', 'black plantain', 'buckhorn', 'buckhorn plantain', 
+    'buckhorn ribgrass', 'common plantain', 'English plantain', 'small plantain', 'snake plantain', 'wild sago'],
+    botanical_name: '<em>Plantago lanceolata</em> L.',
+    family: 'Plantaginaceae',
+    uses: 'Uses include sward improvement and forage. It is reported to have medicinal properties.',
+    cultural: "Lamb's Tongues is an annual or biennial herb with a persistent tap root. \
+    The basal leaves (rosset) have a lance to oval shape (8–20 cm long, 10–30 mm wide) and tapering at the tip. \
+    Leaves are 5-veined and leaf edges have a few minute teeth. Flower stalks can reach 45cm high and are \
+    longitudinally ridged. Small flowers form on a simple inflorescence (spike), with the spike ranging in size \
+    from 1 to 12 cm long. \
+    While this weed is considered to be a wind pollinated plant, syrphid flies and bees are \
+    reported to visit flowers and are possibly involved in pollination. \
+    Fruit is a capsule, 3-4 mm long. Reproduction is mainly by seed, but it can also reproduce \
+    via stem fragments. Seed can remain viable for up to 3 years and the plant can resprout following fire. <br><br>\
+    Lamb's Tongues is found in many countries around the world and is widely naturalised in Australia. \
+    Lamb's Tongues is reported to grow in a range of soil types. It is known to form associations with \
+    mycorrhizal fungi, which improve nutrient and water uptake \
+    (See article: Plantago lanceolata – An overview of its agronomically and healing valuable features \
+    <a href='https://www.degruyter.com/document/doi/10.1515/opag-2021-0035/html' target=_blank>(Link)</a>). \
+    Lamb's Tongues is a common weed in cultivation, \
+    lawns, turfs, gardens, orchards, roadsides and disturbed areas.",
+    hosts: "A range of natural enemies (invertebrates, fungi and viruses) \
+    are reported for this weed in an article published in the Journal of Ecology \
+    <a href='https://www.jstor.org/stable/2257792?origin=crossref' target=_blank>(Link)</a>. \
+    Illinois wildflowers provides a list of insects known to impact Lamb's tongues \
+    <a href='https://www.illinoiswildflowers.info/weeds/tables/table22.html' target=_blank>(Link)</a>, \
+    some of these include the Northern Plantain Flea Beetle, Carrot Weevil, Chrysanthemum Leafminer, \
+    Garden Flea Hopper, Brown Stink Bug, Rosy Apple Aphid and Trochanter Mealybug. \
+    It is a reported host for the light brown apple moth, which has a broad host range (see link below) including \
+    over 250 fruit and vegetable plants. \
+    It is also a host for Green vegetable bugs, which is an important economic pest in agriculture and horticulture.\
+    The website, Aphids of the world, list 16 types of aphids feeding on Lamb's tongues (see link below). \
+    One of these is the Plantain aphid (<em>Aphis plantaginis</em> - see pest images). \
+    Lamb's tongues is also a host for the Beet Armyworm moth (<em>Spodoptera exigua</em>), \
+    which is an important pest in a number of crops. \
+    Powdery mildew is also known to impact this weed (<em>Podosphaera plantaginis</em>, <em>Golovinomyces sordidus</em>). \
+    The website, Discover Life, provide a substantial list of beneficial and pest organisms impacting Lamb's tongues - \
+    see link below. <br><br>\
+    Lamb's tongues is reported to be a host to a range of moths and butterflies, some of which include \
+    <em>Spilosoma congrua</em> (Agreeable tiger moth) and <em>Melitaea cinxia</em> (Glanville Fritillary). \
+    The Buckeye butterfly larvae (<em>Junonia coenia</em>) is also known to eat the leaves of Lamb's tongues. \
+    Toxic ompounds in the leaves accumulate in the caterpillars \
+    and make them unpalatable to predators. Hoverflies are also known to visit flowers. <br>\
+    ",
+    observations: 'Please complete the form to add your observations - go to the About page to access the form \
+    or post your observations on Facebook.<br><br>',
+    links: [
+        'RBGS', 'https://plantnet.rbgsyd.nsw.gov.au/cgi-bin/NSWfl.pl?page=nswfl&showsyn=&dist=&constat=&lvl=sp&name=Plantago~lanceolata',
+        'Weeds of Australia', 'https://keyserver.lucidcentral.org/weeds/data/media/Html/plantago_lanceolata.htm',
+        'Florabase', 'https://florabase.dpaw.wa.gov.au/browse/profile/7303',  
+        'Cabi', 'https://www.cabi.org/isc/datasheet/41813#598AB7F9-D42F-4F7F-8F3C-204E74AB38AD',
+        'Cabi-1', 'https://www.cabi.org/isc/datasheet/54204',
+        'light brown apple moth hosts', 'https://www.cdfa.ca.gov/plant/PDEP/target_pest_disease_profiles/hostlists/LBAM_HostList.pdf',
+        'PFAF', 'https://pfaf.org/user/plant.aspx?LatinName=Plantago+lanceolata',
+        'Atlas of living Australia', 'https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2899343',
+        'Illinois Wildflowers', 'https://www.illinoiswildflowers.info/weeds/plants/eng_plantain.htm',
+        'New Zealand Arthropod Collection Factsheet Series', 'https://nzacfactsheets.landcareresearch.co.nz/factsheet/InterestingInsects/Green-vegetable-bug---Nezara-viridula.html',
+        'Aphids of the world', 'http://www.aphidsonworldsplants.info/C_HOSTS_Pip_Pon.htm#Plantago',
+        'Influential points', 'https://influentialpoints.com/Gallery/Aphis_plantaginis_plantain_aphid.htm',
+        'Backyard butterflies', 'https://www.backyardbutterflies.org/better-know-a-host-plant-ribgrass-plantain/',
+        'Butterfly House', 'http://lepidoptera.butterflyhouse.com.au/acro/exigua.html',
+        'Discoverlife', 'https://www.discoverlife.org/mp/20q'
+    ],
+    pest_images: [
+        "<img title='(Plantain aphid). Photo by InfluentialPoints: https://influentialpoints.com/Gallery/Aphis_plantaginis_plantain_aphid.htm)' alt='Plantain aphid' src='./images/plantain_aphid.png'>",
+        "<img title='(Syphid fly larva predating Plantain aphids). Photo by InfluentialPoints: https://influentialpoints.com/Gallery/Aphis_plantaginis_plantain_aphid.htm)' alt='Syphid fly larva predating Plantain aphids' src='./images/plantain_aphid_syphid_fly.png'>",
+        "<img title='(Hoverfly - photo by ABC, Libbi Gorr)' alt='photograph of a hoverfly on a flower' src='./images/hoverfly.png'>"
+    ]
+}
+
+const plant_ago = {
+	common_name: 'Plantain',
+    other_common_names: ["Variable Plantain", "Small Plantain", "Narrow plantain", "Slender or Shade Plantain", "broad leaved plantain"],
+    botanical_name: '<em>Plantago spp.</em> <br>\
+                    <em>Plantago major</em> L.<br>\
+                    <em>Plantago debilis</em> R.Br.<br>\
+                    <em>Plantago gaudichaudii</em> R.Br.<br>\
+                    <em>Plantago varia</em> Barneoud<br>',
+    family: 'Plantaginaceae',
+    uses: 'Various uses are reported, including medicinal.',
+    cultural: "In addition to <em>Plantago lanceolata</em> (Lamb's Tongues), there are numerous other plantago species \
+    that are present in Australia and throughout the world. A number of these species can be found growing in the same situation \
+    as the commonly found Lamb's Tongues e.g., lawns, degraded areas, cultivation and \
+    natural areas. Some plantains are also known for growing in compacted soils. <em>Plantago debilis</em> an Australian native, \
+    it has a wide distribution and can be found growing in gardens, lawns and in agricultural situations. <em>Plantago major</em> can \
+    be found growing in similar situations to <em>Plantago lanceolata</em>. The Living Atlas of Australia website provides \
+    a distribution map for plantago species found in Australia - please click this link to view this map and \
+    other data <a href='https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/7745425' target=_blank>Click Here</a>",
+    hosts: 'Information on the range of other plantains is sparse to non-existent. They could share many of the hosts \
+    reported for <em>Plantago lanceolata</em>, but at this stage more studies and observations are required.',
+    observations: 'Please complete the form to add your observations - go to the About page to access the form \
+    or post your observations on Facebook.<br><br>\
+    Aphid species observed on the lower leaf surface (<em>Plantago debilis</em>)',
+    links: [
+        'Weeds of Australia (<em>P. major</em>)', 'https://keyserver.lucidcentral.org/weeds/data/media/Html/plantago_major.htm',
+        'RBGS (<em>P. major</em>)', 'https://plantnet.rbgsyd.nsw.gov.au/cgi-bin/NSWfl.pl?page=nswfl&lvl=sp&name=Plantago~major',
+        'Cabi (<em>P. major</em>)', 'https://www.cabi.org/isc/datasheet/41814',
+        'RBGS (<em>P. debilis</em>)', 'https://plantnet.rbgsyd.nsw.gov.au/cgi-bin/NSWfl.pl?page=nswfl&lvl=sp&name=Plantago~debilis',
+        'Living atlas of Australia <em>P. debilis</em>', 'https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2906120',
+        'RBGS (<em>P. gaudichaudii</em>)', 'https://plantnet.rbgsyd.nsw.gov.au/cgi-bin/NSWfl.pl?page=nswfl&lvl=sp&name=Plantago%7Egaudichaudii',
+        'Yarra Ranges (<em>P. gaudichaudii</em>)', 'https://www.yarraranges.vic.gov.au/PlantDirectory/Herbs-Groundcovers/Plantago-gaudichaudii',
+        'RBGS (<em>P. varia</em>)', 'https://plantnet.rbgsyd.nsw.gov.au/cgi-bin/NSWfl.pl?page=nswfl&lvl=sp&name=Plantago~varia',
+        'Yarra Ranges (<em>P. varia</em>)', 'https://www.yarraranges.vic.gov.au/PlantDirectory/Herbs-Groundcovers/Plantago-varia',
+        'Atlas of living Australia (<em>P. varia</em>)', 'https://bie.ala.org.au/search?q=PLANTAGO%2BVARIA'
+    ],
+    pest_images: [
+        "<img title='please upload your observations' alt='please upload your observations' src='./images/blank_pest_image.png'>",
+        "<img title='please upload your observations' alt='please upload your observations' src='./images/blank_pest_image.png'>",
+        "<img title='Aphids on the lower leaf surface of Plantago debilis' alt='Aphids on the lower leaf surface of Plantago debilis' src='./images/p_debilis_aphid.png'>"
+    ]
+}
+
+const tridax = {
+	common_name: 'Tridax daisy',
+    other_common_names: ["coat buttons", "coatbuttons", "Mexican daisy", "tridax", "tridax daisy", "wild daisy"],
+    botanical_name: '<em>Tridax procumbens</em> L.',
+    family: 'Asteraceae',
+    uses: 'Medicinal',
+    cultural: 'Tridax daisies is a native of the tropical Americas, but is now a common weed of many countries and  \
+    multiple climatic zones (tropical, su-tropical & temperate). It is commonly found growing on roadsides, \
+    gardens, cultivation, natural areas and lawns. It is a spreading perennial herb, growing upto 75cm, but usually less. \
+    It is reported to have a firm taproot. The plant is characterised by \
+    lanceolate to ovate shaped leaves (3–4 cm long, 10–20 mm wide), which are bright green above and grey-green \
+    below, and toothed or shallowly lobed. Flowers are daisy like, with the centre yellow and petals yellow or white.\
+    Plants are capable of both self and cross pollination, with thrips, beetles, bees and butterflies listed \
+    as pollinators. \
+    A single plant can produce upto 2500 seeds. Seed germination is highest where seeds are exposed \
+    to some light. Allelopathic effects have been reported in rice.',
+    hosts: 'In terms of floral visitations, the article <a href="https://tapro.sljol.info/articles/abstract/10.4038/tapro.v5i2.6286/" target=_blank>Psychophilous and Melittophilous Pollination Syndrome in Tridax procumbens L. (Asteraceae)</a> \
+    provide a comprehensive list of insects forage for nectar and pollen on tridax daisies.\
+    Some of these included <em>Apis dorsata</em> (Giant honey bee), <em>Tetragonula iridipennis</em> (Indian stingless bee), \
+    <em>Helophilus sp.</em> (Hoverfly), \
+    <em>Pachliopta aristolochiae</em>, <em>Graphium agamemnon</em>, \
+    <em>Catopsilia pomona</em> (Common emigrant or lemon emigrant butterfly), <em>Ariadnae merione</em> (Common castor butterfly), \
+    <em>Precis iphita</em> (Chocolate pansy butterfly), \
+    <em>Zuzula hylax</em> (Tiny grass blue butterfly) and <em>Borbo cinnara</em> (Rice swift butterfly).\
+    In an article <a href="https://butterflycircle.blogspot.com/2017/09/favourite-nectaring-plants-13.html" target=_blank>Butterflies of Singapore</a> a range of butterflies have been \
+    observed visiting tridax daisies.<br><br>\
+    Pests and diseases reported with tridax daisies include: <br>\
+    Tridax mosaic virus<br>\
+    Root-knot nematodes <br>\
+    <em>Phalanta phalantha</em> (Leopard or spotted rustic butterfly) known defoliate poplar trees. <br>\
+    Red spider mite (<em>Tetranychus telarius [Tetranychus urticae]</em>).<br>\
+    <em>Macrophomina phaseolina</em> (causes damping off) <br>\
+    Sunflower yellow blotch umbravirus <br>\
+    <em>Aphis citricola</em> (aphid) - a vector of citrus cistreza closterovirus.<br>\
+    <em>Cercospora tridacis-procumbentis</em> (Cercospora spot)<br>\
+    <em>Puccinia cnici-oleracei</em> (rust)<br>\
+    <em>Puccinia melampodii</em> (rust)',
+    observations: 'Please complete the form to add your observations - go to the About page to access the form \
+    or post your observations on Facebook.<br><br>',
+    links: [
+        'Wikipedia', 'https://en.wikipedia.org/wiki/Tridax_procumbens',
+        'Weeds of Australia', 'https://keyserver.lucidcentral.org/weeds/data/media/Html/tridax_procumbens.htm',
+        'Cabi', 'https://www.cabi.org/isc/datasheet/55072',
+        'Atlas of living Australia', 'https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2905198',
+        'RBGS', 'https://plantnet.rbgsyd.nsw.gov.au/cgi-bin/NSWfl.pl?page=nswfl&lvl=sp&name=Tridax~procumbens',
+        'Butterflies of Singapore', 'https://butterflycircle.blogspot.com/2017/09/favourite-nectaring-plants-13.html',
+        'Discover Life', 'https://www.discoverlife.org/mp/20q'
+    ],
+    pest_images: [
+        "<img title='please upload your observations' alt='please upload your observations' src='./images/blank_pest_image.png'>",
+        "<img title='please upload your observations' alt='please upload your observations' src='./images/blank_pest_image.png'>",
+        "<img title='please upload your observations' alt='please upload your observations' src='./images/blank_pest_image.png'>"
+    ]
+}
+
+const grass = {
+	common_name: 'Grasses',
+    other_common_names: [],
+    botanical_name: 'Poaceae',
+    family: 'Poaceae',
+    uses: 'According to the Royal Botanical Gardens of Sydney, \
+    grasses directly supply about 60% of the food for human consumption. \
+    Economically important grasses include Wheat, Rice, Maize, Barley, Oats, Sorghum, Rye and Millets. \
+    Grasses are important in natural environments and in human created environments.',
+    cultural: 'Due to the diverse range of grasses, complexity of growing environments (multiple grasses growing \
+    in proximity to each other) and difficulties with accurate grass identification, this broad grass category has been added. \
+    If the area that you are observing is a mixture of grass types or you are unsure about its identity, your \
+    observations can be added under this section.',
+    hosts: 'See individual grasses for host details.',
+    observations: 'Please complete the form to add your observations - go to the About page to access the form \
+    or post your observations on Facebook.<br><br>',
+    links: [
+        'RBGS', 'https://plantnet.rbgsyd.nsw.gov.au/cgi-bin/NSWfl.pl?page=nswfl&lvl=fm&name=POACEAE',
+        'Grassess', 'https://keys.lucidcentral.org/keys/v3/South_African_Plant_Families/key/South%20African%20Plant%20Families/Media/Html/Poaceae.htm',
+        'Cabi', 'https://www.cabi.org/isc/datasheet/948',
+        'Poaceae - Blog', 'https://blogs.ubc.ca/biol343/poaceae/',
+        'Poaceae - Hawaii', 'http://www.botany.hawaii.edu/faculty/carr/po.htm',
+        'AusGrass2', 'https://ausgrass2.myspecies.info/',
+    ],
+    pest_images: [
+        "<img title='please upload your observations' alt='please upload your observations' src='./images/blank_pest_image.png'>",
+        "<img title='please upload your observations' alt='please upload your observations' src='./images/blank_pest_image.png'>",
+        "<img title='please upload your observations' alt='please upload your observations' src='./images/blank_pest_image.png'>"
+    ]
+}
+
+const rhodes = {
+	common_name: 'Purpletop Rhodes grass',
+    other_common_names: ['Purpletop Chloris'],
+    botanical_name: '<em>Chloris inflata</em> Link',
+    family: 'Poaceae',
+    uses: 'Medicinal',
+    cultural: 'Purpletop Rhodes grass is an annual or periennial with a tufted growth habit, ranging in height from 20 to 100 cm tall. \
+    Leaves range from 4 to 40 cm long and 2 to 5 mm wide, while the purple coloured seed heads form at the end of stems.\
+    This grass can be found growing in a range of soil types and is known to be tolerant of saline and dry soils. \
+    In the north of Australia, it can be found growing in seasonally wet areas such as claypans, river flood flats, \
+    creek beds and banks (Cape York NRM). Sugar Research Australia information report that it is \
+    widespread and common in areas of poor soil and its presence can indicate soil that is saline or sodic. \
+    It also grows on highly compacted soils. It is reported to be an aggressive invader of degraded land and \
+    will outcompete other species. It can be commonly found in gardens, parks, orchards, cultivation, degraded sites and \
+    pastures. Some data indicates this plant might have allelopathic properties - reduced growth of other plants.',
+    hosts: 'Purpletop Rhodes grass is a host of a number of rice insect pests and diseases, some of which include: <br>\
+    White-backed planthoppers<br>\
+    Rice bug(<em>Leptocorisa oratorius</em>)<br>\
+    Rice earcutting caterpillar (<em>Mythimna separata</em>)<br>\
+    Tiger moth (<em>Creatonotus gangis</em>)<br>\
+    Cereal thrips (<em>Haplothrips ganglbaurei</em>)<br>\
+    Rice whitefly (<em>Aleurocybotus indicus</em><br>\
+    Sheath blight (<em>Rhizoctonia solani</em>)<br>\
+    Rice leaffolder (<em>Cnaphalocrocis medinalis</em>)<br>\
+    Grass seed-feeding thrips (<em>Chirothrips mexicanus</em>)',
+    observations: 'Please complete the form to add your observations - go to the About page to access the form \
+    or post your observations on Facebook.<br><br>',
+    links: [
+        'AusGrass2', 'https://ausgrass2.myspecies.info/content/chloris-inflata',
+        'Atlas of living Australia', 'https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2893018',
+        'AuseMade', 'https://ausemade.com.au/flora-fauna/flora/grass-and-grasses/chloris-barbata/',
+        'Cape York NRM', 'https://capeyorknrm.com.au/landmanager/biodiversity/grasses/mitchell-river-fan-aggregation/chloris-lobata',
+        'Sugar research Australia', 'http://tools.sugarresearch.com.au/weedsID/Page16.html',
+        'Brisbane Weeds', 'https://weeds.brisbane.qld.gov.au/weeds/purpletop-rhodes-grass',
+        'PIER', 'http://www.hear.org/pier/species/chloris_barbata.htm',
+        'Cabi', 'https://www.cabi.org/isc/datasheet/13113',
+        'Uncultivated', 'https://www.uncultivated.info/chloris-barbata'
+    ],
+    pest_images: [
+        "<img title='please upload your observations' alt='please upload your observations' src='./images/blank_pest_image.png'>",
+        "<img title='please upload your observations' alt='please upload your observations' src='./images/blank_pest_image.png'>",
+        "<img title='please upload your observations' alt='please upload your observations' src='./images/blank_pest_image.png'>"
+    ]
+}
+
+const carpetgrass = {
+	common_name: 'Broad-leafed Carpet Grass',
+    other_common_names: ["blanket grass", "broad leaved", "carpet grass", "broadleaf carpet grass", "broadleaf carpetgrass", 
+    "broad-leafed carpet grass", "broad-leaved carpet grass", "carpet grass"],
+    botanical_name: '<em>Axonopus compressus</em> (Sw.) P. Beauv.',
+    family: 'Poaceae',
+    uses: 'It is used as a permanent pasture in some places and can be cut for forage. It is also used to reduced erosion, \
+    as it can tolerate moist soil conditions and shade. It is used as turf in some locations.',
+    cultural: 'Broad-leafed carpet grass is a robust creeping perennial grass that can form dense mats. \
+    Broad-leafed carpet grass can be found growing in situation where light and moisture levels \
+    are suitable. It is considered a weed of habitation and can be found growing in parks, gardens and roadsides, \
+    but can also be found in shaded areas of moist grasslands, bushland, riparian areas and rainforest margins. \
+    In New South Wales and Queensland, this grass is considered an environmental weed. <br>\
+    While the growth habit of this grass is beneficial in helping to reduce erosion, it is reported to reduce \
+    plant diversity due to this growth habit. Broad-leaf carpet grass tolerates a range of soil types. Prolonged low \
+    soil moistures levels are detrimental. It prefers moist soil conditions.',
+    hosts: 'It is attacked by grass webworm (<em>Herpetogramma licarsisalis</em>). \
+    It is also an alternative host for <em>Rhizoctonia solani</em>. It is a host for rice tungro spherical waikavirus and \
+    maize streak monogeminivirus (MSV).',
+    observations: 'Please complete the form to add your observations - go to the About page to access the form \
+    or post your observations on Facebook.<br><br>\
+    Bundaberg - a percent of fallen macadamia fruit often get stuck in this grass, \
+    and is therefore unavailable to harvesters. <br>\
+    Tends to form mats, limiting growth of other plants/weeds.',
+    links: [
+        'Weeds of Australia', 'https://keyserver.lucidcentral.org/weeds/data/media/Html/axonopus_compressus.htm',
+        'Tropical forages', 'https://www.tropicalforages.info/text/entities/axonopus_compressus.htm',
+        'RBGS', 'https://plantnet.rbgsyd.nsw.gov.au/cgi-bin/NSWfl.pl?page=nswfl&lvl=sp&name=Axonopus~compressus',
+        'Cabi', 'https://www.cabi.org/isc/datasheet/8094',
+        'Feedipedia', 'https://www.feedipedia.org/node/498',
+        'AusGrass2', 'https://ausgrass2.myspecies.info/content/axonopus-compressus',
+        'Samedani et al., 2014', 'http://fspublishers.org/published_papers/41353_..pdf'
+    ],
+    pest_images: [
+        "<img title='please upload your observations' alt='please upload your observations' src='./images/blank_pest_image.png'>",
+        "<img title='please upload your observations' alt='please upload your observations' src='./images/blank_pest_image.png'>",
+        "<img title='please upload your observations' alt='please upload your observations' src='./images/blank_pest_image.png'>"
+    ]
+}
+
+const nutgrass = {
+	common_name: 'Nutgrass',
+    other_common_names: ['Nutsedge', 'Yellow nutgrass', 'Yellow nutsedge', 'Purple nutsedge', 'Umbrella Sedge'],
+    botanical_name: '<em>Cyperus spp.</em><br><em>Cyperus rotundus</em> L. (Nutgrass)<br>\
+    <em>Cyperus eragrostis</em> Lam. (Umbrella Sedge)<br>\
+    <em>Cyperus esculentus</em> L. (Yellow nutsedge)<br><em>Cyperus bifax</em> C.B.Clarke (Downs nutgrass)<br>\
+    <em>Cyperus congestus</em> Vahl (Dense Flat-sedge)',
+    family: 'Cyperaceae',
+    uses: 'Medicinal',
+    cultural: 'The common name of nutgrass is misleading, as nutgrass is not a grass. Nutgrass is part of a large family \
+    of flowering plants, often referred to as sedges and rushes. There are a number of nutgrass or nutsedge species that occur \
+    in many parts of the world. In Australia, a number of species are found, but <em>Cyperus esculentus</em> (Yellow nutsedge) and \
+    <em>Cyperus rotundus</em> (Nutgrass) are problematic. Yellow nutsedge is \
+    rhizomatous perennial plant with slender rhizomes (globose to ovoid tubers c. 10 mm diam., with yellow-brown, \
+    smoothish or slightly fibrous coat), while nutgrass has ovoid to ellipsoid tubers 5–10 mm diam., woody, with deciduous grey-brown \
+    fibrous coat. <em>Cyperus eragrostis</em> is a tufted perennial, with very short rhizomes. \
+    Please see links for identification of individual species.<br><br> \
+    <em>Cyperus rotundus</em> (Nutgrass) is significant issue for crop cultivation; it rapidly produces rhizomes and \
+    spread substantially. Nutgrass growth is vigorous and it competes for water and nutrients. It is also \
+    reported to have allelopathic properties - reducing growth of other plants. <br>\
+    Nutgrass is often observed in orchards, particularly in the interrow area following disturbance or cultivation.',
+    hosts: 'A number of insects are known to attack nutgrass, some of which include \
+    <emAthesapeuta cyperi</em> (nutgrass weevil), Chaetococcus australis (mealybug), <em>Bactra minima</em> (moth), \
+    <em>B. venosana</em> (moth), <em>B. verutana</em> (moth) and a number of fungi. The website Discover Life, \
+    list a number of organisms associated with nutgrass. This includes a number of sap sucking pests, one of which \
+    the Aleurothrixus (Whitefly). There are a number of species of Aleurothrixus, however the species associated with nutgrass \
+    is not recorded.',
+    observations: 'Please complete the form to add your observations - go to the About page to access the form \
+    or post your observations on Facebook.<br><br>',
+    links: [
+        'UNE', 'https://www.une.edu.au/__data/assets/pdf_file/0006/235995/une-weeds-nutgrass.pdf',
+        'RBGS - Nutgrass', 'https://plantnet.rbgsyd.nsw.gov.au/cgi-bin/NSWfl.pl?page=nswfl&lvl=sp&name=cyperus~rotundus',
+        'Brisbane weeds - Nutgrass', 'https://weeds.brisbane.qld.gov.au/weeds/nutgrass',
+        'Cabi - Nutgrass', 'https://www.cabi.org/isc/datasheet/17506',
+        'RBGS - Yellow nutsedge', 'https://plantnet.rbgsyd.nsw.gov.au/cgi-bin/NSWfl.pl?page=nswfl&lvl=sp&name=Cyperus~esculentus',
+        'Cabi - Yellow nutsedge', 'https://www.cabi.org/isc/datasheet/17496',
+        'RBGS - Umbrella sedge', 'https://plantnet.rbgsyd.nsw.gov.au/cgi-bin/NSWfl.pl?page=nswfl&lvl=sp&name=Cyperus~eragrostis',
+        'RBGS - Downs nutgrass', 'https://plantnet.rbgsyd.nsw.gov.au/cgi-bin/NSWfl.pl?page=nswfl&lvl=sp&name=Cyperus~bifax',
+        'RBGS - Dense Flat-sedge', 'https://plantnet.rbgsyd.nsw.gov.au/cgi-bin/NSWfl.pl?page=nswfl&lvl=sp&name=Cyperus~congestus',
+        'Living Atlas of Australia - Cyperus', 'https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51300027',
+        'Discover Life', 'https://www.discoverlife.org/mp/20q'
+    ],
+    pest_images: [
+        "<img title='please upload your observations' alt='please upload your observations' src='./images/blank_pest_image.png'>",
+        "<img title='please upload your observations' alt='please upload your observations' src='./images/blank_pest_image.png'>",
+        "<img title='please upload your observations' alt='please upload your observations' src='./images/blank_pest_image.png'>"
+    ]
+}
+
+const crabgrass = {
+	common_name: 'Crabgrass',
+    other_common_names: [],
+    botanical_name: '<em>Eleusine indica</em> (L.) Gaertn.',
+    family: '',
+    uses: 'Crabgrass has a number of uses, some of which include fodder, forage, erosion control, \
+    dune stabilisation, medicinal, fibre and food.',
+    cultural: 'Crabgrass is a coarse tufted/stoloniferous annual or sometimes perennial grass. \
+    Flowering stems can be up to 0.8 m high and are either ascending or prostrate. The inflorescence (flower structure) \
+    contains 3-8 racemes, with each being 5-10 cm long, but rather than originating from a single point, each raceme \
+    is separated by about 1 cm. The root system is described as \
+    well developed and strong... as anyone that has attempted hand weeding will know - they can be very difficult to pull out. \
+    Crabgrass is described as an agricultural and environmental weed, but can be found along roads, disturbed areas, gardens and parks. \
+    Crabgrass is a fast-growing C4 plant that thrives in full sun and where soil moisture is adequate. \
+    Single plants can produce 40 000 seeds, with seed remaining viable for 2 to 5 years. Seed germination requires light or \
+    scarafication. It tolarates a range of soil types, including shallow soils. Allelopathic activity has been reported \
+    for crabgrass i.e. reduced growth and/or germination of other plants.',
+    hosts: 'There are a number of natural enemies for crabgrass, some of these include:<br>\
+    -Black wheat midge<br>\
+    -Nematode (<em>Heterodera delvi</em>)<br>\
+    -Aphid (<em>Sitobion leelamaniae</em>)<br>\
+    -smut: finger millet<br><br>\
+    The book (The major arthropod pests and weeds of agriculture in Southeast Asia by Waterhouse, D. F.) provides \
+    a more comprehensive list of organisms impacting crabgrass. The website Discover Life, also provides a substantial \
+    list of organisms impacting crabgrass - see link below',
+    observations: 'Please complete the form to add your observations - go to the About page to access the form \
+    or post your observations on Facebook.<br><br>',
+    links: [
+        'Weeds of Australia', 'https://keyserver.lucidcentral.org/weeds/data/media/Html/eleusine_indica.htm',
+        'RBGS', 'https://plantnet.rbgsyd.nsw.gov.au/cgi-bin/NSWfl.pl?page=nswfl&lvl=sp&name=Eleusine~indica',
+        'Vic Flora', 'https://vicflora.rbg.vic.gov.au/flora/taxon/76035dd9-bf77-4e78-b847-a48f6b5ee317',
+        'Cabi', 'https://www.cabi.org/isc/datasheet/20675',
+        'Atlas of Living Australia', 'https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2904956',
+        'Feedipedia', 'https://www.feedipedia.org/node/446',
+        'IFAS Extension', 'https://edis.ifas.ufl.edu/publication/HS1178',
+        'AusGrass2', 'https://ausgrass2.myspecies.info/content/eleusine-indica',
+        'Discover Life', 'https://www.discoverlife.org/mp/20q',
+        'Brisbane Weeds', 'https://weeds.brisbane.qld.gov.au/weeds/crowsfoot-grass'
+    ],
+    pest_images: [
+        "<img title='please upload your observations' alt='please upload your observations' src='./images/blank_pest_image.png'>",
+        "<img title='please upload your observations' alt='please upload your observations' src='./images/blank_pest_image.png'>",
+        "<img title='please upload your observations' alt='please upload your observations' src='./images/blank_pest_image.png'>"
+    ]
+}
+
+const cenchrus = {
+	common_name: 'Spiny Burrgrass',
+    other_common_names: [],
+    botanical_name: '<em>Cenchrus echinatus</em> L. <br>\
+    <em>Cenchrus spinifex</em> Cav.<br>\
+    <em>Cenchrus longispinus</em> (Hack.) Fernald<br>\
+    <em>Cenchrus setigerus</em> Vahl',
+    family: 'Fabaceae',
+    uses: 'Seeds reported to be edible for <em>C. longispinus</em>. <em>C. echinatus</em> is reported to be used \
+    for animal food, medicine and food.',
+    cultural: 'There are multiple species of Spiny burrgrass in Australia, some of which overlap in their distribution. \
+    Each species produces spiny seeds that attahced to almost anything and are surprisingly sharp. \
+    According to the website Weeds of Australia, <em>Cenchrus longispinus</em> is found mostly in the sub-coastal \
+    areas of south-eastern Australia (south-eastern South Australia, north-western Victoria and \
+    south-western New South Wales). Scattered populations occur in southern Queensland, south-western Western \
+    Australia, the ACT and southern parts of the Northern Territory. It most commonly encountered in irrigated agricultural \
+    areas and along roadsides.<br> \
+    <em>Cenchrus spinifex</em> is mostly found in eastern Australia (inland southern and central Queensland, \
+    New South Wales, ACT and northern Victoria), although some populations are found in southern parts of South \
+    Australia and in the coastal districts of south-western Western Australia. \
+    It usually grows on sandy soils (roadsides, pastures, gardens, cultivation and natural areas).<br> \
+    <em>Cenchrus echinatus</em> is a widespread species in northern and central parts of Australia (throughout \
+    Queensland, Northern Territory, western and northern parts of Western Australia, northern and eastern New South \
+    Wales and north-western parts of South Australia). It is often found growing around footpaths, parks, \
+    lawns, roadsides, disturbed sites, orchards, waste areas, grasslands, open woodlands, waterways, wetlands, \
+    pastures and crops.<br> <em>Cenchrus setigerus</em> or as it is commonly known, Birdwood grass, is often \
+    found in grasslands and the understorey layer of savanna woodlands in northern Australia. \
+    Birdwood grass is also common in Western Australia coastal areas and in some inland areas of New South Wales. <br><br>\
+    Allelopathic effects (reduced germination and growth of other plants) have been reported for some species of \
+    Cenchrus, including <em>C. echinatus</em>.',
+    hosts: '',
+    observations: 'Please complete the form to add your obs>ervations - go to the About page to access the form \
+    or post your observations on Facebook.<br><br>',
+    links: [
+        'Weeds of Australia - C. spinifex', 'https://keyserver.lucidcentral.org/weeds/data/media/Html/cenchrus_spinifex.htm',
+        'Weeds of Australia - C. longispinus', 'https://keyserver.lucidcentral.org/weeds/data/media/Html/cenchrus_longispinus.htm',
+        'Weeds of Australia - C. echinatus', 'https://keyserver.lucidcentral.org/weeds/data/media/Html/cenchrus_echinatus.htm',
+        'Weeds of Australia - C. setigerus', 'https://keyserver.lucidcentral.org/weeds/data/media/Html/cenchrus_setigerus.htm',
+        'Atlas of living Australia - C. setigerus', 'https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2893906',
+        'Atlas of living Australia - C. echinatus', 'https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2888016',
+        'Atlas of living Australia - C. longispinus', 'https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2900096',
+        'Atlas of living Australia - C. spinifex', 'https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2909214',
+        'C. longispinus', 'http://www.cpa.msu.edu/beal/plantofweek/plants/cenchrus_longispinus_20081008.pdf',
+        'C. echinatus', 'https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:316518-2#:~:text=The%20native%20range%20of%20this,a%20medicine%20and%20for%20food.'
+    ],
+    pest_images: [
+        "<img title='please upload your observations' alt='please upload your observations' src='./images/blank_pest_image.png'>",
+        "<img title='please upload your observations' alt='please upload your observations' src='./images/blank_pest_image.png'>",
+        "<img title='please upload your observations' alt='please upload your observations' src='./images/blank_pest_image.png'>"
+    ]
+}
+
+const vicia = {
+	common_name: 'Common vetch',
+    other_common_names: ["garden vetch", "golden tare", "grain vetch", "pubescent common vetch", "spring vetch", "tare", "vetch"],
+    botanical_name: '<em>Vicia sativa</em> L.',
+    family: 'Fabaceae',
+    uses: 'green manure, livestock fodder or rotation crop, cover crop in vineyards and orchards, food  ',
+    cultural: 'Common vetch is a trailing or climbing annual herb that has become naturalised in temperate \
+    and sub-tropical regions of the world. While vetch is considered a weed in some situations, it is \
+    an important crop. Common vetch is a nitrogen-fixing leguminous plant in the family Fabaceae. \
+    Common vetch has compound leaves (leaflets number ranges from 4–16, 10–40 mm  and 1–15 mm wide. \
+    Pea like flowers pink to red-purple in colour. It is reported to have a branched taproot that can be \
+    1 to 1.5 m. Vetch tolerates a range of soil types, from light sandy soils to heavier clay soils. \
+    Tolerates a range of pH levels, but does not do as well in acidic soils. Vetch does poorly under prolonged waterlogging. \
+    ',
+    hosts: '<em>Bombus argillaceus</em>, <em>B. hortorum</em> and <em>B. humilis</em> are known pollinators, while other species of \
+    <em>Bombus</em> and <em>Apis mellifera</em>, as well as ants visit flowers for nectar (Climbers link). \
+    GRDC Grownotes provides a comprehensive list of diseases impacting vetch \
+    <a href="https://grdc.com.au/resources-and-publications/grownotes/crop-agronomy/vetch-western-region-grownotes/7-In-crop-management-Diseases-GRDC-GrowNotes-Vetch-West.pdf" target=_blank>Click here to view the publication</a>.\
+    Some of the diseases mentioned include: Botrytis grey mould, Ascochyta blight, \
+    Chocolate spot, Rust, and root rots - Fusarium, Phoma, Pythium, Rhizoctonia. \
+    GRDC Grownotes provides a comprehensive list of pests impacting vetch \
+    <a href="https://grdc.com.au/resources-and-publications/grownotes/crop-agronomy/vetch-western-region-grownotes/6-In-crop-management-Pests-GRDC-GrowNotes-Vetch-West.pdf" target=_blank>Click here to view the publication</a>.\
+    Some of these pests include: redlegged earth mite, lucerne flea, bluegreen and cowpea aphids and the native budworm.',
+    observations: 'Please complete the form to add your observations - go to the About page to access the form \
+    or post your observations on Facebook.<br><br>',
+    links: [
+        'Atlas of Living Australia', 'https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51285764',
+        'RBGS', 'https://plantnet.rbgsyd.nsw.gov.au/cgi-bin/NSWfl.pl?page=nswfl&lvl=sp&name=Vicia~sativa',
+        'NC STATE Extension', 'https://plants.ces.ncsu.edu/plants/vicia-sativa/',
+        'Feedipedia', 'https://www.feedipedia.org/node/239',
+        'Front. Plant Sci.', 'https://www.frontiersin.org/articles/10.3389/fpls.2020.00818/full',
+        'Climbers', 'https://climbers.lsa.umich.edu/?p=323',
+        'GRDC Grownotes - planning', 'https://grdc.com.au/resources-and-publications/grownotes/crop-agronomy/vetch-western-region-grownotes/2-Planning-GRDC-GrowNotes-Vetch-West.pdf',
+        'GRDC Grownotes', 'https://grdc.com.au/resources-and-publications/grownotes/crop-agronomy/vetch-western-region-grownotes',
+        'GRDC Grownotes - diseases', 'https://grdc.com.au/resources-and-publications/grownotes/crop-agronomy/vetch-western-region-grownotes/7-In-crop-management-Diseases-GRDC-GrowNotes-Vetch-West.pdf',
+        'GRDC Grownotes - pests', 'https://grdc.com.au/resources-and-publications/grownotes/crop-agronomy/vetch-western-region-grownotes/6-In-crop-management-Pests-GRDC-GrowNotes-Vetch-West.pdf'
+    ],
+    pest_images: [
+        "<img title='please upload your observations' alt='please upload your observations' src='./images/blank_pest_image.png'>",
+        "<img title='please upload your observations' alt='please upload your observations' src='./images/blank_pest_image.png'>",
+        "<img title='please upload your observations' alt='please upload your observations' src='./images/blank_pest_image.png'>"
+    ]
+}
+
+const melilotus = {
+	common_name: 'Hexham scent',
+    other_common_names: ["Annual Yellow Sweetclover"],
+    botanical_name: '<em>Melilotus indicus</em> (L). AII.',
+    family: 'Fabaceae',
+    uses: 'Medicianl, green manure, cover crop, forage and nitrogen fixing legume. It is reported to be poisnous \
+    some mammals.',
+    cultural: 'Hexham scent is an  annual or biennial herb up to 60 cm in height. Leaves are described \
+    as trifoliate (3 leaflets) and flowers are pea like in shape and yellow in colour. Pods are small, 2-3 mm long \
+    and usually contain one seed. It is a weed of gardens, roadsides, fields, waste places, disturbed sites, \
+    wetlands, orchards and cultivated fields. Potentially allelopathic - reduced germination and growth of other plants.\
+    Hexham scent tolerates a range of soil types and is known to tolerate saline soils (3-6 dS/m). \
+    It is reported to have a preference (optimal growth) for neutral soils and soils that are well drained. ',
+    hosts: 'Host organisms include:<br> <em>Erysiphe trifoliorum</em> (Powdery mildew) (Mukhtar)<br> <em>Acyrthosiphon</em> (aphid)<br> \
+    <em>Therioaphis</em> (aphid)<br> <em>Bombus morrisoni</em> (Bumble bee)<br> <em>Bombus pensylvanicus</em> (Bumble bee)<br> \
+    <em>Alloxysta</em> (wasp)<br> <em>Entyloma meliloti</em> (Smut fungi)<br> <em>Heriades occidentalis</em> (bee)<br> \
+    <em>Hoplitis grinnelli</em> (bee)<br> <em>Hadronema bispinosum</em> (Miridae bug)<br> Honey bees are known to visit flowers.',
+    observations: 'Please complete the form to add your observations - go to the About page to access the form \
+    or post your observations on Facebook.<br><br>',
+    links: [
+        'RBGS', 'https://plantnet.rbgsyd.nsw.gov.au/cgi-bin/NSWfl.pl?page=nswfl&lvl=sp&name=Melilotus~indicus',
+        'Atlas of Living Australia', 'https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2886103',
+        'Cabi', 'https://www.cabi.org/isc/datasheet/33696',
+        'Weeds of Melbourne', 'https://weedsofmelbourne.org/sweet-melilot-melilotus-indicus',
+        'Feedipedia', 'https://www.feedipedia.org/node/273',
+        'Mukhtar', 'https://apsjournals.apsnet.org/doi/10.1094/PDIS-05-16-0619-PDN',
+        'Discover Life', 'https://www.discoverlife.org/mp/20q'
+    ],
+    pest_images: [
+        "<img title='please upload your observations' alt='please upload your observations' src='./images/blank_pest_image.png'>",
+        "<img title='please upload your observations' alt='please upload your observations' src='./images/blank_pest_image.png'>",
+        "<img title='please upload your observations' alt='please upload your observations' src='./images/blank_pest_image.png'>"
+    ]
+}
 
 /*
 const template = {
@@ -1548,11 +2100,21 @@ const template = {
     pest_images: []
 }*/
 
-const combined = [Mallow, shade, Gomphrena, purpletop, crasso, amaranth, tropChick, 
-    capsella, heliotropium, khaki, fleabane, cobblers, potato_weed, willowHerb, BalloonCotton,
-    Brazilian_nightshade, mitracarpus, richardia, sida_acuta, sida_rhombifolia, sida_cordifolia, malvastrum, indigo,
-    crotalaria, sonchus, coronopus, cudweed, cotula, hawkweed, smooth_catsear, catsear, dandelion, 
-    mouseear, chickweed, flickweed, fathen, burmedic, euphorbia, emilia, raphanus];
+const combined = [BalloonCotton, shade, heliotropium, Brazilian_nightshade, 
+    burmedic, carpetgrass, catsear, chickweed, cobblers, 
+    sonchus, cotula, vicia, crabgrass, indigo, cudweed, dandelion, 
+    fathen, sida_cordifolia, fleabane, flickweed, grass, amaranth, Gomphrena, hawkweed, 
+    melilotus, khaki, coronopus, plantago, emilia, Mallow, brassica, mouseear, nutgrass, 
+    sida_rhombifolia, plant_ago, potato_weed, malvastrum, purpletop, crotalaria, rhodes, 
+    cenchrus, capsella, sida_acuta, smooth_catsear, euphorbia, crasso, tridax,
+    tropChick, raphanus, mitracarpus, richardia, willowHerb];
+
+const combined_1 = [khaki, amaranth, carpetgrass, cobblers, brassica, flickweed, capsella, cenchrus, 
+    mouseear, fathen, rhodes, coronopus, cotula, crasso, hawkweed, crotalaria, nutgrass, tropChick, 
+    crabgrass, emilia, willowHerb, fleabane, euphorbia, potato_weed, cudweed, Gomphrena, BalloonCotton, 
+    heliotropium, smooth_catsear, catsear, indigo, Mallow, malvastrum, burmedic, melilotus, mitracarpus, 
+    plant_ago, plantago, grass, raphanus, richardia, sida_acuta, sida_rhombifolia, sida_cordifolia, 
+    shade, Brazilian_nightshade, sonchus, chickweed, dandelion, tridax, purpletop, vicia];
 
 const testprint = `${JSON.stringify(Mallow)}, ${JSON.stringify(shade)}`;
 console.log(testprint);
@@ -1587,7 +2149,7 @@ sciName.addEventListener("change", () => {
     console.log(elements1);
     if (elements1.length < 1) {
   
-    combined.forEach(function(item) {
+    combined_1.forEach(function(item) {
         let obj = item.botanical_name;
         let list = document.createElement("option");
         list.setAttribute('id', 'option');
@@ -1596,7 +2158,7 @@ sciName.addEventListener("change", () => {
         });
     } else {
         clear();
-        combined.forEach(function(item) {
+        combined_1.forEach(function(item) {
             let obj = item.botanical_name;
             let list = document.createElement("option");
             list.setAttribute('id', 'option');
@@ -1636,6 +2198,13 @@ function clear() {
         let element = document.querySelector('#option');
         element.remove();})
 }
+
+function clear_1() {
+    combined_1.forEach(function(item) {
+        let element = document.querySelector('#option');
+        element.remove();})
+}
+
 selected.addEventListener("submit", function (event) {
     event.preventDefault();
     clear()
@@ -1663,3 +2232,32 @@ selected.addEventListener("submit", function (event) {
         window.scrollBy(0, rect.y);
     }
     ;})
+
+selected.addEventListener("submit", function (event) {
+    event.preventDefault();
+    clear_1()
+    const elements = document.getElementsByTagName('h3');
+    let value1 = document.getElementById('searchable').value;
+    console.log(value1);
+    for (let i = 0; i < elements.length; i++) {
+        if (elements[i].innerText.slice(0, 3) === value1.slice(0, 3)) {
+            const tag = elements[i].tagName;
+            const att = document.createAttribute("id");
+            att.value = `${value1}_1`;
+            const p1 = document.getElementsByTagName(tag)[i];
+            p1.setAttributeNode(att);}
+            document.getElementById("formData").reset();
+            }
+    
+    moveUp();
+    function moveUp() {
+        let val = `${value1}_1`;
+        let elem = document.getElementById(val); 
+    
+        let rect = elem.getBoundingClientRect();
+        console.log("x: "+ rect.x);
+        console.log("y: "+ rect.y);
+        window.scrollBy(0, rect.y);
+    }
+    ;})
+
