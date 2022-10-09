@@ -3319,9 +3319,9 @@ function () {
     let img_image = 0;
     let img_title = 0;
     let img_text = 0;
-    let images_turnip = ['./images/wild-radish-1.png', './images/wild-radish-2.png', './images/wild-radish-3.png', './images/wild-radish-4.png'];
-    let images_hover_turnip = ['Wild radish', 'Wild radish', 'Wild radish', 'Wild radish'];
-    let images_text_turnip = ['Wild radish', 'Wild radish', 'Wild radish', 'Wild radish']
+    let images_turnip = ['./images/Brassica_tournefortii-3.png', './images/Brassica_tournefortii-1.png', './images/Brassica_tournefortii-2.png'];
+    let images_hover_turnip = ['Mediterranean Turnip', 'Mediterranean Turnip', 'Mediterranean Turnip'];
+    let images_text_turnip = ['Mediterranean Turnip', 'Mediterranean Turnip', 'Mediterranean Turnip']
     let im_len = images_turnip.length;
 
     document.getElementById('turnip').onclick = function() { 
