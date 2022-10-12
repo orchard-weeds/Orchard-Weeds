@@ -55,6 +55,9 @@ const info49 = document.getElementById('info-49');
 const info50 = document.getElementById('info-50');
 const info51 = document.getElementById('info-51');
 const info52 = document.getElementById('info-52');
+const info53 = document.getElementById('info-53');
+const info54 = document.getElementById('info-54');
+const info55 = document.getElementById('info-55');
 
 
 function mallow() {
@@ -1296,6 +1299,96 @@ function Melilotus() {
     document.getElementById('insect3').innerHTML = `${melilotus.pest_images[0]}`;
     document.getElementById('insect2').innerHTML = `${melilotus.pest_images[1]}`;
     document.getElementById('insect1').innerHTML = `${melilotus.pest_images[2]}`;
+}
+
+function  Modiola() {
+    document.querySelector('.display').style.visibility = 'visible';
+    description.innerHTML =
+    `<h1>${modiola.common_name}</h1> <h3>(${modiola.botanical_name})</h3> <p> \
+    ${modiola.cultural}</p><p>${modiola.hosts}.</p><p>Uses: ${modiola.uses}</p>\
+    <p>Links: <a href='${modiola.links[1]}' target='_blank'>${modiola.links[0]}</a></p>\
+    <p>Links: <a href='${modiola.links[3]}' target='_blank'>${modiola.links[2]}</a></p>\
+    <p>Links: <a href='${modiola.links[5]}' target='_blank'>${modiola.links[4]}</a></p>\
+    <p>Links: <a href='${modiola.links[7]}' target='_blank'>${modiola.links[6]}</a></p>\
+    <p>Links: <a href='${modiola.links[9]}' target='_blank'>${modiola.links[8]}</a></p>\
+    <p>Links: <a href='${modiola.links[11]}' target='_blank'>${modiola.links[10]}</a></p>\
+    <p>Links: <a href='${modiola.links[13]}' target='_blank'>${modiola.links[12]}</a></p>\
+    <p>Links: <a href='${modiola.links[15]}' target='_blank'>${modiola.links[14]}</a></p>\
+    <p>Links: <a href='${modiola.links[17]}' target='_blank'>${modiola.links[16]}</a></p>\
+    <p>Links: <a href='${modiola.links[19]}' target='_blank'>${modiola.links[18]}</a></p>\
+    <p>Links: <a href='${modiola.links[21]}' target='_blank'>${modiola.links[20]}</a></p>\
+    <p>Links: <a href='${modiola.links[23]}' target='_blank'>${modiola.links[22]}</a></p>\
+    <p>Links: <a href='${modiola.links[25]}' target='_blank'>${modiola.links[24]}</a></p>\
+    <p>Links: <a href='${modiola.links[27]}' target='_blank'>${modiola.links[26]}</a></p>\
+    <p>Links: <a href='${modiola.links[29]}' target='_blank'>${modiola.links[28]}</a></p>\
+    <p>Links: <a href='${modiola.links[31]}' target='_blank'>${modiola.links[30]}</a></p>\
+    <p>Links: <a href='${modiola.links[33]}' target='_blank'>${modiola.links[32]}</a></p>\
+    <p>Links: <a href='${modiola.links[35]}' target='_blank'>${modiola.links[34]}</a></p>\
+    <p>Field Observations:</p>\
+    <p>${modiola.observations}</p>
+    <p>Click to enlarge images</p>`;
+    
+    pic3.innerHTML = `${modiola.pest_images[0]}`;
+    pic2.innerHTML = `${modiola.pest_images[1]}`;
+    pic1.innerHTML = `${modiola.pest_images[2]}`;
+    document.getElementById('insect3').innerHTML = `${modiola.pest_images[0]}`;
+    document.getElementById('insect2').innerHTML = `${modiola.pest_images[1]}`;
+    document.getElementById('insect1').innerHTML = `${modiola.pest_images[2]}`;
+}
+
+function  Eclipta() {
+    document.querySelector('.display').style.visibility = 'visible';
+    description.innerHTML =
+    `<h1>${eclipta.common_name}</h1> <h3>(${eclipta.botanical_name})</h3> <p> \
+    ${eclipta.cultural}</p><p>${eclipta.hosts}.</p><p>Uses: ${eclipta.uses}</p>\
+    <p>Links: <a href='${eclipta.links[1]}' target='_blank'>${eclipta.links[0]}</a></p>\
+    <p>Links: <a href='${eclipta.links[3]}' target='_blank'>${eclipta.links[2]}</a></p>\
+    <p>Links: <a href='${eclipta.links[5]}' target='_blank'>${eclipta.links[4]}</a></p>\
+    <p>Links: <a href='${eclipta.links[7]}' target='_blank'>${eclipta.links[6]}</a></p>\
+    <p>Links: <a href='${eclipta.links[9]}' target='_blank'>${eclipta.links[8]}</a></p>\
+    <p>Links: <a href='${eclipta.links[11]}' target='_blank'>${eclipta.links[10]}</a></p>\
+    <p>Links: <a href='${eclipta.links[13]}' target='_blank'>${eclipta.links[12]}</a></p>\
+    <p>Links: <a href='${eclipta.links[15]}' target='_blank'>${eclipta.links[14]}</a></p>\
+    <p>Links: <a href='${eclipta.links[17]}' target='_blank'>${eclipta.links[16]}</a></p>\
+    <p>Links: <a href='${eclipta.links[19]}' target='_blank'>${eclipta.links[18]}</a></p>\
+    <p>Links: <a href='${eclipta.links[21]}' target='_blank'>${eclipta.links[20]}</a></p>\
+    <p>Links: <a href='${eclipta.links[23]}' target='_blank'>${eclipta.links[22]}</a></p>\
+    <p>Field Observations:</p>\
+    <p>${eclipta.observations}</p>
+    <p>Click to enlarge images</p>`;
+    
+    pic3.innerHTML = `${eclipta.pest_images[0]}`;
+    pic2.innerHTML = `${eclipta.pest_images[1]}`;
+    pic1.innerHTML = `${eclipta.pest_images[2]}`;
+    document.getElementById('insect3').innerHTML = `${eclipta.pest_images[0]}`;
+    document.getElementById('insect2').innerHTML = `${eclipta.pest_images[1]}`;
+    document.getElementById('insect1').innerHTML = `${eclipta.pest_images[2]}`;
+}
+
+function  Calyptocarpus() {
+    document.querySelector('.display').style.visibility = 'visible';
+    description.innerHTML =
+    `<h1>${calyptocarpus.common_name}</h1> <h3>(${calyptocarpus.botanical_name})</h3> <p> \
+    ${calyptocarpus.cultural}</p><p>${calyptocarpus.hosts}.</p><p>Uses: ${calyptocarpus.uses}</p>\
+    <p>Links: <a href='${calyptocarpus.links[1]}' target='_blank'>${calyptocarpus.links[0]}</a></p>\
+    <p>Links: <a href='${calyptocarpus.links[3]}' target='_blank'>${calyptocarpus.links[2]}</a></p>\
+    <p>Links: <a href='${calyptocarpus.links[5]}' target='_blank'>${calyptocarpus.links[4]}</a></p>\
+    <p>Links: <a href='${calyptocarpus.links[7]}' target='_blank'>${calyptocarpus.links[6]}</a></p>\
+    <p>Links: <a href='${calyptocarpus.links[9]}' target='_blank'>${calyptocarpus.links[8]}</a></p>\
+    <p>Links: <a href='${calyptocarpus.links[11]}' target='_blank'>${calyptocarpus.links[10]}</a></p>\
+    <p>Links: <a href='${calyptocarpus.links[13]}' target='_blank'>${calyptocarpus.links[12]}</a></p>\
+    <p>Links: <a href='${calyptocarpus.links[15]}' target='_blank'>${calyptocarpus.links[14]}</a></p>\
+    <p>Links: <a href='${calyptocarpus.links[17]}' target='_blank'>${calyptocarpus.links[16]}</a></p>\
+    <p>Field Observations:</p>\
+    <p>${calyptocarpus.observations}</p>
+    <p>Click to enlarge images</p>`;
+    
+    pic3.innerHTML = `${calyptocarpus.pest_images[0]}`;
+    pic2.innerHTML = `${calyptocarpus.pest_images[1]}`;
+    pic1.innerHTML = `${calyptocarpus.pest_images[2]}`;
+    document.getElementById('insect3').innerHTML = `${calyptocarpus.pest_images[0]}`;
+    document.getElementById('insect2').innerHTML = `${calyptocarpus.pest_images[1]}`;
+    document.getElementById('insect1').innerHTML = `${calyptocarpus.pest_images[2]}`;
 }
 
 /*
@@ -3958,6 +4051,167 @@ function () {
     };    
 })();
 
+/*  Modiola   */
+
+(function() {    
+    let img_image = 0;
+    let img_title = 0;
+    let img_text = 0;
+    let images_mod = ['./images/modiola_3.png', './images/modiola_1.png', './images/modiola_2.png'];
+    let images_hover_mod = ['Red-flowered mallowt', 'Red-flowered mallow', 'Red-flowered mallow'];
+    let images_text_mod = ['Red-flowered mallow', 'Red-flowered mallow', 'Red-flowered mallow']
+    let im_len = images_mod.length;
+
+    document.getElementById('mod').onclick = function() { 
+        let display_image = document.getElementById('image1-mod');
+        let hide_button = document.getElementById('hide-mod');
+        let move_button = document.getElementById('image2-mod');
+        let image_text = document.getElementById('image-text-mod');
+        hide_button.style.visibility = 'visible';     
+        display_image.style.visibility = 'visible';
+        move_button.style.visibility = 'visible';
+        image_text.style.visibility = 'visible';
+    };
+
+    let mod_ol = document.getElementById('image2-mod');
+    mod_ol.addEventListener('click', function() {
+        let image_text = document.getElementById('image-text-mod');
+        let display_image = document.getElementById('image1-mod');
+        if (img_image > im_len-1) {
+            img_image = 0;
+        }
+        if (img_title > im_len-1) {
+            img_title = 0;
+        }
+        if (img_text > im_len-1) {
+            img_text = 0;
+        }
+        display_image.src = images_mod[img_image++]
+        display_image.title = images_hover_mod[img_title++]
+        image_text.innerText = images_text_mod[img_text++]
+        image_text.style.fontStyle = 'italic';
+    });
+    
+    document.getElementById('hide-mod').onclick = function() {  
+        let display_image = document.getElementById('image1-mod');
+        let hide_button= document.getElementById('hide-mod');  
+        let move_button = document.getElementById('image2-mod');
+        let image_text = document.getElementById('image-text-mod');
+        display_image.style.visibility = 'hidden';  
+        hide_button.style.visibility = 'hidden';
+        move_button.style.visibility = 'hidden';  
+        image_text.style.visibility = 'hidden';
+    };    
+})();
+
+/*  Eclipta   */
+
+(function() {    
+    let img_image = 0;
+    let img_title = 0;
+    let img_text = 0;
+    let images_eclip = ['./images/eclipta_fl.png', './images/eclipta_lg_leaf.png', 
+                        './images/eclipta_md_leaf.png', './images/Eclipta_leaf_fl.png'];
+    let images_hover_eclip = ['False daisy flower', 'False daisy with larger leaves', 'False daisy with medium size leaves', 'False daisy growing in lawn'];
+    let images_text_eclip = ['Eclipta prostata', 'Eclipta prostata', 'Eclipta prostata', 'Eclipta prostata']
+    let im_len = images_eclip.length;
+
+    document.getElementById('eclip').onclick = function() { 
+        let display_image = document.getElementById('image1-eclip');
+        let hide_button = document.getElementById('hide-eclip');
+        let move_button = document.getElementById('image2-eclip');
+        let image_text = document.getElementById('image-text-eclip');
+        hide_button.style.visibility = 'visible';     
+        display_image.style.visibility = 'visible';
+        move_button.style.visibility = 'visible';
+        image_text.style.visibility = 'visible';
+    };
+
+    let eclip_ol = document.getElementById('image2-eclip');
+    eclip_ol.addEventListener('click', function() {
+        let image_text = document.getElementById('image-text-eclip');
+        let display_image = document.getElementById('image1-eclip');
+        if (img_image > im_len-1) {
+            img_image = 0;
+        }
+        if (img_title > im_len-1) {
+            img_title = 0;
+        }
+        if (img_text > im_len-1) {
+            img_text = 0;
+        }
+        display_image.src = images_eclip[img_image++]
+        display_image.title = images_hover_eclip[img_title++]
+        image_text.innerText = images_text_eclip[img_text++]
+        image_text.style.fontStyle = 'italic';
+    });
+    
+    document.getElementById('hide-eclip').onclick = function() {  
+        let display_image = document.getElementById('image1-eclip');
+        let hide_button= document.getElementById('hide-eclip');  
+        let move_button = document.getElementById('image2-eclip');
+        let image_text = document.getElementById('image-text-eclip');
+        display_image.style.visibility = 'hidden';  
+        hide_button.style.visibility = 'hidden';
+        move_button.style.visibility = 'hidden';  
+        image_text.style.visibility = 'hidden';
+    };    
+})();
+
+(function() {    
+    let img_image = 0;
+    let img_title = 0;
+    let img_text = 0;
+    let images_caly = ['./images/calyptocarpus_1.png', './images/calyptocarpus_2.png', 
+                        './images/calyptocarpus_3.png'];
+    let images_hover_caly = ['Creeping cinderella weed', 'Creeping cinderella weed', 'Creeping cinderella weed'];
+    let images_text_caly = ['Creeping cinderella weed', 'Creeping cinderella weed', 'Creeping cinderella weed']
+    let im_len = images_caly.length;
+
+    document.getElementById('caly').onclick = function() { 
+        let display_image = document.getElementById('image1-caly');
+        let hide_button = document.getElementById('hide-caly');
+        let move_button = document.getElementById('image2-caly');
+        let image_text = document.getElementById('image-text-caly');
+        hide_button.style.visibility = 'visible';     
+        display_image.style.visibility = 'visible';
+        move_button.style.visibility = 'visible';
+        image_text.style.visibility = 'visible';
+    };
+
+    let caly_ol = document.getElementById('image2-caly');
+    caly_ol.addEventListener('click', function() {
+        let image_text = document.getElementById('image-text-caly');
+        let display_image = document.getElementById('image1-caly');
+        if (img_image > im_len-1) {
+            img_image = 0;
+        }
+        if (img_title > im_len-1) {
+            img_title = 0;
+        }
+        if (img_text > im_len-1) {
+            img_text = 0;
+        }
+        display_image.src = images_caly[img_image++]
+        display_image.title = images_hover_caly[img_title++]
+        image_text.innerText = images_text_caly[img_text++]
+        image_text.style.fontStyle = 'italic';
+    });
+    
+    document.getElementById('hide-caly').onclick = function() {  
+        let display_image = document.getElementById('image1-caly');
+        let hide_button= document.getElementById('hide-caly');  
+        let move_button = document.getElementById('image2-caly');
+        let image_text = document.getElementById('image-text-caly');
+        display_image.style.visibility = 'hidden';  
+        hide_button.style.visibility = 'hidden';
+        move_button.style.visibility = 'hidden';  
+        image_text.style.visibility = 'hidden';
+    };    
+})();
+
+
+
 /* TEST CODE TO MOVE THROUGH PHOTOS */
 /* CROTALARIA      */
 /*et img_now = 0;
@@ -4324,5 +4578,17 @@ info51.addEventListener('click', function(e) {
 info52.addEventListener('click', function(e) {
     e.preventDefault();
     Melilotus();
+})
+info53.addEventListener('click', function(e) {
+    e.preventDefault();
+    Modiola();
+})
+info54.addEventListener('click', function(e) {
+    e.preventDefault();
+    Eclipta();
+})
+info55.addEventListener('click', function(e) {
+    e.preventDefault();
+    Calyptocarpus();
 })
 
