@@ -2086,6 +2086,152 @@ const melilotus = {
     ]
 }
 
+const modiola = {
+	common_name: 'Red-flowered mallow',
+    other_common_names: ['Carolina bristle mallow', 'Bristle mallow', 'Creeping mallow', 'Wheel mallow', 'Ground ivy'],
+    botanical_name: '<em>Modiola caroliniana</em> (L.) G. Don',
+    family: 'Malvaceae',
+    uses: '',
+    cultural: 'Red-flowered mallow is commonly found growing in \
+    gardens, lawns, fields, waste areas, moist areas, orchards, irrigated land and disturbed natural areas. \
+    It is an annual or perennial plant, rhizomatous, prostrate or ascending (up to 25 cm high), leaves are ovate to broad-ovate (3-4 cm long, 2-3 cm wide). \
+    Flowers are bisexual, orange-red or red and have five petals, while the fruit is rounded and 7-9 mm wide. \
+    Roots can form at nodes, allowing plants to spread. Moths and butterflies are reported pollinators.',
+    hosts: 'Hosts include:<br><em>Puccinia modiolae</em> (rust)<br><em>Cercospora modiolae</em> (leaf spot)<br>\
+    <em>Synchytrium australe</em> (false rust or wart disease)<br><em>Myzus persicae</em> (Green peach aphid)<br><br>\
+    See UNE marshmallow link for pests and diseases of <em>Malva parviflora</em> - this is a related plant, as such \
+    pests and diseases might be similar.<br><br>According to one website, Red-flowered mallow is a host for the Blue Moon butterfly. \
+    The source could not be confirmed, however a related plant <em>Sida rhombifolia</em>, is a known host for the Blue moon butterfly.<br><br>\
+    A secretion use to construct resin nest caps by the Wasp bee (<em>Hylaeoides concinna</em>) was found to\
+    contain material from Red-flowered mallow (Native Bee Conference link below).',
+    observations: 'Please complete the form to add your observations - go to the About page to access the form \
+    or post your observations on Facebook.<br><br>',
+    links: [
+        'RBGS', 'https://plantnet.rbgsyd.nsw.gov.au/cgi-bin/NSWfl.pl?page=nswfl&lvl=gn&name=Modiola',
+        'Living Atlas of Australia', 'https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2914881',
+        'Utexas', 'http://w3.biosci.utexas.edu/prc/K12/pages/Modiola%20caroliniana.html',
+        'IEWF', 'https://www.iewf.org/weedid/Modiola_caroliniana.htm',
+        'Weeds of Melbourne', 'https://weedsofmelbourne.org/red-flowered-mallow-modiola-caroliniana',
+        'Flora SA', 'http://www.flora.sa.gov.au/cgi-bin/speciesfacts_display.cgi?form=speciesfacts&name=Modiola_caroliniana',
+        'Malvaceae Info', 'http://www.malvaceae.info/Genera/Modiola/Modiola.php',
+        'Foraging Texas', 'https://www.foragingtexas.com/2012/03/carolina-bristle-mallow.html',
+        'GBIF', 'https://www.gbif.org/species/8338793',
+        'Go Botany', 'https://gobotany.nativeplanttrust.org/species/modiola/caroliniana/',
+        'BW Wells Association', 'https://bwwellsassociation.wordpress.com/2014/05/26/modiola-caroliniana-carolina-bristlemallow/',
+        'Rust link', 'https://apsjournals.apsnet.org/doi/10.1094/PDIS-02-19-0303-PDN',
+        'Discover Life', 'https://www.discoverlife.org/20/q?search=Modiola+caroliniana',
+        'Aphids on world plants', 'http://www.aphidsonworldsplants.info/C_HOSTS_Met_Nys.htm',
+        'UNE - Marshmallow', 'https://www.une.edu.au/__data/assets/pdf_file/0008/281996/une_weeds_mallow.pdf',
+        'Butterfly House', 'http://lepidoptera.butterflyhouse.com.au/nymp/bolina.html',
+        'Garden', 'https://garden.org/plants/view/83417/Creeping-Mallow-Modiola-caroliniana/',
+        'Native Bee Conference - page 17', 'https://australiannativebee.org.au/resources/Documents/The%20CROSS-POLLINATOR/Program%20book%20ANBConference%202019.pdf'
+    ],
+    pest_images: [
+        "<img title='please upload your observations' alt='please upload your observations' src='./images/blank_pest_image.png'>",
+        "<img title='please upload your observations' alt='please upload your observations' src='./images/blank_pest_image.png'>",
+        "<img title='please upload your observations' alt='please upload your observations' src='./images/blank_pest_image.png'>"
+    ]
+}
+
+const eclipta = {
+	common_name: 'False daisy',
+    other_common_names: [],
+    botanical_name: '<em>Eclipta prostata</em> (L.) L.',
+    family: 'Asteraceae',
+    uses: 'Medicinal. The leaves contain nicotine which acts as an insecticide.',
+    cultural: 'False daisy is an erect or decumbent (spreading) annual or perennial herb that has a variable growth habit. \
+    The leaves are narrow-ovate to elliptic, size is variable (3–10 cm long, 5–15 mm wide). \
+    The small white flowers are 6–8 mm in diameter.<br><br>\
+    Each plant can produce up to 14 000 seeds. Plants are able to root at the node, enabling the plant to spread considerably. \
+    False daisy is reported to be adaptable and can be found growing in a range of situations. \
+    They can be found growing in poorly drained soils, wet areas along streams and marshes, part-shade, full sun, \
+    saline conditions, tolerant of highly polluted places and up to 2000 m above sea level.\
+    Plants tolerate of range of soil types and pH levels. They do have a preference for moist soil conditions.',
+    hosts: 'Reported hosts include:<br><br>\
+    -Rice sheath blight (<em>Rhizoctonia solani</em>)<br>\
+    -Sclerotinia blight of groundnut (<em>Sclerotinia minor</em>)<br>\
+    -Dry root rot of chickpea (<em>Macrophomina phaseolina</em>)<br>\
+    -Tobacco necrosis satellivirus<br>\
+    -<em>Amsacta moorei</em>\
+    -Girdle beetle (<em>Oberea brevis</em>)<br>\
+    -Root-knot nematodes (<em>Meloidogyne incognita, M. graminicola</em>)<br>\
+    -Ring nematode (<em>Criconemella onoenis</em>)<br>\
+    -Rice root nematode (<em>Hirschmanniella oryzae</em>)<br>\
+    -Corn cyst nematode (<em>Heterodera zeae</em>)<br>\
+    -Black bean aphid (<em>Aphis fabae</em>)<br>\
+    -Cotton aphid (<em>Aphis gossypii</em>)<br>\
+    -Brown ambrosia aphid(<em>Uroleucon ambrosiae</em>)<br>\
+    -<em>Pseudodendrothrips sp.</em><br><br>\
+    False daisy is known to attract small butterflies, bees, wasps, and flies.<br><br> \
+    At the Archbold Biological Station, Plasterer bees (<em>Hylaeus confluens</em>), \
+    Sweat bees (<em>Halictus poeyi</em>, Lasioglossum placidensis, L. puteulanum and L. tamiamensis</em>), \
+    Thread waisted wasps (<em>Cerceris tolteca and Ectemnius rufipes ais</em>), and \
+    wasps (<em>Parancistrocerus perennis anacardivora, P. salcularis rufulus and \
+    Stenodynerus fundatiformis</em>) have been observed \
+    on False daisy ---<a href="http://coastalplainplants.org/wiki/index.php/Eclipta_prostrata">Link</a>.<br>',
+    observations: 'Please complete the form to add your observations - go to the About page to access the form \
+    or post your observations on Facebook.<br><br>',
+    links: [
+        'RBGS', 'https://plantnet.rbgsyd.nsw.gov.au/cgi-bin/NSWfl.pl?page=nswfl&lvl=sp&name=Eclipta~prostrata',
+        'Australian Tropical Rainforest plants', 'https://apps.lucidcentral.org/rainforest/text/entities/eclipta_prostrata.htm',
+        'Sown', 'https://sown.com.au/eclipta-prostrata-asteraceae-white-eclipta-false-daisy/',
+        'Cabi', 'https://www.cabi.org/isc/datasheet/20395',
+        'Cabi - thrips', 'https://www.cabi.org/isc/abstract/20103139494',
+        'PFAF', 'https://pfaf.org/user/Plant.aspx?LatinName=Eclipta+prostrata',
+        'Plantnet', 'http://publish.plantnet-project.org/project/riceweeds_en/collection/collection/information/details/ECLAL',
+        'Atlas of Living Australia', 'https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51268439',
+        'North Carolina extension', 'https://plants.ces.ncsu.edu/plants/eclipta-prostrata/',
+        'Coastal Plants', 'http://coastalplainplants.org/wiki/index.php/Eclipta_prostrata',
+        'The Indian Forester', 'https://www.indianforester.co.in/index.php/indianforester/article/view/120396',
+        'Aphids on world plants', 'http://www.aphidsonworldsplants.info/C_HOSTS_Dil_Eny.htm'
+    ],
+    pest_images: [
+        "<img title='please upload your observations' alt='please upload your observations' src='./images/blank_pest_image.png'>",
+        "<img title='please upload your observations' alt='please upload your observations' src='./images/blank_pest_image.png'>",
+        "<img title='please upload your observations' alt='please upload your observations' src='./images/blank_pest_image.png'>"
+    ]
+}
+
+const calyptocarpus = {
+	common_name: 'Creeping Cinderella Weed',
+    other_common_names: ["Straggler Daisy", "Horseherb"],
+    botanical_name: '<em>Calyptocarpus vialis</em> Less.',
+    family: 'Asteraceae',
+    uses: 'Reported to be edible.',
+    cultural: 'Creeping cinderella weed is a herbaceous annual or short-lived perennial with trailing stems (up to 60 cm long), \
+    capable of rooting at nodes, and numerous small hairs on leaves. \
+    The leaves are ovate-triangular in shape and range from 15–45 mm long and 8–40 mm wide. \
+    The small yellow flowers have between 3 to 8 ray florets. \
+    Creeping cinderalla weed is a weed of lawns, gardens, pastures, orchards, cultivation, disturbed natural areas, \
+    wasteland and roadsides. It is shade-tolerant and copes with some disturbance. \
+    It reproduces by seed, but can spread substanially by runners and rooting at nodes.  It is reported to be an excellent \
+    ground cover on sloped locations and drought tolerant. \
+    It tolerates a range of soil types and pH levels. Where drainage is poor, plants are known to suffer rots. It is found \
+    growing from coastal areas to mountains. It is reported to have allelopathic properties - impacting the growth of \
+    other plants (see link below).',
+    hosts: 'Creeping cinderella is reported to attract pollinators, as well as \
+    sulfur and skipper butterflies that feed on nectar. <em>Puccinia melampodii</em> has been linked with \
+    Creeping cinderella weed.<br>',
+    observations: 'Please complete the form to add your observations - go to the About page to access the form \
+    or post your observations on Facebook.<br><br>',
+    links: [
+        'RBGS', 'https://plantnet.rbgsyd.nsw.gov.au/cgi-bin/NSWfl.pl?page=nswfl&lvl=sp&name=Calyptocarpus~vialis',
+        'Weeds of Australia', 'https://keyserver.lucidcentral.org/weeds/data/media/Html/calyptocarpus_vialis.htm',
+        'Wildflower.org', 'https://www.wildflower.org/plants/result.php?id_plant=cavi2',
+        'NC State extension', 'https://plants.ces.ncsu.edu/plants/calyptocarpus-vialis/',
+        'Weeds of Brisbane', 'https://weeds.brisbane.qld.gov.au/weeds/creeping-cinderella-weed',
+        'Atlas of Living Australia', 'https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2886328',
+        'Weed Futures', 'http://www.weedfutures.net/species.php?id=47',
+        'Discover Life', 'https://www.discoverlife.org/mp/20q',
+        'Allelopathy', 'https://link.springer.com/article/10.1007/s10661-021-09092-0'
+    ],
+    pest_images: [
+        "<img title='please upload your observations' alt='please upload your observations' src='./images/blank_pest_image.png'>",
+        "<img title='please upload your observations' alt='please upload your observations' src='./images/blank_pest_image.png'>",
+        "<img title='please upload your observations' alt='please upload your observations' src='./images/blank_pest_image.png'>"
+    ]
+}
+
 /*
 const template = {
 	common_name: '',
@@ -2102,17 +2248,17 @@ const template = {
 
 const combined = [BalloonCotton, shade, heliotropium, Brazilian_nightshade, 
     burmedic, carpetgrass, catsear, chickweed, cobblers, 
-    sonchus, cotula, vicia, crabgrass, indigo, cudweed, dandelion, 
-    fathen, sida_cordifolia, fleabane, flickweed, grass, amaranth, Gomphrena, hawkweed, 
+    sonchus, cotula, vicia, crabgrass, calyptocarpus, indigo, cudweed, dandelion, 
+    eclipta, fathen, sida_cordifolia, fleabane, flickweed, grass, amaranth, Gomphrena, hawkweed, 
     melilotus, khaki, coronopus, plantago, emilia, Mallow, brassica, mouseear, nutgrass, 
-    sida_rhombifolia, plant_ago, potato_weed, malvastrum, purpletop, crotalaria, rhodes, 
+    sida_rhombifolia, plant_ago, potato_weed, malvastrum, purpletop, crotalaria, modiola, rhodes, 
     cenchrus, capsella, sida_acuta, smooth_catsear, euphorbia, crasso, tridax,
     tropChick, raphanus, mitracarpus, richardia, willowHerb];
 
-const combined_1 = [khaki, amaranth, carpetgrass, cobblers, brassica, flickweed, capsella, cenchrus, 
+const combined_1 = [khaki, amaranth, carpetgrass, cobblers, brassica, flickweed, calyptocarpus, capsella, cenchrus, 
     mouseear, fathen, rhodes, coronopus, cotula, crasso, hawkweed, crotalaria, nutgrass, tropChick, 
-    crabgrass, emilia, willowHerb, fleabane, euphorbia, potato_weed, cudweed, Gomphrena, BalloonCotton, 
-    heliotropium, smooth_catsear, catsear, indigo, Mallow, malvastrum, burmedic, melilotus, mitracarpus, 
+    eclipta, crabgrass, emilia, willowHerb, fleabane, euphorbia, potato_weed, cudweed, Gomphrena, BalloonCotton, 
+    heliotropium, smooth_catsear, catsear, indigo, Mallow, malvastrum, burmedic, melilotus, mitracarpus, modiola, 
     plant_ago, plantago, grass, raphanus, richardia, sida_acuta, sida_rhombifolia, sida_cordifolia, 
     shade, Brazilian_nightshade, sonchus, chickweed, dandelion, tridax, purpletop, vicia];
 
