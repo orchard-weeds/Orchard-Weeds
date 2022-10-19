@@ -248,7 +248,7 @@ button {
     border: 2px white inset;
 }
 
-@media only screen and (max-height: 750px) {
+/*@media only screen and (max-height: 750px) {
     .display {
         height: 450px;
         top: 120px;
@@ -260,7 +260,7 @@ button {
         height: 350px;
     }
     
-}
+}*/
 
 
 @media only screen and (max-width: 1000px) {
@@ -389,10 +389,10 @@ button {
     }
 }
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 700px) {
     .display {
         position:fixed;
-        width: 90%;
+        width: 85%;
         height: 400px;
         visibility: hidden;
         margin-left: 2%;
@@ -401,11 +401,6 @@ button {
         overflow-y: scroll;
         top: 150px;
         border: 3px midnightblue solid;
-    }
-
-    .Gr-1 {
-        width: 160%;
-        height: 200px;
     }
 
     
