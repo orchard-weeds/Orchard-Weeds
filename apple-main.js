@@ -4267,6 +4267,25 @@ let im_len = images.length;
     };    
 })();*/
 
+(function() {    
+   
+    document.getElementById('display_button').onclick = function() {    
+        let other_container = document.getElementById('display');
+        other_container.style.visibility = 'hidden'; 
+        console.log('this is working'); 
+    };
+      
+})();
+
+(function() {    
+   
+    document.getElementById('display_button_2').onclick = function() {    
+        let other_container = document.getElementById('display');
+        other_container.style.visibility = 'hidden'; 
+        console.log('this is working'); 
+    };
+      
+})();
 
 (function() {    
    
