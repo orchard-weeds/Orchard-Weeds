@@ -1,27 +1,27 @@
 #insectBut-1 {
     visibility: hidden;
     font-size: 2rem;
-    z-index: 50;
+    z-index: 150;
     border-radius: 5px;
     margin-top: -20px;
 }
 #insectBut-2 {
     visibility: hidden;
     font-size: 2rem;
-    z-index: 50;
+    z-index: 150;
     border-radius: 5px;
     margin-top: -20px;
 }
 #insectBut-3 {
     visibility: hidden;
     font-size: 2rem;
-    z-index: 110;
+    z-index: 150;
     border-radius: 5px;
     margin-top: -20px;
 }
 
 #insect1 {
-    z-index: 50;
+    z-index: 150;
     width: 100%;
     height: 100%;
     position: absolute;
@@ -29,7 +29,7 @@
     visibility: hidden;
 }
 #insect2 {
-    z-index: 50;
+    z-index: 150;
     width: 100%;
     height: 100%;
    
@@ -38,7 +38,7 @@
     visibility: hidden;
 }
 #insect3 {
-    z-index: 50;
+    z-index: 150;
     width: 100%;
     height: 100%;
     position:absolute;
@@ -58,7 +58,7 @@
     visibility: hidden;
     margin-left: -10%;
     top: 30%;
-    z-index: 100;
+    z-index: 150;
 }
 
 
@@ -79,6 +79,14 @@
 
 .display::after {
     visibility: hidden;
+}
+
+#display_button, #display_button_2 {
+    position: relative;
+    border: 1px black solid;
+    border-radius: 5px;
+    color: blue;
+    font-weight: bolder;
 }
 
 .app_pest-im {
@@ -389,11 +397,26 @@ button {
         visibility: hidden;
         margin-left: 2%;
         top: 30%;
-        z-index: 100;
+        z-index: 5;
         overflow-y: scroll;
         top: 150px;
         border: 3px midnightblue solid;
     }
+
+    .Gr-1 {
+        margin-left: 10%;
+        width: 180%;
+        height: 200px;
+    }
+
+    
+   /* #pest-description {
+        z-index: 50;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        border: 8px blue solid;
+    }*/
 }
 
 @media only screen and (max-width: 550px) {
