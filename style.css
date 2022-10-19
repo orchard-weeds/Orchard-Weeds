@@ -241,7 +241,7 @@ body {
     border: inset;
 }
 
-
+/*
 .display {
     width: 45%;
     height: 450px;
@@ -256,7 +256,7 @@ body {
 }
 .display::after {
     visibility: hidden;
-}
+}*/
 
 .dis-cont {
     display: block;
