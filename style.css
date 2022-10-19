@@ -133,7 +133,7 @@ body {
 }
 
 .name {
-    width: 40%;
+    width: 45%;
     border: 1px black solid;
     background-color:lavender;
     display: block;
@@ -242,7 +242,7 @@ body {
 }
 
 
-/*.display {
+.display {
     width: 45%;
     height: 450px;
     border: 1px red solid;
@@ -256,8 +256,11 @@ body {
 }
 .display::after {
     visibility: hidden;
-}*/
+}
 
+.dis-cont {
+    display: block;
+}
 
 #pest-description {
     width: 95%;
@@ -424,6 +427,7 @@ input[type="radio"] {
     .Gr-1 {
         font-size: 0.9rem;
         height: 170px;
+        width: 130%;
     }
 
     .info {
@@ -448,15 +452,14 @@ input[type="radio"] {
 
 @media only screen and (max-width: 700px) {
     .main {
-        width: 93%;
-        margin-left: 2%;
+        width: 70%;
+        margin-left: 0%;
     }
     /* reduce text size of Gr-1 */
     .Gr-1 {
         font-size: 0.8rem;
-        height: 150px;
-        width: 110%;
-        margin-left: -4%;
+        height: 180px;
+        width: 200%;
     }
 
     .excerp {
@@ -486,10 +489,10 @@ input[type="radio"] {
         /*height: 170px;*/
         font-size: 0.95rem;
     }
-    .display {
+    /*.display {
         margin-left: 3%;
         width: 50%;
-    }
+    }*/
 
     footer {
         height: 170px;
@@ -501,15 +504,11 @@ input[type="radio"] {
 }
 
 @media only screen and (max-width: 510px) {
-    .main {
-        width: 95%;
-        margin-left: 0%;
-    }
+    
     /* reduce text size of Gr-1 */
     .Gr-1 {
-        font-size: 0.6rem;
-        height: 100px;
-        width: 110%;
+        height: 135px;
+        width: 200%;
     }
     .name em {
         font-size: 0.5rem;
@@ -553,14 +552,13 @@ input[type="radio"] {
    
     /* reduce text size of Gr-1 */
     .Gr-1 {
-        height: 110px;
+        height: 135px;
+        width: 200%;
     }
 }
 
 @media only screen and (max-width: 370px) {
-    .main {
-        width: 93%;
-    }
+   
 
     .nav h1 {
         margin-left: -20px;
@@ -571,8 +569,6 @@ input[type="radio"] {
 
     .Gr-1 {
         font-size: 0.6rem;
-        height: 120px;
-        width: 110%;
         margin-left: -8%;
     }
 
