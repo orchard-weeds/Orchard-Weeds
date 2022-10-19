@@ -241,8 +241,8 @@ body {
     border: inset;
 }
 
-/*
-.display {
+
+/*.display {
     width: 45%;
     height: 450px;
     border: 1px red solid;
@@ -258,9 +258,6 @@ body {
     visibility: hidden;
 }*/
 
-.dis-cont {
-    display: block;
-}
 
 #pest-description {
     width: 95%;
