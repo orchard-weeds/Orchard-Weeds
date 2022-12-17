@@ -58,12 +58,16 @@ const info52 = document.getElementById('info-52');
 const info53 = document.getElementById('info-53');
 const info54 = document.getElementById('info-54');
 const info55 = document.getElementById('info-55');
+const info56 = document.getElementById('info-56');
+const info57 = document.getElementById('info-57');
+const info58 = document.getElementById('info-58');
+const info59 = document.getElementById('info-59');
 
 
 function mallow() {
     document.querySelector('.display').style.visibility = 'visible';
     description.innerHTML =
-    `<h1>${Mallow.common_name}</h1><h3>(<em>${Mallow.botanical_name}</em>)</h3> <p> \
+    `<h1>${Mallow.common_name}</h1><h3>(<em>${Mallow.botanical_name}</em>)</h3><h3>${Mallow.family}</h3><br> <p> \
     ${Mallow.cultural}</p><p>${Mallow.hosts}.</p><p>Uses: ${Mallow.uses}</p>\
     <p>Links: <a href='${Mallow.links[1]}' target='_blank'>${Mallow.links[0]}</a></p>\
     <p>Links: <a href='${Mallow.links[3]}' target='_blank'>${Mallow.links[2]}</a></p>\
@@ -101,7 +105,7 @@ function nightshade() {
 function thickhead() {
     document.querySelector('.display').style.visibility = 'visible';
     description.innerHTML =
-    `<h1>${crasso.common_name}</h1> <h3>(<em>${crasso.botanical_name}</em>)</h3> <p> \
+    `<h1>${crasso.common_name}</h1> <h3>(<em>${crasso.botanical_name}</em>)</h3><h3>${crasso.family}</h3><br> <p> \
     ${crasso.cultural}</p><p>${crasso.hosts}.</p><p>Uses: ${crasso.uses}</p>\
     <p>Links: <a href='${crasso.links[1]}' target='_blank'>${crasso.links[0]}</a></p>\
     <p>Links: <a href='${crasso.links[3]}' target='_blank'>${crasso.links[2]}</a></p>\
@@ -122,7 +126,7 @@ function thickhead() {
 function amaranthus() {
     document.querySelector('.display').style.visibility = 'visible';
     description.innerHTML =
-    `<h1>${amaranth.common_name}</h1> <h3>(${amaranth.botanical_name})</h3> <p> \
+    `<h1>${amaranth.common_name}</h1> <h3>(${amaranth.botanical_name})</h3><h3>${amaranth.family}</h3><br> <p> \
     ${amaranth.cultural}</p><p>${amaranth.hosts}.</p><p>Uses: ${amaranth.uses}</p>\
     <p>Links: <a href='${amaranth.links[1]}' target='_blank'>${amaranth.links[0]}</a></p>\
     <p>Links: <a href='${amaranth.links[3]}' target='_blank'>${amaranth.links[2]}</a>\
@@ -161,7 +165,7 @@ function gomphrena() {
 function verbenaB() {
     document.querySelector('.display').style.visibility = 'visible';
     description.innerHTML =
-    `<h1>${purpletop.common_name}</h1> <h3>(${purpletop.botanical_name})</h3> <p> \
+    `<h1>${purpletop.common_name}</h1> <h3>(${purpletop.botanical_name})</h3><h3>${purpletop.family}</h3><br> <p> \
     ${purpletop.cultural}</p><p>${purpletop.hosts}.</p><p>Uses: ${purpletop.uses}</p>\
     <p>Links: <a href='${purpletop.links[1]}' target='_blank'>${purpletop.links[0]}</a></p>\
     <p>Links: <a href='${purpletop.links[3]}' target='_blank'>${purpletop.links[2]}</a></p>\
@@ -180,7 +184,7 @@ function verbenaB() {
 function tropicalchickweed() {
     document.querySelector('.display').style.visibility = 'visible';
     description.innerHTML =
-    `<h1>${tropChick.common_name}</h1> <h3>(<em>${tropChick.botanical_name}</em>)</h3> <p> \
+    `<h1>${tropChick.common_name}</h1> <h3>(<em>${tropChick.botanical_name}</em>)</h3><h3>${tropChick.family}</h3><br> <p> \
     ${tropChick.cultural}</p><p>${tropChick.hosts}.</p><p>Uses: ${tropChick.uses}</p>\
     <p>Links: <a href='${tropChick.links[1]}' target='_blank'>${tropChick.links[0]}</a></p>\
     <p>Links: <a href='${tropChick.links[3]}' target='_blank'>${tropChick.links[2]}</a></p>\
@@ -200,7 +204,7 @@ function tropicalchickweed() {
 function Capsella() {
     document.querySelector('.display').style.visibility = 'visible';
     description.innerHTML =
-    `<h1>${capsella.common_name}</h1> <h3>(${capsella.botanical_name})</h3> <p> \
+    `<h1>${capsella.common_name}</h1> <h3>(${capsella.botanical_name})</h3><h3>${capsella.family}</h3><br> <p> \
     ${capsella.cultural}</p><p>${capsella.hosts}.</p><p>Uses: ${capsella.uses}</p>\
     <p>Links: <a href='${capsella.links[1]}' target='_blank'>${capsella.links[0]}</a></p>\
     <p>Links: <a href='${capsella.links[3]}' target='_blank'>${capsella.links[2]}</a></p>\
@@ -227,7 +231,7 @@ function Capsella() {
 function Heliotrope() {
     document.querySelector('.display').style.visibility = 'visible';
     description.innerHTML =
-    `<h1>${heliotropium.common_name}</h1> <h3>(${heliotropium.botanical_name})</h3> <p> \
+    `<h1>${heliotropium.common_name}</h1> <h3>(${heliotropium.botanical_name})</h3><h3>${heliotropium.family}</h3><br> <p> \
     ${heliotropium.cultural}</p><p>${heliotropium.hosts}.</p><p>Uses: ${heliotropium.uses}</p>\
     <p>Links: <a href='${heliotropium.links[1]}' target='_blank'>${heliotropium.links[0]}</a></p>\
     <p>Links: <a href='${heliotropium.links[3]}' target='_blank'>${heliotropium.links[2]}</a></p>\
@@ -247,7 +251,7 @@ function Heliotrope() {
 function Khaki() {
     document.querySelector('.display').style.visibility = 'visible';
     description.innerHTML =
-    `<h1>${khaki.common_name}</h1> <h3>(${khaki.botanical_name})</h3> <p> \
+    `<h1>${khaki.common_name}</h1> <h3>(${khaki.botanical_name})</h3><h3>${khaki.family}</h3><br> <p> \
     ${khaki.cultural}</p><p>${khaki.hosts}.</p><p>Uses: ${khaki.uses}</p>\
     <p>Links: <a href='${khaki.links[1]}' target='_blank'>${khaki.links[0]}</a></p>\
     <p>Links: <a href='${khaki.links[3]}' target='_blank'>${khaki.links[2]}</a></p>\
@@ -266,7 +270,7 @@ function Khaki() {
 function Fleabane() {
     document.querySelector('.display').style.visibility = 'visible';
     description.innerHTML =
-    `<h1>${fleabane.common_name}</h1> <h3>(${fleabane.botanical_name})</h3> <p> \
+    `<h1>${fleabane.common_name}</h1> <h3>(${fleabane.botanical_name})</h3><h3>${fleabane.family}</h3><br> <p> \
     ${fleabane.cultural}</p><p>${fleabane.hosts}.</p><p>Uses: ${fleabane.uses}</p>\
     <p>Links: <a href='${fleabane.links[1]}' target='_blank'>${fleabane.links[0]}</a></p>\
     <p>Links: <a href='${fleabane.links[3]}' target='_blank'>${fleabane.links[2]}</a></p>\
@@ -286,7 +290,7 @@ function Fleabane() {
 function Bidens() {
     document.querySelector('.display').style.visibility = 'visible';
     description.innerHTML =
-    `<h1>${cobblers.common_name}</h1> <h3>(${cobblers.botanical_name})</h3> <p> \
+    `<h1>${cobblers.common_name}</h1> <h3>(${cobblers.botanical_name})</h3><h3>${cobblers.family}</h3><br> <p> \
     ${cobblers.cultural}</p><p>${cobblers.hosts}.</p><p>Uses: ${cobblers.uses}</p>\
     <p>Links: <a href='${cobblers.links[1]}' target='_blank'>${cobblers.links[0]}</a></p>\
     <p>Links: <a href='${cobblers.links[3]}' target='_blank'>${cobblers.links[2]}</a></p>\
@@ -307,7 +311,7 @@ function Bidens() {
 function Potato() {
     document.querySelector('.display').style.visibility = 'visible';
     description.innerHTML =
-    `<h1>${potato_weed.common_name}</h1> <h3>(${potato_weed.botanical_name})</h3> <p> \
+    `<h1>${potato_weed.common_name}</h1> <h3>(${potato_weed.botanical_name})</h3><h3>${potato_weed.family}</h3><br> <p> \
     ${potato_weed.cultural}</p><p>${potato_weed.hosts}.</p><p>Uses: ${potato_weed.uses}</p>\
     <p>Links: <a href='${potato_weed.links[1]}' target='_blank'>${potato_weed.links[0]}</a></p>\
     <p>Links: <a href='${potato_weed.links[3]}' target='_blank'>${potato_weed.links[2]}</a></p>\
@@ -328,7 +332,7 @@ function Potato() {
 function willowherb() {
     document.querySelector('.display').style.visibility = 'visible';
     description.innerHTML =
-    `<h1>${willowHerb.common_name}</h1> <h3>(${willowHerb.botanical_name})</h3> <p> \
+    `<h1>${willowHerb.common_name}</h1> <h3>(${willowHerb.botanical_name})</h3><h3>${willowherb.family}</h3><br> <p> \
     ${willowHerb.cultural}</p><p>${willowHerb.hosts}.</p><p>Uses: ${willowHerb.uses}</p>\
     <p>Links: <a href='${willowHerb.links[1]}' target='_blank'>${willowHerb.links[0]}</a></p>\
     <p>Links: <a href='${willowHerb.links[3]}' target='_blank'>${willowHerb.links[2]}</a></p>\
@@ -349,7 +353,7 @@ function willowherb() {
 function cotton() {
     document.querySelector('.display').style.visibility = 'visible';
     description.innerHTML =
-    `<h1>${BalloonCotton.common_name}</h1> <h3>(${BalloonCotton.botanical_name})</h3> <p> \
+    `<h1>${BalloonCotton.common_name}</h1> <h3>(${BalloonCotton.botanical_name})</h3><h3>${BalloonCotton.family}</h3><br> <p> \
     ${BalloonCotton.cultural}</p><p>${BalloonCotton.hosts}.</p><p>Uses: ${BalloonCotton.uses}</p>\
     <p>Links: <a href='${BalloonCotton.links[1]}' target='_blank'>${BalloonCotton.links[0]}</a></p>\
     <p>Links: <a href='${BalloonCotton.links[3]}' target='_blank'>${BalloonCotton.links[2]}</a></p>\
@@ -377,7 +381,7 @@ function cotton() {
 function brazilian() {
     document.querySelector('.display').style.visibility = 'visible';
     description.innerHTML =
-    `<h1>${Brazilian_nightshade.common_name}</h1> <h3>(${Brazilian_nightshade.botanical_name})</h3> <p> \
+    `<h1>${Brazilian_nightshade.common_name}</h1> <h3>(${Brazilian_nightshade.botanical_name})</h3><h3>${Brazilian_nightshade.family}</h3><br> <p> \
     ${Brazilian_nightshade.cultural}</p><p>${Brazilian_nightshade.hosts}.</p><p>Uses: ${Brazilian_nightshade.uses}</p>\
     <p>Links: <a href='${Brazilian_nightshade.links[1]}' target='_blank'>${Brazilian_nightshade.links[0]}</a></p>\
     <p>Links: <a href='${Brazilian_nightshade.links[3]}' target='_blank'>${Brazilian_nightshade.links[2]}</a></p>\
@@ -400,7 +404,7 @@ function brazilian() {
 function Mitracarpus() {
     document.querySelector('.display').style.visibility = 'visible';
     description.innerHTML =
-    `<h1>${mitracarpus.common_name}</h1> <h3>(${mitracarpus.botanical_name})</h3> <p> \
+    `<h1>${mitracarpus.common_name}</h1> <h3>(${mitracarpus.botanical_name})</h3><h3>${mitracarpus.family}</h3><br> <p> \
     ${mitracarpus.cultural}</p><p>${mitracarpus.hosts}.</p><p>Uses: ${mitracarpus.uses}</p>\
     <p>Links: <a href='${mitracarpus.links[1]}' target='_blank'>${mitracarpus.links[0]}</a></p>\
     <p>Links: <a href='${mitracarpus.links[3]}' target='_blank'>${mitracarpus.links[2]}</a></p>\
@@ -423,7 +427,7 @@ function Mitracarpus() {
 function Richardia() {
     document.querySelector('.display').style.visibility = 'visible';
     description.innerHTML =
-    `<h1>${richardia.common_name}</h1> <h3>(${richardia.botanical_name})</h3> <p> \
+    `<h1>${richardia.common_name}</h1> <h3>(${richardia.botanical_name})</h3><h3>${richardia.family}</h3><br> <p> \
     ${richardia.cultural}</p><p>${richardia.hosts}.</p><p>Uses: ${richardia.uses}</p>\
     <p>Links: <a href='${richardia.links[1]}' target='_blank'>${richardia.links[0]}</a></p>\
     <p>Links: <a href='${richardia.links[3]}' target='_blank'>${richardia.links[2]}</a></p>\
@@ -446,7 +450,7 @@ function Richardia() {
 function Sida() {
     document.querySelector('.display').style.visibility = 'visible';
     description.innerHTML =
-    `<h1>${sida_acuta.common_name}</h1> <h3>(${sida_acuta.botanical_name})</h3> <p> \
+    `<h1>${sida_acuta.common_name}</h1> <h3>(${sida_acuta.botanical_name})</h3><h3>${sida_acuta.family}</h3><br> <p> \
     ${sida_acuta.cultural}</p><p>${sida_acuta.hosts}.</p><p>Uses: ${sida_acuta.uses}</p>\
     <p>Links: <a href='${sida_acuta.links[1]}' target='_blank'>${sida_acuta.links[0]}</a></p>\
     <p>Links: <a href='${sida_acuta.links[3]}' target='_blank'>${sida_acuta.links[2]}</a></p>\
@@ -470,7 +474,7 @@ function Sida() {
 function Sida_rhom() {
     document.querySelector('.display').style.visibility = 'visible';
     description.innerHTML =
-    `<h1>${sida_rhombifolia.common_name}</h1> <h3>(${sida_rhombifolia.botanical_name})</h3> <p> \
+    `<h1>${sida_rhombifolia.common_name}</h1> <h3>(${sida_rhombifolia.botanical_name})</h3><h3>${sida_rhombifolia.family}</h3><br> <p> \
     ${sida_rhombifolia.cultural}</p><p>${sida_rhombifolia.hosts}.</p><p>Uses: ${sida_rhombifolia.uses}</p>\
     <p>Links: <a href='${sida_rhombifolia.links[1]}' target='_blank'>${sida_rhombifolia.links[0]}</a></p>\
     <p>Links: <a href='${sida_rhombifolia.links[3]}' target='_blank'>${sida_rhombifolia.links[2]}</a></p>\
@@ -496,7 +500,7 @@ function Sida_rhom() {
 function Sida_cord() {
     document.querySelector('.display').style.visibility = 'visible';
     description.innerHTML =
-    `<h1>${sida_cordifolia.common_name}</h1> <h3>(${sida_cordifolia.botanical_name})</h3> <p> \
+    `<h1>${sida_cordifolia.common_name}</h1> <h3>(${sida_cordifolia.botanical_name})</h3><h3>${sida_cordifolia.family}</h3><br> <p> \
     ${sida_cordifolia.cultural}</p><p>${sida_cordifolia.hosts}.</p><p>Uses: ${sida_cordifolia.uses}</p>\
     <p>Links: <a href='${sida_cordifolia.links[1]}' target='_blank'>${sida_cordifolia.links[0]}</a></p>\
     <p>Links: <a href='${sida_cordifolia.links[3]}' target='_blank'>${sida_cordifolia.links[2]}</a></p>\
@@ -525,7 +529,7 @@ function Sida_cord() {
 function Malvastrum() {
     document.querySelector('.display').style.visibility = 'visible';
     description.innerHTML =
-    `<h1>${malvastrum.common_name}</h1> <h3>(${malvastrum.botanical_name})</h3> <p> \
+    `<h1>${malvastrum.common_name}</h1> <h3>(${malvastrum.botanical_name})</h3><h3>${malvastrum.family}</h3><br> <p> \
     ${malvastrum.cultural}</p><p>${malvastrum.hosts}.</p><p>Uses: ${malvastrum.uses}</p>\
     <p>Links: <a href='${malvastrum.links[1]}' target='_blank'>${malvastrum.links[0]}</a></p>\
     <p>Links: <a href='${malvastrum.links[3]}' target='_blank'>${malvastrum.links[2]}</a></p>\
@@ -552,7 +556,7 @@ function Malvastrum() {
 function Indigo() {
     document.querySelector('.display').style.visibility = 'visible';
     description.innerHTML =
-    `<h1>${indigo.common_name}</h1> <h3>(${indigo.botanical_name})</h3> <p> \
+    `<h1>${indigo.common_name}</h1> <h3>(${indigo.botanical_name})</h3><h3>${indigo.family}</h3><br> <p> \
     ${indigo.cultural}</p><p>${indigo.hosts}.</p><p>Uses: ${indigo.uses}</p>\
     <p>Links: <a href='${indigo.links[1]}' target='_blank'>${indigo.links[0]}</a></p>\
     <p>Links: <a href='${indigo.links[3]}' target='_blank'>${indigo.links[2]}</a></p>\
@@ -579,7 +583,7 @@ function Indigo() {
 function Crotalaria() {
     document.querySelector('.display').style.visibility = 'visible';
     description.innerHTML =
-    `<h1>${crotalaria.common_name}</h1> <h3>(${crotalaria.botanical_name})</h3> <p> \
+    `<h1>${crotalaria.common_name}</h1> <h3>(${crotalaria.botanical_name})</h3><h3>${crotalaria.family}</h3><br> <p> \
     ${crotalaria.cultural}</p><p>${crotalaria.hosts}.</p><p>Uses: ${crotalaria.uses}</p>\
     <p>Links: <a href='${crotalaria.links[1]}' target='_blank'>${crotalaria.links[0]}</a></p>\
     <p>Links: <a href='${crotalaria.links[3]}' target='_blank'>${crotalaria.links[2]}</a></p>\
@@ -610,7 +614,7 @@ function Crotalaria() {
 function Sonchus() {
     document.querySelector('.display').style.visibility = 'visible';
     description.innerHTML =
-    `<h1>${sonchus.common_name}</h1> <h3>(${sonchus.botanical_name})</h3> <p> \
+    `<h1>${sonchus.common_name}</h1> <h3>(${sonchus.botanical_name})</h3><h3>${sonchus.family}</h3><br> <p> \
     ${sonchus.cultural}</p><p>${sonchus.hosts}.</p><p>Uses: ${sonchus.uses}</p>\
     <p>Links: <a href='${sonchus.links[1]}' target='_blank'>${sonchus.links[0]}</a></p>\
     <p>Links: <a href='${sonchus.links[3]}' target='_blank'>${sonchus.links[2]}</a></p>\
@@ -637,7 +641,7 @@ function Sonchus() {
 function Coronopus() {
     document.querySelector('.display').style.visibility = 'visible';
     description.innerHTML =
-    `<h1>${coronopus.common_name}</h1> <h3>(${coronopus.botanical_name})</h3> <p> \
+    `<h1>${coronopus.common_name}</h1> <h3>(${coronopus.botanical_name})</h3><h3>${coronopus.family}</h3><br> <p> \
     ${coronopus.cultural}</p><p>${coronopus.hosts}.</p><p>Uses: ${coronopus.uses}</p>\
     <p>Links: <a href='${coronopus.links[1]}' target='_blank'>${coronopus.links[0]}</a></p>\
     <p>Links: <a href='${coronopus.links[3]}' target='_blank'>${coronopus.links[2]}</a></p>\
@@ -659,7 +663,7 @@ function Coronopus() {
 function Cudweed() {
     document.querySelector('.display').style.visibility = 'visible';
     description.innerHTML =
-    `<h1>${cudweed.common_name}</h1> <h3>(${cudweed.botanical_name})</h3> <p> \
+    `<h1>${cudweed.common_name}</h1> <h3>(${cudweed.botanical_name})</h3><h3>${cudweed.family}</h3><br> <p> \
     ${cudweed.cultural}</p><p>${cudweed.hosts}.</p><p>Uses: ${cudweed.uses}</p>\
     <p>Links: <a href='${cudweed.links[1]}' target='_blank'>${cudweed.links[0]}</a></p>\
     <p>Links: <a href='${cudweed.links[3]}' target='_blank'>${cudweed.links[2]}</a></p>\
@@ -681,7 +685,7 @@ function Cudweed() {
 function Cotula() {
     document.querySelector('.display').style.visibility = 'visible';
     description.innerHTML =
-    `<h1>${cotula.common_name}</h1> <h3>(${cotula.botanical_name})</h3> <p> \
+    `<h1>${cotula.common_name}</h1> <h3>(${cotula.botanical_name})</h3><h3>${cotula.family}</h3><br> <p> \
     ${cotula.cultural}</p><p>${cotula.hosts}.</p><p>Uses: ${cotula.uses}</p>\
     <p>Links: <a href='${cotula.links[1]}' target='_blank'>${cotula.links[0]}</a></p>\
     <p>Links: <a href='${cotula.links[3]}' target='_blank'>${cotula.links[2]}</a></p>\
@@ -704,7 +708,7 @@ function Cotula() {
 function Hawkweed () {
     document.querySelector('.display').style.visibility = 'visible';
     description.innerHTML =
-    `<h1>${hawkweed.common_name}</h1> <h3>(${hawkweed.botanical_name})</h3> <p> \
+    `<h1>${hawkweed.common_name}</h1> <h3>(${hawkweed.botanical_name})</h3><h3>${hawkweed.family}</h3><br> <p> \
     ${hawkweed.cultural}</p><p>${hawkweed.hosts}.</p><p>Uses: ${hawkweed.uses}</p>\
     <p>Links: <a href='${hawkweed.links[1]}' target='_blank'>${hawkweed.links[0]}</a></p>\
     <p>Links: <a href='${hawkweed.links[3]}' target='_blank'>${hawkweed.links[2]}</a></p>\
@@ -726,7 +730,7 @@ function Hawkweed () {
 function Smooth_catsear () {
     document.querySelector('.display').style.visibility = 'visible';
     description.innerHTML =
-    `<h1>${smooth_catsear.common_name}</h1> <h3>(${smooth_catsear.botanical_name})</h3> <p> \
+    `<h1>${smooth_catsear.common_name}</h1> <h3>(${smooth_catsear.botanical_name})</h3><h3>${smooth_catsear.family}</h3><br> <p> \
     ${smooth_catsear.cultural}</p><p>${smooth_catsear.hosts}.</p><p>Uses: ${smooth_catsear.uses}</p>\
     <p>Links: <a href='${smooth_catsear.links[1]}' target='_blank'>${smooth_catsear.links[0]}</a></p>\
     <p>Links: <a href='${smooth_catsear.links[3]}' target='_blank'>${smooth_catsear.links[2]}</a></p>\
@@ -750,7 +754,7 @@ function Smooth_catsear () {
 function Catsear () {
     document.querySelector('.display').style.visibility = 'visible';
     description.innerHTML =
-    `<h1>${catsear.common_name}</h1> <h3>(${catsear.botanical_name})</h3> <p> \
+    `<h1>${catsear.common_name}</h1> <h3>(${catsear.botanical_name})</h3><h3>${catsear.family}</h3><br> <p> \
     ${catsear.cultural}</p><p>${catsear.hosts}.</p><p>Uses: ${catsear.uses}</p>\
     <p>Links: <a href='${catsear.links[1]}' target='_blank'>${catsear.links[0]}</a></p>\
     <p>Links: <a href='${catsear.links[3]}' target='_blank'>${catsear.links[2]}</a></p>\
@@ -775,7 +779,7 @@ function Catsear () {
 function Dandelion () {
     document.querySelector('.display').style.visibility = 'visible';
     description.innerHTML =
-    `<h1>${dandelion.common_name}</h1> <h3>(${dandelion.botanical_name})</h3> <p> \
+    `<h1>${dandelion.common_name}</h1> <h3>(${dandelion.botanical_name})</h3><h3>${dandelion.family}</h3><br> <p> \
     ${dandelion.cultural}</p><p>${dandelion.hosts}.</p><p>Uses: ${dandelion.uses}</p>\
     <p>Links: <a href='${dandelion.links[1]}' target='_blank'>${dandelion.links[0]}</a></p>\
     <p>Links: <a href='${dandelion.links[3]}' target='_blank'>${dandelion.links[2]}</a></p>\
@@ -800,7 +804,7 @@ function Dandelion () {
 function Mouseear () {
     document.querySelector('.display').style.visibility = 'visible';
     description.innerHTML =
-    `<h1>${mouseear.common_name}</h1> <h3>(${mouseear.botanical_name})</h3> <p> \
+    `<h1>${mouseear.common_name}</h1> <h3>(${mouseear.botanical_name})</h3><h3>${mouseear.family}</h3><br> <p> \
     ${mouseear.cultural}</p><p>${mouseear.hosts}.</p><p>Uses: ${mouseear.uses}</p>\
     <p>Links: <a href='${mouseear.links[1]}' target='_blank'>${mouseear.links[0]}</a></p>\
     <p>Links: <a href='${mouseear.links[3]}' target='_blank'>${mouseear.links[2]}</a></p>\
@@ -824,7 +828,7 @@ function Mouseear () {
 function Chickweed () {
     document.querySelector('.display').style.visibility = 'visible';
     description.innerHTML =
-    `<h1>${chickweed.common_name}</h1> <h3>(${chickweed.botanical_name})</h3> <p> \
+    `<h1>${chickweed.common_name}</h1> <h3>(${chickweed.botanical_name})</h3><h3>${chickweed.family}</h3><br> <p> \
     ${chickweed.cultural}</p><p>${chickweed.hosts}.</p><p>Uses: ${chickweed.uses}</p>\
     <p>Links: <a href='${chickweed.links[1]}' target='_blank'>${chickweed.links[0]}</a></p>\
     <p>Links: <a href='${chickweed.links[3]}' target='_blank'>${chickweed.links[2]}</a></p>\
@@ -848,7 +852,7 @@ function Chickweed () {
 function Flickweed () {
     document.querySelector('.display').style.visibility = 'visible';
     description.innerHTML =
-    `<h1>${flickweed.common_name}</h1> <h3>(${flickweed.botanical_name})</h3> <p> \
+    `<h1>${flickweed.common_name}</h1> <h3>(${flickweed.botanical_name})</h3><h3>${flickweed.family}</h3><br> <p> \
     ${flickweed.cultural}</p><p>${flickweed.hosts}.</p><p>Uses: ${flickweed.uses}</p>\
     <p>Links: <a href='${flickweed.links[1]}' target='_blank'>${flickweed.links[0]}</a></p>\
     <p>Links: <a href='${flickweed.links[3]}' target='_blank'>${flickweed.links[2]}</a></p>\
@@ -871,7 +875,7 @@ function Flickweed () {
 function Fathen () {
     document.querySelector('.display').style.visibility = 'visible';
     description.innerHTML =
-    `<h1>${fathen.common_name}</h1> <h3>(${fathen.botanical_name})</h3> <p> \
+    `<h1>${fathen.common_name}</h1> <h3>(${fathen.botanical_name})</h3><h3>${fathen.family}</h3><br> <p> \
     ${fathen.cultural}</p><p>${fathen.hosts}.</p><p>Uses: ${fathen.uses}</p>\
     <p>Links: <a href='${fathen.links[1]}' target='_blank'>${fathen.links[0]}</a></p>\
     <p>Links: <a href='${fathen.links[3]}' target='_blank'>${fathen.links[2]}</a></p>\
@@ -894,7 +898,7 @@ function Fathen () {
 function Burmedic () {
     document.querySelector('.display').style.visibility = 'visible';
     description.innerHTML =
-    `<h1>${burmedic.common_name}</h1> <h3>(${burmedic.botanical_name})</h3> <p> \
+    `<h1>${burmedic.common_name}</h1> <h3>(${burmedic.botanical_name})</h3><h3>${burmedic.family}</h3><br> <p> \
     ${burmedic.cultural}</p><p>${burmedic.hosts}.</p><p>Uses: ${burmedic.uses}</p>\
     <p>Links: <a href='${burmedic.links[1]}' target='_blank'>${burmedic.links[0]}</a></p>\
     <p>Links: <a href='${burmedic.links[3]}' target='_blank'>${burmedic.links[2]}</a></p>\
@@ -919,7 +923,7 @@ function Burmedic () {
 function Euphorbia () {
     document.querySelector('.display').style.visibility = 'visible';
     description.innerHTML =
-    `<h1>${euphorbia.common_name}</h1> <h3>(${euphorbia.botanical_name})</h3> <p> \
+    `<h1>${euphorbia.common_name}</h1> <h3>(${euphorbia.botanical_name})</h3><h3>${euphorbia.family}</h3><br> <p> \
     ${euphorbia.cultural}</p><p>${euphorbia.hosts}.</p><p>Uses: ${euphorbia.uses}</p>\
     <p>Links: <a href='${euphorbia.links[1]}' target='_blank'>${euphorbia.links[0]}</a></p>\
     <p>Links: <a href='${euphorbia.links[3]}' target='_blank'>${euphorbia.links[2]}</a></p>\
@@ -944,7 +948,7 @@ function Euphorbia () {
 function Emilia () {
     document.querySelector('.display').style.visibility = 'visible';
     description.innerHTML =
-    `<h1>${emilia.common_name}</h1> <h3>(${emilia.botanical_name})</h3> <p> \
+    `<h1>${emilia.common_name}</h1> <h3>(${emilia.botanical_name})</h3><h3>${emilia.family}</h3><br> <p> \
     ${emilia.cultural}</p><p>${emilia.hosts}.</p><p>Uses: ${emilia.uses}</p>\
     <p>Links: <a href='${emilia.links[1]}' target='_blank'>${emilia.links[0]}</a></p>\
     <p>Links: <a href='${emilia.links[3]}' target='_blank'>${emilia.links[2]}</a></p>\
@@ -969,7 +973,7 @@ function Emilia () {
 function Raphanus () {
     document.querySelector('.display').style.visibility = 'visible';
     description.innerHTML =
-    `<h1>${raphanus.common_name}</h1> <h3>(${raphanus.botanical_name})</h3> <p> \
+    `<h1>${raphanus.common_name}</h1> <h3>(${raphanus.botanical_name})</h3><h3>${raphanus.family}</h3><br> <p> \
     ${raphanus.cultural}</p><p>${raphanus.hosts}.</p><p>Uses: ${raphanus.uses}</p>\
     <p>Links: <a href='${raphanus.links[1]}' target='_blank'>${raphanus.links[0]}</a></p>\
     <p>Links: <a href='${raphanus.links[3]}' target='_blank'>${raphanus.links[2]}</a></p>\
@@ -993,7 +997,7 @@ function Raphanus () {
 function  Brassica() {
     document.querySelector('.display').style.visibility = 'visible';
     description.innerHTML =
-    `<h1>${brassica.common_name}</h1> <h3>(${brassica.botanical_name})</h3> <p> \
+    `<h1>${brassica.common_name}</h1> <h3>(${brassica.botanical_name})</h3><h3>${brassica.family}</h3><br> <p> \
     ${brassica.cultural}</p><p>${brassica.hosts}.</p><p>Uses: ${brassica.uses}</p>\
     <p>Links: <a href='${brassica.links[1]}' target='_blank'>${brassica.links[0]}</a></p>\
     <p>Links: <a href='${brassica.links[3]}' target='_blank'>${brassica.links[2]}</a></p>\
@@ -1017,7 +1021,7 @@ function  Brassica() {
 function  Plantago() {
     document.querySelector('.display').style.visibility = 'visible';
     description.innerHTML =
-    `<h1>${plantago.common_name}</h1> <h3>(${plantago.botanical_name})</h3> <p> \
+    `<h1>${plantago.common_name}</h1> <h3>(${plantago.botanical_name})</h3><h3>${plantago.family}</h3><br> <p> \
     ${plantago.cultural}</p><p>${plantago.hosts}.</p><p>Uses: ${plantago.uses}</p>\
     <p>Links: <a href='${plantago.links[1]}' target='_blank'>${plantago.links[0]}</a></p>\
     <p>Links: <a href='${plantago.links[3]}' target='_blank'>${plantago.links[2]}</a></p>\
@@ -1049,7 +1053,7 @@ function  Plantago() {
 function  Plant_ago() {
     document.querySelector('.display').style.visibility = 'visible';
     description.innerHTML =
-    `<h1>${plant_ago.common_name}</h1> <h3>${plant_ago.botanical_name}</h3> <p> \
+    `<h1>${plant_ago.common_name}</h1> <h3>${plant_ago.botanical_name}</h3><h3>${plant_ago.family}</h3><br> <p> \
     ${plant_ago.cultural}</p><p>${plant_ago.hosts}.</p><p>Uses: ${plant_ago.uses}</p>\
     <p>Links: <a href='${plant_ago.links[1]}' target='_blank'>${plant_ago.links[0]}</a></p>\
     <p>Links: <a href='${plant_ago.links[3]}' target='_blank'>${plant_ago.links[2]}</a></p>\
@@ -1076,7 +1080,7 @@ function  Plant_ago() {
 function  Tridax() {
     document.querySelector('.display').style.visibility = 'visible';
     description.innerHTML =
-    `<h1>${tridax.common_name}</h1> <h3>(${tridax.botanical_name})</h3> <p> \
+    `<h1>${tridax.common_name}</h1> <h3>(${tridax.botanical_name})</h3><h3>${tridax.family}</h3><br> <p> \
     ${tridax.cultural}</p><p>${tridax.hosts}.</p><p>Uses: ${tridax.uses}</p>\
     <p>Links: <a href='${tridax.links[1]}' target='_blank'>${tridax.links[0]}</a></p>\
     <p>Links: <a href='${tridax.links[3]}' target='_blank'>${tridax.links[2]}</a></p>\
@@ -1100,7 +1104,7 @@ function  Tridax() {
 function  Grass() {
     document.querySelector('.display').style.visibility = 'visible';
     description.innerHTML =
-    `<h1>${grass.common_name}</h1> <h3>(${grass.botanical_name})</h3> <p> \
+    `<h1>${grass.common_name}</h1> <h3>(${grass.botanical_name})</h3><h3>${grass.family}</h3><br> <p> \
     ${grass.cultural}</p><p>${grass.hosts}.</p><p>Uses: ${grass.uses}</p>\
     <p>Links: <a href='${grass.links[1]}' target='_blank'>${grass.links[0]}</a></p>\
     <p>Links: <a href='${grass.links[3]}' target='_blank'>${grass.links[2]}</a></p>\
@@ -1123,7 +1127,7 @@ function  Grass() {
 function  Rhodes() {
     document.querySelector('.display').style.visibility = 'visible';
     description.innerHTML =
-    `<h1>${rhodes.common_name}</h1> <h3>(${rhodes.botanical_name})</h3> <p> \
+    `<h1>${rhodes.common_name}</h1> <h3>(${rhodes.botanical_name})</h3><h3>${rhodes.family}</h3><br> <p> \
     ${rhodes.cultural}</p><p>${rhodes.hosts}.</p><p>Uses: ${rhodes.uses}</p>\
     <p>Links: <a href='${rhodes.links[1]}' target='_blank'>${rhodes.links[0]}</a></p>\
     <p>Links: <a href='${rhodes.links[3]}' target='_blank'>${rhodes.links[2]}</a></p>\
@@ -1149,7 +1153,7 @@ function  Rhodes() {
 function  Cenchrus() {
     document.querySelector('.display').style.visibility = 'visible';
     description.innerHTML =
-    `<h1>${cenchrus.common_name}</h1> <h3>${cenchrus.botanical_name}</h3> <p> \
+    `<h1>${cenchrus.common_name}</h1> <h3>${cenchrus.botanical_name}</h3><h3>${cenchrus.family}</h3><br> <p> \
     ${cenchrus.cultural}</p><p>${cenchrus.hosts}.</p><p>Uses: ${cenchrus.uses}</p>\
     <p>Links: <a href='${cenchrus.links[1]}' target='_blank'>${cenchrus.links[0]}</a></p>\
     <p>Links: <a href='${cenchrus.links[3]}' target='_blank'>${cenchrus.links[2]}</a></p>\
@@ -1175,7 +1179,7 @@ function  Cenchrus() {
 function  Carpetgrass() {
     document.querySelector('.display').style.visibility = 'visible';
     description.innerHTML =
-    `<h1>${carpetgrass.common_name}</h1> <h3>(${carpetgrass.botanical_name})</h3> <p> \
+    `<h1>${carpetgrass.common_name}</h1> <h3>(${carpetgrass.botanical_name})</h3><h3>${carpetgrass.family}</h3><br> <p> \
     ${carpetgrass.cultural}</p><p>${carpetgrass.hosts}.</p><p>Uses: ${carpetgrass.uses}</p>\
     <p>Links: <a href='${carpetgrass.links[1]}' target='_blank'>${carpetgrass.links[0]}</a></p>\
     <p>Links: <a href='${carpetgrass.links[3]}' target='_blank'>${carpetgrass.links[2]}</a></p>\
@@ -1199,7 +1203,7 @@ function  Carpetgrass() {
 function  Nutgrass() {
     document.querySelector('.display').style.visibility = 'visible';
     description.innerHTML =
-    `<h1>${nutgrass.common_name}</h1> <h3>${nutgrass.botanical_name}</h3> <p> \
+    `<h1>${nutgrass.common_name}</h1> <h3>${nutgrass.botanical_name}</h3><h3>${nutgrass.family}</h3><br> <p> \
     ${nutgrass.cultural}</p><p>${nutgrass.hosts}.</p><p>Uses: ${nutgrass.uses}</p>\
     <p>Links: <a href='${nutgrass.links[1]}' target='_blank'>${nutgrass.links[0]}</a></p>\
     <p>Links: <a href='${nutgrass.links[3]}' target='_blank'>${nutgrass.links[2]}</a></p>\
@@ -1226,7 +1230,7 @@ function  Nutgrass() {
 function  Crabgrass() {
     document.querySelector('.display').style.visibility = 'visible';
     description.innerHTML =
-    `<h1>${crabgrass.common_name}</h1> <h3>(${crabgrass.botanical_name})</h3> <p> \
+    `<h1>${crabgrass.common_name}</h1> <h3>(${crabgrass.botanical_name})</h3><h3>${crabgrass.family}</h3><br> <p> \
     ${crabgrass.cultural}</p><p>${crabgrass.hosts}.</p><p>Uses: ${crabgrass.uses}</p>\
     <p>Links: <a href='${crabgrass.links[1]}' target='_blank'>${crabgrass.links[0]}</a></p>\
     <p>Links: <a href='${crabgrass.links[3]}' target='_blank'>${crabgrass.links[2]}</a></p>\
@@ -1253,7 +1257,7 @@ function  Crabgrass() {
 function  Vicia() {
     document.querySelector('.display').style.visibility = 'visible';
     description.innerHTML =
-    `<h1>${vicia.common_name}</h1> <h3>(${vicia.botanical_name})</h3> <p> \
+    `<h1>${vicia.common_name}</h1> <h3>(${vicia.botanical_name})</h3><h3>${vicia.family}</h3><br> <p> \
     ${vicia.cultural}</p><p>${vicia.hosts}.</p><p>Uses: ${vicia.uses}</p>\
     <p>Links: <a href='${vicia.links[1]}' target='_blank'>${vicia.links[0]}</a></p>\
     <p>Links: <a href='${vicia.links[3]}' target='_blank'>${vicia.links[2]}</a></p>\
@@ -1280,7 +1284,7 @@ function  Vicia() {
 function Melilotus() {
     document.querySelector('.display').style.visibility = 'visible';
     description.innerHTML =
-    `<h1>${melilotus.common_name}</h1> <h3>(${melilotus.botanical_name})</h3> <p> \
+    `<h1>${melilotus.common_name}</h1> <h3>(${melilotus.botanical_name})</h3><h3>${melilotus.family}</h3><br> <p> \
     ${melilotus.cultural}</p><p>${melilotus.hosts}.</p><p>Uses: ${melilotus.uses}</p>\
     <p>Links: <a href='${melilotus.links[1]}' target='_blank'>${melilotus.links[0]}</a></p>\
     <p>Links: <a href='${melilotus.links[3]}' target='_blank'>${melilotus.links[2]}</a></p>\
@@ -1304,7 +1308,7 @@ function Melilotus() {
 function  Modiola() {
     document.querySelector('.display').style.visibility = 'visible';
     description.innerHTML =
-    `<h1>${modiola.common_name}</h1> <h3>(${modiola.botanical_name})</h3> <p> \
+    `<h1>${modiola.common_name}</h1> <h3>(${modiola.botanical_name})</h3><h3>${modiola.family}</h3><br> <p> \
     ${modiola.cultural}</p><p>${modiola.hosts}.</p><p>Uses: ${modiola.uses}</p>\
     <p>Links: <a href='${modiola.links[1]}' target='_blank'>${modiola.links[0]}</a></p>\
     <p>Links: <a href='${modiola.links[3]}' target='_blank'>${modiola.links[2]}</a></p>\
@@ -1339,7 +1343,7 @@ function  Modiola() {
 function  Eclipta() {
     document.querySelector('.display').style.visibility = 'visible';
     description.innerHTML =
-    `<h1>${eclipta.common_name}</h1> <h3>(${eclipta.botanical_name})</h3> <p> \
+    `<h1>${eclipta.common_name}</h1> <h3>(${eclipta.botanical_name})</h3><h3>${eclipta.family}</h3><br> <p> \
     ${eclipta.cultural}</p><p>${eclipta.hosts}.</p><p>Uses: ${eclipta.uses}</p>\
     <p>Links: <a href='${eclipta.links[1]}' target='_blank'>${eclipta.links[0]}</a></p>\
     <p>Links: <a href='${eclipta.links[3]}' target='_blank'>${eclipta.links[2]}</a></p>\
@@ -1368,7 +1372,7 @@ function  Eclipta() {
 function  Calyptocarpus() {
     document.querySelector('.display').style.visibility = 'visible';
     description.innerHTML =
-    `<h1>${calyptocarpus.common_name}</h1> <h3>(${calyptocarpus.botanical_name})</h3> <p> \
+    `<h1>${calyptocarpus.common_name}</h1> <h3>(${calyptocarpus.botanical_name})</h3><h3>${calyptocarpus.family}</h3><br> <p> \
     ${calyptocarpus.cultural}</p><p>${calyptocarpus.hosts}.</p><p>Uses: ${calyptocarpus.uses}</p>\
     <p>Links: <a href='${calyptocarpus.links[1]}' target='_blank'>${calyptocarpus.links[0]}</a></p>\
     <p>Links: <a href='${calyptocarpus.links[3]}' target='_blank'>${calyptocarpus.links[2]}</a></p>\
@@ -1389,6 +1393,110 @@ function  Calyptocarpus() {
     document.getElementById('insect3').innerHTML = `${calyptocarpus.pest_images[0]}`;
     document.getElementById('insect2').innerHTML = `${calyptocarpus.pest_images[1]}`;
     document.getElementById('insect1').innerHTML = `${calyptocarpus.pest_images[2]}`;
+}
+
+function  Portulaca_pilosa() {
+    document.querySelector('.display').style.visibility = 'visible';
+    description.innerHTML =
+    `<h1>${portulaca_pilosa.common_name}</h1> <h3>(${portulaca_pilosa.botanical_name})</h3><h3>${portulaca_pilosa.family}</h3><br> <p> \
+    ${portulaca_pilosa.cultural}</p><p>${portulaca_pilosa.hosts}.</p><p>Uses: ${portulaca_pilosa.uses}</p>\
+    <p>Links: <a href='${portulaca_pilosa.links[1]}' target='_blank'>${portulaca_pilosa.links[0]}</a></p>\
+    <p>Links: <a href='${portulaca_pilosa.links[3]}' target='_blank'>${portulaca_pilosa.links[2]}</a></p>\
+    <p>Links: <a href='${portulaca_pilosa.links[5]}' target='_blank'>${portulaca_pilosa.links[4]}</a></p>\
+    <p>Links: <a href='${portulaca_pilosa.links[7]}' target='_blank'>${portulaca_pilosa.links[6]}</a></p>\
+    <p>Links: <a href='${portulaca_pilosa.links[9]}' target='_blank'>${portulaca_pilosa.links[8]}</a></p>\
+    <p>Links: <a href='${portulaca_pilosa.links[11]}' target='_blank'>${portulaca_pilosa.links[10]}</a></p>\
+    <p>Links: <a href='${portulaca_pilosa.links[13]}' target='_blank'>${portulaca_pilosa.links[12]}</a></p>\
+    <p>Links: <a href='${portulaca_pilosa.links[15]}' target='_blank'>${portulaca_pilosa.links[14]}</a></p>\
+    <p>Links: <a href='${portulaca_pilosa.links[17]}' target='_blank'>${portulaca_pilosa.links[16]}</a></p>\
+    <p>Field Observations:</p>\
+    <p>${portulaca_pilosa.observations}</p>
+    <p>Click to enlarge images</p>`;
+    
+    pic3.innerHTML = `${portulaca_pilosa.pest_images[0]}`;
+    pic2.innerHTML = `${portulaca_pilosa.pest_images[1]}`;
+    pic1.innerHTML = `${portulaca_pilosa.pest_images[2]}`;
+    document.getElementById('insect3').innerHTML = `${portulaca_pilosa.pest_images[0]}`;
+    document.getElementById('insect2').innerHTML = `${portulaca_pilosa.pest_images[1]}`;
+    document.getElementById('insect1').innerHTML = `${portulaca_pilosa.pest_images[2]}`;
+}
+
+function  Lotononis_bainesii() {
+    document.querySelector('.display').style.visibility = 'visible';
+    description.innerHTML =
+    `<h1>${lotononis_bainesii.common_name}</h1> <h3>(${lotononis_bainesii.botanical_name})</h3><h3>${lotononis_bainesii.family}</h3><br> <p> \
+    ${lotononis_bainesii.cultural}</p><p>${lotononis_bainesii.hosts}.</p><p>Uses: ${lotononis_bainesii.uses}</p>\
+    <p>Links: <a href='${lotononis_bainesii.links[1]}' target='_blank'>${lotononis_bainesii.links[0]}</a></p>\
+    <p>Links: <a href='${lotononis_bainesii.links[3]}' target='_blank'>${lotononis_bainesii.links[2]}</a></p>\
+    <p>Links: <a href='${lotononis_bainesii.links[5]}' target='_blank'>${lotononis_bainesii.links[4]}</a></p>\
+    <p>Links: <a href='${lotononis_bainesii.links[7]}' target='_blank'>${lotononis_bainesii.links[6]}</a></p>\
+    <p>Links: <a href='${lotononis_bainesii.links[9]}' target='_blank'>${lotononis_bainesii.links[8]}</a></p>\
+    <p>Field Observations:</p>\
+    <p>${lotononis_bainesii.observations}</p>
+    <p>Click to enlarge images</p>`;
+    
+    pic3.innerHTML = `${lotononis_bainesii.pest_images[0]}`;
+    pic2.innerHTML = `${lotononis_bainesii.pest_images[1]}`;
+    pic1.innerHTML = `${lotononis_bainesii.pest_images[2]}`;
+    document.getElementById('insect3').innerHTML = `${lotononis_bainesii.pest_images[0]}`;
+    document.getElementById('insect2').innerHTML = `${lotononis_bainesii.pest_images[1]}`;
+    document.getElementById('insect1').innerHTML = `${lotononis_bainesii.pest_images[2]}`;
+}
+
+function  Carpetweed() {
+    document.querySelector('.display').style.visibility = 'visible';
+    description.innerHTML =
+    `<h1>${carpetWeed.common_name}</h1> <h3>(${carpetWeed.botanical_name})</h3><h3>${carpetWeed.family}</h3><br> <p> \
+    ${carpetWeed.cultural}</p><p>${carpetWeed.hosts}.</p><p>Uses: ${carpetWeed.uses}</p>\
+    <p>Links: <a href='${carpetWeed.links[1]}' target='_blank'>${carpetWeed.links[0]}</a></p>\
+    <p>Links: <a href='${carpetWeed.links[3]}' target='_blank'>${carpetWeed.links[2]}</a></p>\
+    <p>Links: <a href='${carpetWeed.links[5]}' target='_blank'>${carpetWeed.links[4]}</a></p>\
+    <p>Links: <a href='${carpetWeed.links[7]}' target='_blank'>${carpetWeed.links[6]}</a></p>\
+    <p>Links: <a href='${carpetWeed.links[9]}' target='_blank'>${carpetWeed.links[8]}</a></p>\
+    <p>Links: <a href='${carpetWeed.links[11]}' target='_blank'>${carpetWeed.links[10]}</a></p>\
+    <p>Links: <a href='${carpetWeed.links[13]}' target='_blank'>${carpetWeed.links[12]}</a></p>\
+    <p>Links: <a href='${carpetWeed.links[15]}' target='_blank'>${carpetWeed.links[14]}</a></p>\
+    <p>Links: <a href='${carpetWeed.links[17]}' target='_blank'>${carpetWeed.links[16]}</a></p>\
+    <p>Field Observations:</p>\
+    <p>${carpetWeed.observations}</p>
+    <p>Click to enlarge images</p>`;
+    
+    pic3.innerHTML = `${carpetWeed.pest_images[0]}`;
+    pic2.innerHTML = `${carpetWeed.pest_images[1]}`;
+    pic1.innerHTML = `${carpetWeed.pest_images[2]}`;
+    document.getElementById('insect3').innerHTML = `${carpetWeed.pest_images[0]}`;
+    document.getElementById('insect2').innerHTML = `${carpetWeed.pest_images[1]}`;
+    document.getElementById('insect1').innerHTML = `${carpetWeed.pest_images[2]}`;
+}
+
+function  Pigweed() {
+    document.querySelector('.display').style.visibility = 'visible';
+    description.innerHTML =
+    `<h1>${pigWeed.common_name}</h1> <h3>(${pigWeed.botanical_name})</h3><h3>${pigWeed.family}</h3><br> <p> \
+    ${pigWeed.cultural}</p><p>${pigWeed.hosts}.</p><p>Uses: ${pigWeed.uses}</p>\
+    <p>Links: <a href='${pigWeed.links[1]}' target='_blank'>${pigWeed.links[0]}</a></p>\
+    <p>Links: <a href='${pigWeed.links[3]}' target='_blank'>${pigWeed.links[2]}</a></p>\
+    <p>Links: <a href='${pigWeed.links[5]}' target='_blank'>${pigWeed.links[4]}</a></p>\
+    <p>Links: <a href='${pigWeed.links[7]}' target='_blank'>${pigWeed.links[6]}</a></p>\
+    <p>Links: <a href='${pigWeed.links[9]}' target='_blank'>${pigWeed.links[8]}</a></p>\
+    <p>Links: <a href='${pigWeed.links[11]}' target='_blank'>${pigWeed.links[10]}</a></p>\
+    <p>Links: <a href='${pigWeed.links[13]}' target='_blank'>${pigWeed.links[12]}</a></p>\
+    <p>Links: <a href='${pigWeed.links[15]}' target='_blank'>${pigWeed.links[14]}</a></p>\
+    <p>Links: <a href='${pigWeed.links[17]}' target='_blank'>${pigWeed.links[16]}</a></p>\
+    <p>Links: <a href='${pigWeed.links[19]}' target='_blank'>${pigWeed.links[18]}</a></p>\
+    <p>Links: <a href='${pigWeed.links[21]}' target='_blank'>${pigWeed.links[20]}</a></p>\
+    <p>Links: <a href='${pigWeed.links[23]}' target='_blank'>${pigWeed.links[22]}</a></p>\
+    <p>Links: <a href='${pigWeed.links[25]}' target='_blank'>${pigWeed.links[24]}</a></p>\
+    <p>Field Observations:</p>\
+    <p>${pigWeed.observations}</p>
+    <p>Click to enlarge images</p>`;
+    
+    pic3.innerHTML = `${pigWeed.pest_images[0]}`;
+    pic2.innerHTML = `${pigWeed.pest_images[1]}`;
+    pic1.innerHTML = `${pigWeed.pest_images[2]}`;
+    document.getElementById('insect3').innerHTML = `${pigWeed.pest_images[0]}`;
+    document.getElementById('insect2').innerHTML = `${pigWeed.pest_images[1]}`;
+    document.getElementById('insect1').innerHTML = `${pigWeed.pest_images[2]}`;
 }
 
 /*
@@ -1444,9 +1552,9 @@ function () {
     let img_image = 0;
     let img_title = 0;
     let img_text = 0;
-    let images_mallow = ['./images/Mallow.png'];
-    let images_hover_mallow = ['Malva parviflora'];
-    let images_text_mallow = ['Malva parviflora']
+    let images_mallow = ['./images/Mallow_orchard.jpg', './images/Mallow.png'];
+    let images_hover_mallow = ['Mallow in a macadamia orchard - lots of vegetable bugs living and hiding', 'Malva parviflora'];
+    let images_text_mallow = ['Malva parviflora', 'Malva parviflora']
     let im_len = images_mallow.length;
 
     document.getElementById('mallow').onclick = function() { 
@@ -1496,9 +1604,9 @@ function () {
     let img_image = 0;
     let img_title = 0;
     let img_text = 0;
-    let images_black = ['./images/NIGHTSHADE.png'];
-    let images_hover_black = ['Solanum nigrum'];
-    let images_text_black = ['Solanum nigrum']
+    let images_black = ['./images/solanum_nigrum_orchard.jpg', './images/solanum_nigrum_vb.jpg', './images/NIGHTSHADE.png'];
+    let images_hover_black = ['Solanum nigrum in a macadamia orchard', 'Solanum nigrum with a Green vegetable bug', 'Solanum nigrum'];
+    let images_text_black = ['Solanum nigrum', 'Solanum nigrum', 'Solanum nigrum']
     let im_len = images_black.length;
 
     document.getElementById('black').onclick = function() { 
@@ -1594,9 +1702,9 @@ function () {
     let img_image = 0;
     let img_title = 0;
     let img_text = 0;
-    let images_ama = ['./images/amaranth.png'];
-    let images_hover_ama = ['Amaranthus viridis'];
-    let images_text_ama = ['Amaranthus viridis']
+    let images_ama = ['./images/amaranth_caterpillar.jpg', './images/amaranth.png'];
+    let images_hover_ama = ['Amaranth in a macadamia orchard with a caterpillar', 'Amaranthus viridis'];
+    let images_text_ama = ['Amaranthus viridis', 'Amaranthus viridis']
     let im_len = images_ama.length;
     let display_image = document.getElementById('image1-ama');
     let hide_button = document.getElementById('hide-ama');
@@ -1640,9 +1748,9 @@ function () {
     let img_image = 0;
     let img_title = 0;
     let img_text = 0;
-    let images_top = ['./images/purpletop-1.jpg'];
-    let images_hover_top = ['Verbena bonariensis'];
-    let images_text_top = ['Verbena bonariensis']
+    let images_top = ['./images/purpletop-2.jpg', './images/purpletop_wasp.jpg', './images/purpletop-1.jpg'];
+    let images_hover_top = ['Verbena bonariensis', 'Verbena bonariensis with wasp nest', 'Verbena bonariensis'];
+    let images_text_top = ['Verbena bonariensis', 'Verbena bonariensis', 'Verbena bonariensis']
     let im_len = images_top.length;
     let display_image = document.getElementById('image1-top');
     let hide_button = document.getElementById('hide-top');
@@ -2100,9 +2208,9 @@ function () {
     let img_image = 0;
     let img_title = 0;
     let img_text = 0;
-    let images_balloon = ['./images/Gomphocarpus_flowers.png', './images/Gomphocarpus_fruit_seed.png', './images/Gomphocarpus_plant.png'];
-    let images_hover_balloon = ['Gomphocarpus spp.', 'Gomphocarpus spp.', 'Gomphocarpus spp.'];
-    let images_text_balloon = ['Gomphocarpus spp.', 'Gomphocarpus spp.', 'Gomphocarpus spp.']
+    let images_balloon = ['./images/Gomphocarpus_flowers.png', './images/Gomphocarpus_arocutus.jpg', './images/Gomphocarpus_fruit_seed.png', './images/Gomphocarpus_plant.png'];
+    let images_hover_balloon = ['Gomphocarpus spp.', 'Gomphocarpus with Arocutus bug', 'Gomphocarpus spp.'];
+    let images_text_balloon = ['Gomphocarpus spp.', 'Gomphocarpus spp.', 'Gomphocarpus spp.', 'Gomphocarpus spp.']
     let im_len = images_balloon.length;
     let display_image = document.getElementById('image1-balloon');
     let hide_button = document.getElementById('hide-balloon');
@@ -4210,6 +4318,192 @@ function () {
     };    
 })();
 
+/* Pigweed    */
+(function() {    
+    let img_image = 0;
+    let img_title = 0;
+    let img_text = 0;
+    let images_pig = ['./images/Portulaca_oleracea_2.png', './images/Portulaca_oleracea_1.png'];
+    let images_hover_pig = ['Pigweed', 'Pigweed'];
+    let images_text_pig = ['Pigweed', 'Pigweed']
+    let im_len = images_pig.length;
+    let display_image = document.getElementById('image1-pig');
+    let hide_button = document.getElementById('hide-pig');
+    let move_button = document.getElementById('image2-pig');
+    let image_text = document.getElementById('image-text-pig');
+
+    document.getElementById('pig').onclick = function() { 
+        hide_button.style.visibility = 'visible';     
+        display_image.style.visibility = 'visible';
+        move_button.style.visibility = 'visible';
+        image_text.style.visibility = 'visible';
+    };
+
+    let pig_ol = document.getElementById('image2-pig');
+    pig_ol.addEventListener('click', function() {
+        if (img_image > im_len-1) {
+            img_image = 0;
+        }
+        if (img_title > im_len-1) {
+            img_title = 0;
+        }
+        if (img_text > im_len-1) {
+            img_text = 0;
+        }
+        display_image.src = images_pig[img_image++]
+        display_image.title = images_hover_pig[img_title++]
+        image_text.innerText = images_text_pig[img_text++]
+        image_text.style.fontStyle = 'italic';
+    });
+    
+    document.getElementById('hide-pig').onclick = function() {  
+        display_image.style.visibility = 'hidden';  
+        hide_button.style.visibility = 'hidden';
+        move_button.style.visibility = 'hidden';  
+        image_text.style.visibility = 'hidden';
+    };    
+})(); 
+
+/* Portulaca pilosa    */
+(function() {    
+    let img_image = 0;
+    let img_title = 0;
+    let img_text = 0;
+    let images_pilosa = ['./images/Portulaca_pilosa_1.jpg', './images/Portulaca_pilosa_2.jpg', './images/Portulaca_pilosa_3.png', './images/Portulaca_pilosa_4.png'];
+    let images_hover_pilosa = ['Portulaca pilosa', 'Portulaca pilosa', 'Portulaca pilosa', 'Portulaca pilosa'];
+    let images_text_pilosa = ['Portulaca pilosa', 'Portulaca pilosa', 'Portulaca pilosa', 'Portulaca pilosa']
+    let im_len = images_pilosa.length;
+    let display_image = document.getElementById('image1-pilosa');
+    let hide_button = document.getElementById('hide-pilosa');
+    let move_button = document.getElementById('image2-pilosa');
+    let image_text = document.getElementById('image-text-pilosa');
+
+    document.getElementById('pilosa').onclick = function() { 
+        hide_button.style.visibility = 'visible';     
+        display_image.style.visibility = 'visible';
+        move_button.style.visibility = 'visible';
+        image_text.style.visibility = 'visible';
+    };
+
+    let pilosa_ol = document.getElementById('image2-pilosa');
+    pilosa_ol.addEventListener('click', function() {
+        if (img_image > im_len-1) {
+            img_image = 0;
+        }
+        if (img_title > im_len-1) {
+            img_title = 0;
+        }
+        if (img_text > im_len-1) {
+            img_text = 0;
+        }
+        display_image.src = images_pilosa[img_image++]
+        display_image.title = images_hover_pilosa[img_title++]
+        image_text.innerText = images_text_pilosa[img_text++]
+        image_text.style.fontStyle = 'italic';
+    });
+    
+    document.getElementById('hide-pilosa').onclick = function() {  
+        display_image.style.visibility = 'hidden';  
+        hide_button.style.visibility = 'hidden';
+        move_button.style.visibility = 'hidden';  
+        image_text.style.visibility = 'hidden';
+    };    
+})(); 
+
+/* Lotononis   */
+(function() {    
+    let img_image = 0;
+    let img_title = 0;
+    let img_text = 0;
+    let images_loton = ['./images/Lotononis_bainesii_2.png', './images/Lotononis_bainesii_3.jpg', './images/Lotononis_bainesii_1.png'];
+    let images_hover_loton = ['Lotononis bainesii', 'Lotononis bainesii', 'Lotononis bainesii'];
+    let images_text_loton = ['Lotononis bainesii', 'Lotononis bainesii', 'Lotononis bainesii']
+    let im_len = images_loton.length;
+    let display_image = document.getElementById('image1-loton');
+    let hide_button = document.getElementById('hide-loton');
+    let move_button = document.getElementById('image2-loton');
+    let image_text = document.getElementById('image-text-loton');
+
+    document.getElementById('loton').onclick = function() { 
+        hide_button.style.visibility = 'visible';     
+        display_image.style.visibility = 'visible';
+        move_button.style.visibility = 'visible';
+        image_text.style.visibility = 'visible';
+    };
+
+    let loton_ol = document.getElementById('image2-loton');
+    loton_ol.addEventListener('click', function() {
+        if (img_image > im_len-1) {
+            img_image = 0;
+        }
+        if (img_title > im_len-1) {
+            img_title = 0;
+        }
+        if (img_text > im_len-1) {
+            img_text = 0;
+        }
+        display_image.src = images_loton[img_image++]
+        display_image.title = images_hover_loton[img_title++]
+        image_text.innerText = images_text_loton[img_text++]
+        image_text.style.fontStyle = 'italic';
+    });
+    
+    document.getElementById('hide-loton').onclick = function() {  
+        display_image.style.visibility = 'hidden';  
+        hide_button.style.visibility = 'hidden';
+        move_button.style.visibility = 'hidden';  
+        image_text.style.visibility = 'hidden';
+    };    
+})(); 
+
+/* Carpetweed  */
+(function() {    
+    let img_image = 0;
+    let img_title = 0;
+    let img_text = 0;
+    let images_carpweed = [ './images/Mollugo_verticillata_3.jpg','./images/Mollugo_verticillata_2.jpg', './images/Mollugo_verticillata_1.jpg'];
+    let images_hover_carpweed = ['Mollugo verticillata', 'Mollugo verticillata', 'Mollugo verticillata'];
+    let images_text_carpweed = ['Mollugo verticillata', 'Mollugo verticillata', 'Mollugo verticillata']
+    let im_len = images_carpweed.length;
+    let display_image = document.getElementById('image1-carpweed');
+    let hide_button = document.getElementById('hide-carpweed');
+    let move_button = document.getElementById('image2-carpweed');
+    let image_text = document.getElementById('image-text-carpweed');
+
+    document.getElementById('carpweed').onclick = function() { 
+        hide_button.style.visibility = 'visible';     
+        display_image.style.visibility = 'visible';
+        move_button.style.visibility = 'visible';
+        image_text.style.visibility = 'visible';
+    };
+
+    let carpweed_ol = document.getElementById('image2-carpweed');
+    carpweed_ol.addEventListener('click', function() {
+        if (img_image > im_len-1) {
+            img_image = 0;
+        }
+        if (img_title > im_len-1) {
+            img_title = 0;
+        }
+        if (img_text > im_len-1) {
+            img_text = 0;
+        }
+        display_image.src = images_carpweed[img_image++]
+        display_image.title = images_hover_carpweed[img_title++]
+        image_text.innerText = images_text_carpweed[img_text++]
+        image_text.style.fontStyle = 'italic';
+    });
+    
+    document.getElementById('hide-carpweed').onclick = function() {  
+        display_image.style.visibility = 'hidden';  
+        hide_button.style.visibility = 'hidden';
+        move_button.style.visibility = 'hidden';  
+        image_text.style.visibility = 'hidden';
+    };    
+})(); 
+
+
+
 
 
 /* TEST CODE TO MOVE THROUGH PHOTOS */
@@ -4266,6 +4560,7 @@ let im_len = images.length;
         hide_button.style.visibility = 'hidden'; 
     };    
 })();*/
+
 
 (function() {    
    
@@ -4609,5 +4904,21 @@ info54.addEventListener('click', function(e) {
 info55.addEventListener('click', function(e) {
     e.preventDefault();
     Calyptocarpus();
+})
+info56.addEventListener('click', function(e) {
+    e.preventDefault();
+    Pigweed();
+})
+info57.addEventListener('click', function(e) {
+    e.preventDefault();
+    Portulaca_pilosa();
+})
+info58.addEventListener('click', function(e) {
+    e.preventDefault();
+    Lotononis_bainesii();
+})
+info59.addEventListener('click', function(e) {
+    e.preventDefault();
+    Carpetweed();
 })
 
