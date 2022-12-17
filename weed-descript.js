@@ -19,7 +19,8 @@ const Mallow = {
         'UNE', 'https://www.une.edu.au/__data/assets/pdf_file/0008/281996/une_weeds_mallow.pdf', 
         'UC IPM', 'http://ipm.ucanr.edu/PMG/PESTNOTES/pn74127.html', 
         'Australian wine research institute', 'https://www.awri.com.au/industry_support/viticulture/weed-management/weeds/mallow/',
-        'CRDC', 'https://www.crdc.com.au/sites/default/files/pdf/CPMG%202020%20interactive.pdf'
+        'CRDC', 'https://www.crdc.com.au/sites/default/files/pdf/CPMG%202020%20interactive.pdf',
+        'Discover Life', 'https://www.discoverlife.org/mp/20q'
     ],
     pest_images: [
         "<img title='Click to enlarge (Green potato bug)' src='./images/GPB.png'>", 
@@ -850,7 +851,7 @@ const cobblers = {
         'Cabi', 'https://www.cabi.org/isc/datasheet/9148', 
         'Victoria Agriculture', 'http://vro.agriculture.vic.gov.au/dpi/vro/vrosite.nsf/pages/invasive_cobblers_pegs'],
     pest_images: [
-        "<img title='Click to enlarge (aphids)' src='./images/Bidens_aphids.jpg'>", 
+        "<img title='Click to enlarge (aphids)' src='./images/Bidens_aphids.png'>", 
         "<img title='Click to enlarge' alt='go to form & upload images' src='./images/blank_pest_image.png'>", 
         "<img title='Click to enlarge' alt='go to form & upload images' src='./images/blank_pest_image.png'>"]
 }
@@ -2232,6 +2233,184 @@ const calyptocarpus = {
     ]
 }
 
+const portulaca_pilosa = {
+	common_name: 'Kiss-me-quick',
+    other_common_names: ['Akulikuli', 'Hairy Portulaca', 'Kiss-me-quick', 'Hairy Pigweed', 'Pigweed', 'Pink Purslane'],
+    botanical_name: '<em>Portulaca pilosa</em>  L.',
+    family: 'Portulacaceae',
+    uses: 'Medicinal. Reported to be toxic to pets and horses.',
+    cultural: '<em>Portulaca pilosa</em> is an annual or perennial prostrate herb, with stems reaching 25 cm. \
+    Leaves are succulent, while the small flowers are a bright pink colour. Plants can form dense mats, limiting \
+    growth of other plants. The root system is fibrous, but it can develop fleshy thick roots. \
+    It grows in full sun or part shade and will tolerate dry soils. \
+    It is a common weed of gardens, nurseries, horticulture, dry soils and disturbed sites. It can also be found \
+    growing in open rainforest areas, woodland, salt flats, margins of mangroves, near the ocean, rocky areas including \
+    on old lava flows.',
+    hosts: '<em>Portulaca pilosa</em> is not impacted by significant pests and diseases, although a \
+    nursery supplying plant material to the horticultural industry lists \
+    White Flies, Aphids, Thrips, Botrytis, Pythium and Rhizoctonia as potential issues. Another insect that impacts this \
+    plant is the Diadem butterfly larvae, which eats the leaves. \
+    Beneficial interactions include  \
+    butterflies (attracted to flowers and the nectar they produce) and bees (nectar and pollen). \
+    It is likely that a range of other insects use the plant as a pollen and nectar source.',
+    observations: 'Please complete the form to add your observations - go to the About page to access the form \
+    or post your observations on Facebook.<br><br>',
+    links: [
+        'RBGS', 'https://plantnet.rbgsyd.nsw.gov.au/cgi-bin/NSWfl.pl?page=nswfl&lvl=sp&name=Portulaca~pilosa',
+        'Aus. Trop. Rainforest plants', 'https://apps.lucidcentral.org/rainforest/text/entities/portulaca_pilosa.htm',
+        'Atlas of Living Australia', 'https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51291785',
+        'llifle', 'http://www.llifle.com/Encyclopedia/SUCCULENTS/Family/Portulacaceae/29405/Portulaca_pilosa',
+        'Australian Portulaca', 'http://australianportulaca.blogspot.com/2013/01/portulaca-pilosa.html',
+        'Some Magnetic Island Plants', 'https://somemagneticislandplants.com.au/hairy-portulaca',
+        'Cabi', 'https://www.cabidigitallibrary.org/doi/10.1079/cabicompendium.116493',
+        'Butterfly house', 'http://lepidoptera.butterflyhouse.com.au/nymp/misippus.html',
+        'Quality Cuttings', 'https://qualitycuttings.com/about/',
+    ],
+    pest_images: [
+        "<img title='please upload your observations' alt='please upload your observations' src='./images/blank_pest_image.png'>",
+        "<img title='please upload your observations' alt='please upload your observations' src='./images/blank_pest_image.png'>",
+        "<img title='please upload your observations' alt='please upload your observations' src='./images/blank_pest_image.png'>"
+    ]
+}
+
+const lotononis_bainesii = {
+	common_name: 'Lotononis',
+    other_common_names: ['Lotononis', 'Miles lotononis'],
+    botanical_name: '<em>Lotononis bainesii</em> Baker',
+    family: 'Fabaceae',
+    uses: 'Grazing by animals. Siage. Cover crop. Nitrogen fixing.',
+    cultural: 'Lotononis is typically a warm season, perennial, creeping and mat-forming legume used for grazing, \
+    however it can also appear in situations where it might be viewed as a weed, albeit a weed with both positive \
+    and negative attributes. Plant stems can reach up to 1.5 m long, and are sparsely hairy. Leaves are \
+    trifoliate (3 leaflets), with leaflets narrow-elliptic to obovate, 6–40 mm long and 2–10 mm wide. Flowers are \
+    pea shaped and yellow. <br>\
+    According to a NSW DPI publication, \
+    Lotononis is suited to light-textured acid soils, rainfall above 1000 mm per year \
+    and has some tolerance to flooding and waterlogging. It however grows best on well-drained but moist soils.',
+    hosts: 'Pod damage from heliothis and pod-sucking insects can be a problem. Plants can also be impacted by \
+    rhizoctonia fungi, little leaf virus, and bean yellow mosaic virus. There is not much written about beneficial \
+    associations, although one study did show that honey bees visited flowers and were important for pollination. ',
+    observations: 'Please complete the form to add your observations - go to the About page to access the form \
+    or post your observations on Facebook.<br><br>',
+    links: [
+        'RBGS', 'https://plantnet.rbgsyd.nsw.gov.au/cgi-bin/NSWfl.pl?page=nswfl&lvl=sp&name=Lotononis~bainesii',
+        'NSW DPI', 'https://www.dpi.nsw.gov.au/agriculture/pastures-and-rangelands/species-varieties/pf/factsheets/lotononis',
+        'Feedipedia', 'https://www.feedipedia.org/node/281',
+        'Pastures Australia', 'https://keys.lucidcentral.org/keys/v3/pastures/Html/Lotononis.htm',
+        'Tropical Forages', 'https://www.tropicalforages.info/text/entities/listia_bainesii.htm'
+
+    ],
+    pest_images: [
+        "<img title='please upload your observations' alt='please upload your observations' src='./images/blank_pest_image.png'>",
+        "<img title='please upload your observations' alt='please upload your observations' src='./images/blank_pest_image.png'>",
+        "<img title='please upload your observations' alt='please upload your observations' src='./images/blank_pest_image.png'>"
+    ]
+}
+
+const carpetWeed = {
+	common_name: 'Carpetweed or Indian Chickweed',
+    other_common_names: ['Indian Chickweed', 'Carpetweed', 'Green carpetweed', "Devil's Grip"],
+    botanical_name: '<em>Mollugo verticillata</em> L.',
+    family: 'Molluginaceae',
+    uses: 'Medicinal. Also reported to be edible. ',
+    cultural: 'Carpetweed has a prostate growth habit, where it will sprawl across the soil and can a form a mat. \
+    The small narrow leaves (1-3 cm) are whorled (3-8 at each node). Carpet weed initially forms a basal rosotte, but this is generally not \
+    present at maturity. The small white flowers are usually in clusters of 2-5. The small egg shaped fruit (1.5–4 mm) \
+    is a dehiscent capsule. Interestingly, carpetweed possesses intermediate C3-C4 photosynthetic pathway characteristics. \
+    Carpetweed can be found growing in fields, lawns & gardens, roadsides, around building and pathways, moist to dry soils, sand, \
+    wetlands and altidutes up to 3000 m. \
+    It tolerates a range of soil types and pH levels. \
+    <em>Mollugo verticillata</em> supports mycorrhizal association (see link below - Andrade et al., 2017)',
+    hosts: 'Birds and small mammals are known to eat the seeds of carpetweed. \
+    The nectar and pollen of the flowers attract Halictid bees and various flies, including Syrphid flies, \
+    flesh flies, and Muscid flies. It is a host for the Dainty Sulphur butterfly (<em>Nathalis iole</em>).\
+    Carpetweed is a host for <em>Aphis spiraecola</em> (Common names include Green citrus aphid, Spirea aphid and Apple aphid).',
+    observations: 'Please complete the form to add your observations - go to the About page to access the form \
+    or post your observations on Facebook.<br><br>',
+    links: [
+        'Living Atlas of Australia', 'https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2909564',
+        'RBGS', 'https://plantnet.rbgsyd.nsw.gov.au/cgi-bin/NSWfl.pl?page=nswfl&lvl=sp&name=Mollugo~verticillata',
+        'University of Wisconsin-Madison', 'https://hort.extension.wisc.edu/articles/carpetweed-mollugo-verticillata/',
+        'NC State Extension', 'https://plants.ces.ncsu.edu/plants/mollugo-verticillata/',
+        'Illinois Wild Flowers', 'https://www.illinoiswildflowers.info/weeds/plants/carpetweed.htm',
+        'Andrade et al., 2017', 'https://repositorio.ufc.br/bitstream/riufc/63389/1/2017_art_djandrade.pdf',
+        'Aphids of the world', 'http://www.aphidsonworldsplants.info/C_HOSTS_Met_Nys.htm',
+        'North American butterfly Ass.', 'http://miamiblue.org/plantlist/butterfly-host-plants-by-scientific-name-2/',
+        'InfluentialPoints - aphid link', 'https://influentialpoints.com/Gallery/Aphis_spiraecola_spirea_aphid.htm'
+    ],
+    pest_images: [
+        "<img title='please upload your observations' alt='please upload your observations' src='./images/blank_pest_image.png'>",
+        "<img title='Aphis spiraecola. Photo by influentialpoints (https://influentialpoints.com/Gallery/Aphis_spiraecola_spirea_aphid.htm)' alt='Photo of an adult Green citrus aphid or as it is also known, Spirea aphid' src='./images/Aphis_spiraecola_2.png'>",
+        "<img title='Aphis spiraecola. Photo by influentialpoints (https://influentialpoints.com/Gallery/Aphis_spiraecola_spirea_aphid.htm)' alt='Photo of a nymph Green citrus aphid or as it is also known, Spirea aphid' src='./images/Aphis_spiraecola_1.png'>"
+    ]
+}
+
+const pigWeed = {
+	common_name: 'Pigweed',
+    other_common_names: ['Munyeroo', 'Purslane', 'Green carpetweed', "Pigweed"],
+    botanical_name: '<em>Portulaca oleracea</em> L.',
+    family: 'Portulacaceae',
+    uses: 'Reported to be edible. Medicianl uses also reported',
+    cultural: 'Pigweed is is prostrate spreading annual or sometimes perennial plant. The stems can reach 25 cm long, \
+    leaves are small and fleshy or succulent (up to 25 mm long) and flowers are yellow in colour. Pigweed \
+    is fast-growing and can form a mat covering up to 90 cm. \
+    Pigweed is reported to be self fertile, but pollinators are known to visit flowers. \
+    The seed is small, brown to black and forms in small pods. Pigweed grows in a broad range of soils. It has a taproot \
+    and a fibrous secondary root system. It will thrive \
+    when adequate moisture is available, but can tolerate prolonged low soil moisture conditions. During these periods, \
+    plants are reported to switch photosynthetic pathways and use the Crassulacean acid metabolism (C4) pathway. This \
+    enables plants to conserve moisture by closing stomates during the day and opening them at night to capture \
+    carbon dioxide. See the Wisconsin Horticulture link for an excellent article on pigweed and its various \
+    attributes. <br> \
+    The UNE link below also provides detailed information on pigweed. ',
+    hosts: 'A range of insects are known to visit flowers for pollen and nectar. \
+    One source shows Australian stinless bees visiting the flower of a Portulaca sp. \
+    Pigweed is known to have allelopathic effects - reduced growth of other plants (Rashidi). \
+    Pigweed is also reported to host various crop-damaging organisms.  \
+    Insect problems include aphids, gnats, snails and slugs. \
+    Varieties of sawfly mine the interior of the leaves or feed on the leaves. A Cabi datasheet (see link below) \
+    provides a substantial list of organisms associated with this plant. A few of these are listed here: <br> \
+    <br>\
+    - <em>Aspidiella hartii</em> (yam scale) <br>\
+    - <em>Hercinothrips femoralis</em> (banded greenhouse thrips) <br>\
+    - <em>Hypogeococcus pungens</em> (cactus mealybug) <br> \
+    - <em>Scirtothrips dorsalis</em> (chilli thrips)<br>\
+    - Cucumber green mottle mosaic virus <br>\
+    - Reniform nematode <br>\
+    - <em>Spodoptera eridania</em> (southern armyworm)<br>\
+    - <em>Spodoptera frugiperda</em> (fall armyworm) <br>\
+    - Tomato spotted wilt orthotospovirus (tomato spotted wilt)<br>\
+    - Tomato yellow ring orthotospovirus (Tomato yellow ring virus)<br>\
+    - Turnip mosaic virus (cabbage A virus mosaic)<br>\
+    - <em>Aphis craccivora</em> (groundnut aphid)<br>\
+    - <em>Aphis gossypii</em> (cotton aphid)<br>\
+    - <em>Bemisia tabaci</em> (tobacco whitefly)<br>\
+    - <em>Bemisia tabaci</em> (silverleaf whitefly)<br>\
+    - <em>Frankliniella occidentalis</em> (western flower thrips)',
+    observations: 'Please complete the form to add your observations - go to the About page to access the form \
+    or post your observations on Facebook.<br><br>',
+    links: [
+        'RBGS', 'https://plantnet.rbgsyd.nsw.gov.au/cgi-bin/NSWfl.pl?page=nswfl&lvl=sp&name=Portulaca~oleracea',
+        'Florabase', 'https://florabase.dpaw.wa.gov.au/browse/profile/2884',
+        'ANPSA', 'https://anpsa.org.au/plant_profiles/portulaca-oleracea/',
+        'Wisconsin Horticulture', 'https://hort.extension.wisc.edu/articles/common-purslane-portulaca-oleracea/',
+        'UNE', 'https://www.une.edu.au/__data/assets/pdf_file/0013/255100/une-weeds-pigweed.pdf',
+        'NC STATE Extension', 'https://plants.ces.ncsu.edu/plants/portulaca-oleracea/',
+        'Weeds of Melbourne', 'https://weedsofmelbourne.org/purslane-pigweed-portulaca-oleracea-complex',
+        'Atlas of Living Australia', 'https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/7808071',
+        'Hindawi', 'https://www.hindawi.com/journals/bmri/2014/296063/',
+        'Illinois Wildflowers', 'https://www.illinoiswildflowers.info/weeds/plants/purslane.htm',
+        'Cabi', 'https://www.cabidigitallibrary.org/doi/10.1079/cabicompendium.43609',
+        'Rashidi', 'https://www.mdpi.com/2076-3417/11/8/3539',
+        'Aussie Bee', 'https://www.aussiebee.com.au/stingless-bee-petero.html'
+    ],
+    pest_images: [ 
+        "<img title='please upload your observations' alt='please upload your observations' src='./images/blank_pest_image.png'>",
+        "<img title='please upload your observations' alt='please upload your observations' src='./images/blank_pest_image.png'>",
+        "<img title='please upload your observations' alt='please upload your observations' src='./images/blank_pest_image.png'>",
+    ]
+}
+
 /*
 const template = {
 	common_name: '',
@@ -2241,25 +2420,26 @@ const template = {
     uses: '',
     cultural: '',
     hosts: '',
-    observations: {'Bundaberg': ''},
+    observations: 'Please complete the form to add your observations - go to the About page to access the form \
+    or post your observations on Facebook.<br><br>',
     links: [],
     pest_images: []
 }*/
 
 const combined = [BalloonCotton, shade, heliotropium, Brazilian_nightshade, 
-    burmedic, carpetgrass, catsear, chickweed, cobblers, 
+    burmedic, carpetgrass, carpetWeed, catsear, chickweed, cobblers, 
     sonchus, cotula, vicia, crabgrass, calyptocarpus, indigo, cudweed, dandelion, 
     eclipta, fathen, sida_cordifolia, fleabane, flickweed, grass, amaranth, Gomphrena, hawkweed, 
-    melilotus, khaki, coronopus, plantago, emilia, Mallow, brassica, mouseear, nutgrass, 
-    sida_rhombifolia, plant_ago, potato_weed, malvastrum, purpletop, crotalaria, modiola, rhodes, 
+    melilotus, khaki, portulaca_pilosa, coronopus, plantago, emilia, lotononis_bainesii, Mallow, brassica, mouseear, nutgrass, 
+    sida_rhombifolia, pigWeed, plant_ago, potato_weed, malvastrum, purpletop, crotalaria, modiola, rhodes, 
     cenchrus, capsella, sida_acuta, smooth_catsear, euphorbia, crasso, tridax,
     tropChick, raphanus, mitracarpus, richardia, willowHerb];
 
 const combined_1 = [khaki, amaranth, carpetgrass, cobblers, brassica, flickweed, calyptocarpus, capsella, cenchrus, 
     mouseear, fathen, rhodes, coronopus, cotula, crasso, hawkweed, crotalaria, nutgrass, tropChick, 
     eclipta, crabgrass, emilia, willowHerb, fleabane, euphorbia, potato_weed, cudweed, Gomphrena, BalloonCotton, 
-    heliotropium, smooth_catsear, catsear, indigo, Mallow, malvastrum, burmedic, melilotus, mitracarpus, modiola, 
-    plant_ago, plantago, grass, raphanus, richardia, sida_acuta, sida_rhombifolia, sida_cordifolia, 
+    heliotropium, smooth_catsear, catsear, indigo, lotononis_bainesii, Mallow, malvastrum, burmedic, melilotus, mitracarpus, modiola, 
+    carpetWeed, plant_ago, plantago, pigWeed, portulaca_pilosa, grass, raphanus, richardia, sida_acuta, sida_rhombifolia, sida_cordifolia, 
     shade, Brazilian_nightshade, sonchus, chickweed, dandelion, tridax, purpletop, vicia];
 
 const testprint = `${JSON.stringify(Mallow)}, ${JSON.stringify(shade)}`;
