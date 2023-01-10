@@ -2029,7 +2029,7 @@ function () {
     let img_image = 0;
     let img_title = 0;
     let img_text = 0;
-     let images_flea = ['./images/fleabane_flower.jpg', './images/fleabane.png'];
+     let images_flea = ['./images/Fleabane_flower.jpg', './images/fleabane.png'];
     let images_hover_flea = ['Erigeron spp.', 'Erigeron spp.'];
     let images_text_flea = ['Erigeron spp.', 'Erigeron spp.']
     let im_len = images_flea.length;
