@@ -808,24 +808,40 @@ const fleabane = {
     other_species: '<em>Erigeron canadensis</em> and <em>Erigeron sumatrensis</em>',
     family: 'Asteraceae',
     uses: '',
-    cultural: 'A common fleabane found in orchards is <em>Erigeron bonariensis</em>, however any of the known fleabane \
-    species can occur in and around orchards. Fleabane is a common weed found in crops, pastures, coastal and riparian areas, \
+    cultural: '<em>Erigeron bonariensis</em> is commonly found in and around orchards, however any of the known Fleabane \
+    species reported in Australia can be found growing in the same area. Fleabane is a common weed found in crops, pastures, coastal and riparian areas, \
     roadsides, disturbed sites and gardens. It reproduces primarily by seed and is dispersed by the wind. Seed is also dispersed by \
     machinery, water, vehicles, animals and on clothing.',
     hosts: 'In its natural environment (America), a broad range of insects are known to visit this plant, from nectar feeding \
-    insects to those that eat the leaves <a href="https://www.illinoiswildflowers.info/weeds/plants/horseweed.htm">link</a>. It \
-    likely that there are a similarly broad range of insects visiting plants growing in Australia. \
-    <em>Puccinia cyperi</em> (rust).',
+    insects to those that eat the leaves <a href="https://www.illinoiswildflowers.info/weeds/plants/horseweed.htm">link</a>. \
+    Some of the insects visiting flowers include small Halictid bees, wasps, Syrphid flies, Tachinid flies, Muscid flies and \
+    plant bugs (Miridae). \
+    Some of the pest insects include include the stem-boring larvae of a tumbling flower beetle, \
+     Aster Leafminer larvae, Horseweed Blister Midge larvae, Tarnished Plant Bug, Broken-backed Bug \
+    Differential Grasshopper and the larvae of the Halloween Paint moth. \
+    Fleabane is a known host for Rutherglen bugs. \
+    According to a GRDC project (see link below), pests found on fleabane include redlegged earth mites, \
+    rutherglen bugs, balaustium mites and green peach aphids.  \
+    Cabi lists a number of organisms associated with Fleabane (see link below), some of these include \
+    yellow disease phytoplasmas, Neotropical brown stink bug, South American bollworm), Sugarcane eelworm, \
+    Cotton mealybug, Tobacco  and silverleaf whitefly and the Southern armyworm. \
+    Virus and disease associations include Spindle tuber of potato, Bacterial wilt of potato, \
+    Tomato yellow leaf curl virus and rust.',
     observations: 'Please complete the form to add your observations - go to the About page to access the form',
     links: [
         'Northern IWM fact sheet', 'https://www.daf.qld.gov.au/__data/assets/pdf_file/0005/65903/Flaxleaf-fleabane.pdf', 
         'Brisbane Weeds', 'https://weeds.brisbane.qld.gov.au/weeds/flaxleaf-fleabane',
-        'Discover Life', 'https://www.discoverlife.org'
+        'Discover Life', 'https://www.discoverlife.org',
+	'GRDC', 'https://www.hort360.com.au/wordpress/wp-content/uploads/2018/07/Important-plant-types-WA_online.pdf',
+        'Cabi', 'https://www.cabidigitallibrary.org/doi/10.1079/cabicompendium.15250',
+        'Living Atlas of Australia', 'https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/6986247',
+        'RBGS', 'https://plantnet.rbgsyd.nsw.gov.au/cgi-bin/NSWfl.pl?page=nswfl&lvl=sp&name=conyza~bonariensis',
+        'RBGS', 'https://plantnet.rbgsyd.nsw.gov.au/cgi-bin/NSWfl.pl?page=nswfl&lvl=sp&name=Conyza~canadensis'
     ],
     pest_images: [
         "<img title='go to form & upload images' alt='go to form & upload images' src='./images/blank_pest_image.png'>", 
         "<img title='go to form & upload images' alt='go to form & upload images' src='./images/blank_pest_image.png'>", 
-        "<img title='go to form & upload images' alt='go to form & upload images' src='./images/blank_pest_image.png'>"]
+        "<img title='(Green peach aphid). Photo by InfluentialPoints: https://influentialpoints.com/Gallery/Myzus_persicae_Peach-potato_aphid.htm)' src='./images/Green-peach-aphid.png'>"]
 }
 
 const cobblers = {
