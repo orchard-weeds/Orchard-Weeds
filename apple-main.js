@@ -275,6 +275,11 @@ function Fleabane() {
     <p>Links: <a href='${fleabane.links[1]}' target='_blank'>${fleabane.links[0]}</a></p>\
     <p>Links: <a href='${fleabane.links[3]}' target='_blank'>${fleabane.links[2]}</a></p>\
     <p>Links: <a href='${fleabane.links[5]}' target='_blank'>${fleabane.links[4]}</a></p>\
+    <p>Links: <a href='${fleabane.links[7]}' target='_blank'>${fleabane.links[6]}</a></p>\
+    <p>Links: <a href='${fleabane.links[9]}' target='_blank'>${fleabane.links[8]}</a></p>\
+    <p>Links: <a href='${fleabane.links[11]}' target='_blank'>${fleabane.links[10]}</a></p>\
+    <p>Links: <a href='${fleabane.links[13]}' target='_blank'>${fleabane.links[12]}</a></p>\
+    <p>Links: <a href='${fleabane.links[15]}' target='_blank'>${fleabane.links[14]}</a></p>\
     <p>Field Observations:</p>\
     <p>${fleabane.observations}</p>
     <p>Click to enlarge images</p>`;
@@ -2024,9 +2029,9 @@ function () {
     let img_image = 0;
     let img_title = 0;
     let img_text = 0;
-    let images_flea = ['./images/fleabane.png'];
-    let images_hover_flea = ['Erigeron spp.'];
-    let images_text_flea = ['Erigeron spp.']
+     let images_flea = ['./images/fleabane_flower.jpg', './images/fleabane.png'];
+    let images_hover_flea = ['Erigeron spp.', 'Erigeron spp.'];
+    let images_text_flea = ['Erigeron spp.', 'Erigeron spp.']
     let im_len = images_flea.length;
     let display_image = document.getElementById('image1-flea');
     let hide_button = document.getElementById('hide-flea');
