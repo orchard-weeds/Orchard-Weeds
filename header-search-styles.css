@@ -8,7 +8,7 @@ body {
 }
 .header-bar {
     width: 100%;
-    height: 200px;
+    height: 150px;
     background-color: midnightblue;
     position: fixed;
     z-index: 1;
@@ -20,11 +20,11 @@ body {
 
 .header-bar h1 {
     color: white;
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 .header-bar p {
     color: white;
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 .header-bar a {
@@ -40,7 +40,7 @@ ul {
   
   li {
     float: left;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
   
   li a, .dropbtn {
@@ -101,12 +101,12 @@ ul {
 */
 .header-bar img {
     width: 200px;
-    height: 300px;
+    height: 150px;
     object-fit: contain;
 }
 
 .header-bar img:hover {
-    transform: scale(1.9)
+    transform: scale(1.1)
 }
 
 .empty {
@@ -201,20 +201,23 @@ input[type="radio"] {
     font-weight: bolder;
 }*/
 
-@media only screen and (max-width: 950px) {
+@media only screen and (max-width: 1300px) and (orientation: landscape) {
+    .header-bar {
+        height: 100px;
+    }
     .header-bar h1 {
         width: 200px;
         text-align: center;
-        font-size: 2.5rem;
+        font-size: 1rem;
     }
     .header-bar img {
-        width: 150px;
-        height: 250px;
+        width: 120px;
+        height: 80px;
         object-fit: contain;
     }
     
     .header-bar img:hover {
-        transform: scale(1.9)
+        transform: scale(1.1)
     }
 
     ul {
@@ -226,9 +229,53 @@ input[type="radio"] {
         font-size: 1.3rem;
         margin-left: 10px;
     }
-    .dropdown-content {
+}
+
+@media only screen and (max-width: 1300px) {
+    .header-bar {
+        height: 100px;
+    }
+    .header-bar h1 {
+        width: 200px;
+        text-align: center;
+        font-size: 1.2rem;
+    }
+    .header-bar img {
+        width: 150px;
+        height: 100px;
+        object-fit: contain;
+    }
+    
+    .header-bar img:hover {
+        transform: scale(1.1)
+    }
+
+    ul {
+        width: 300px;
+    }
+
+
+    li {
         font-size: 1.1rem;
-        width: 50px;
+        margin-left: 10px;
+    }
+    .dropdown-content {
+        font-size: 0.9rem;
+        width: 100px;
+    }
+
+    .empty {
+        height: 100px;
+    }
+
+    #formData {
+        width: 100%;
+        font-size: 0.9rem;
+
+    }
+
+    #searchable {
+        width: 80%;
     }
     
 }
@@ -246,7 +293,12 @@ input[type="radio"] {
 
     li {
         margin-left: 2px;
+        font-size: 1rem;
     }
+    #searchable {
+        width: 90%;
+    }
+   
 }
 
 @media only screen and (max-width: 500px) {
@@ -256,17 +308,25 @@ input[type="radio"] {
         height: 50px;
     }
     #formData {
-        width: 90%;
-        font-size: 0.9rem;
+        width: 100%;
+        font-size: 0.7rem;
+    }
+
+    #searchable {
+        width: 100%;
     }
 }
 
 @media only screen and (max-width: 350px) {
     #formData {
         width: 100%;
-        font-size: 0.rem;
+        font-size: 0.6rem;
         display: block;
         margin-left: 20px;
         padding: 10px;
+    }
+
+    #searchable {
+        width: 110%;
     }
 }
