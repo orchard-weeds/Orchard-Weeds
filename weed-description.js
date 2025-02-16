@@ -1,6 +1,6 @@
 const ageratum = {
 	common_name: 'Billygoat weed',
-    other_common_names: ['Blue Billygoat weed', 'Goatweed', 'Ageratum'],
+    other_common_names: ['Blue Billygoat weed', ' Goatweed', ' Ageratum'],
     botanical_name: '<em>Ageratum houstonianum</em>',
     abbrev: '<em>A. conyzoides</em> Mill.,  L.',
     family: 'Asteraceae',
@@ -11,9 +11,9 @@ const ageratum = {
     sightings: '',
     links: [''],
     pest_images: [
-        "<img title='Click to enlarge (aphids)' src='./Images/weeds/blank_pest_image.png'>", 
-        "<img title='Click to enlarge (mealy bug)' src='./Images/weeds/blank_pest_image.png'>", 
-        "<img title='Click to enlarge (thrips)' src='./Images/weeds/blank_pest_image.png'>"]
+        "<img title='Click to enlarge' src='./Images/weeds/blank_pest_image.png'>", 
+        "<img title='Click to enlarge' src='./Images/weeds/blank_pest_image.png'>", 
+        "<img title='Click to enlarge' src='./Images/weeds/blank_pest_image.png'>"]
 }
 
 const khaki = {
