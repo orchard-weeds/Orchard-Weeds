@@ -381,8 +381,8 @@ body {
   .slideshow-container img {
     height: 420px;
   }
-  .plant-box-container {
-    margin: 5px;
+  .plant-box {
+    width: 100%;
   }
   
 }
@@ -391,6 +391,17 @@ body {
   .slideshow-container img {
     height: 300px;
   }
+
+  .plant-box {
+    height: 80%;
+  }  
   
+}
+
+@media only screen and (max-width: 330px) {
+
+  .plant-box {
+    height: 70%;
+  }  
   
 }
