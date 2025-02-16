@@ -3557,9 +3557,9 @@ function showInfo_willowherb() {
   heading.innerHTML = 
   `<h1>${willowHerb.common_name}</h1><br><br><br><br></br>`;
 
-  photo_1.innerHTML = `<img src="./Images/weeds/Willowherb-1.jpg" style="width:100%">`;
-  photo_2.innerHTML = `<img src="./Images/weeds/Willowherb-2.png" style="width:100%">`;
-  photo_3.innerHTML = `<img src="./Images/weeds/Willowherb-3.png" style="width:100%">`;
+  photo_1.innerHTML = `<img src="./Images/weeds/willowherb-1.jpg" style="width:100%">`;
+  photo_2.innerHTML = `<img src="./Images/weeds/willowherb-2.png" style="width:100%">`;
+  photo_3.innerHTML = `<img src="./Images/weeds/willowherb-3.png" style="width:100%">`;
   photo_4.innerHTML = `<img src="./Images/weeds/blank-photo.png" style="width:100%">`;
   photo_5.innerHTML = `<img src="./Images/weeds/blank-photo.png" style="width:100%">`;
   photo_6.innerHTML = `<img src="./Images/weeds/blank-photo.png" style="width:100%">`;
