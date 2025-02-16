@@ -381,7 +381,9 @@ body {
   .slideshow-container img {
     height: 420px;
   }
-  
+  .plant-box-container {
+    margin: 20px;
+  }
   
 }
 
