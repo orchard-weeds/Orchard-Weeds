@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./header-search-styles.css">
+    <link rel="stylesheet" type="text/css" href="./plant-container-styles.css">
+    <title>Orchard Weeds</title>
+</head>
+<body>
+    <header class="header-bar">
+        <img id="logo" src="./images/logo-1.png">
+        <h1>Orchard Weeds</h1>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">Menu</a>
+                <div class="dropdown-content">
+                  <a href="share-about.html">About</a>
+                  <a href="share-about.html">Contact</a>
+                  <a href="share.html">Share your observations</a>
+                </div>
+            </li>
+        </ul>
+    </header>
+
+    <div class="empty"></div>
+
+    <div class="search">
+        <form id="formData">
+            <input type="radio" class='same' id="common" name="yes" value="common" required>
+            <label for="common" class="cont">Common name</label>
+            <input type="radio" class='same' id="sci" name="yes" value="sci" required>
+            <label for="sci" class="cont">Scientific name</label>
+            <label for="searchable"></label>
+            <input type="text" list="searchItems" id="searchable" name="searchable" 
+            placeholder="Search here" maxlength="25" minlength="5" required>
+            
+            <input type="submit" value="Submit" id="submit">
+            <datalist id="searchItems"></datalist>
+        </form> 
+    </div>
+
+    
+    <div class="empty1"></div>
+
+    <div class="plant-box-container">
+        <a href="ageratum.html"><div class="plant-box">
+            <img alt="" src="./Images/weeds/Ageratum-houstonianum-2.jpg"  id="Ageratum">
+            <h3 id="go"><em>Ageratum spp</em><br>Billygoat weed</h3> 
+        </div></a>
+        <a href="khaki.html"><div class="plant-box" class="khaki">
+            <img alt="" src="./Images/weeds/khaki-8.png">
+            <h3 id="go"><em>Alternanthera pungens</em><br>Khaki weed</h3>
+        </div></a>
+
+        <a href="amaranth.html"><div class="plant-box" id="ama">
+            <img alt="" src="./Images/weeds/amaranth.png">
+            <h3 id="go"><em>Amaranthus viridis</em><br>Green amaranth</h3>
+        </div></a>
+
+        <a href="carpetgrass.html"><div class="plant-box" class="carpetgrass">
+            <img alt="" src="./Images/weeds/carpetgrass-cover.png">
+            <h3 id="go"><em>Axonopus compressus</em><br>Broad leafed carpet grass</h3>
+        </div></a>
+
+        <a href="cobblers.html"><div class="plant-box" class="cobblers">
+            <img alt="" src="./Images/weeds/bidens.png">
+            <h3 id="go"><em>Bidens pilosa</em><br>Cobbler's pegs</h3>
+        </div></a>
+
+        <a href="brassica.html"><div class="plant-box" class="brassica">
+            <img alt="" src="./Images/weeds/Brassica_tournefortii-2.png">
+            <h3 id="go"><em>Brassica tournefortii</em><br>Mediterranean Turnip</h3>
+        </div></a>
+
+        <a href="calyptocarpus.html"><div class="plant-box" class="calyptocarpus">
+            <img alt="" src="./Images/weeds/calyptocarpus_1.png">
+            <h3 id="go"><em>Calyptocarpus vialis</em><br>Creeping Cinderella Weed</h3>
+        </div></a>
+
+        <a href="capsella.html"><div class="plant-box" class="capsella">
+            <img alt="" src="./Images/weeds/Capsella.png">
+            <h3 id="go"><em>Capsella bursa-pastoris</em><br>Shepherd's purse</h3>
+        </div></a>
+
+        <a href="flickweed.html"><div class="plant-box" class="flickweed">
+            <img alt="" src="./Images/weeds/flickweed-close.png">
+            <h3 id="go"><em>Cardamine hirsuta</em><br>Flickweed</h3>
+        </div></a>
+
+        <a href="cenchrus.html"><div class="plant-box" class="cenchrus">
+            <img alt="" src="./Images/weeds/Cenchrus-2.png">
+            <h3 id="go"><em>Cenchrus spp.</em><br>'Spiny Burrgrass</h3>
+        </div></a>
+
+        <a href="mouseear.html"><div class="plant-box" class="mouseear">
+            <img alt="" src="./Images/weeds/cerastium.png">
+            <h3 id="go"><em>Cerastium glomeratum</em><br>Mouse-ear Chickweed</h3>
+        </div></a>
+        
+        <a href="chamaecrista.html"><div class="plant-box" class="cham">
+            <img alt="" src="./Images/weeds/Chamaecrista_1.png">
+            <h3 id="go"><em>Chamaecrista rotundifolia</em><br>Wynn cassia</h3>
+        </div></a>
+
+
+        <a href="fathen.html"><div class="plant-box" class="fathen">
+            <img alt="" src="./Images/weeds/fathen-2.png">
+            <h3 id="go"><em>Chenopodium album</em><br>Fat hen</h3>
+        </div></a>
+
+        <a href="rhodes.html"><div class="plant-box" class="rhodes">
+            <img alt="" src="./Images/weeds/chloris-inflata-1.png">
+            <h3 id="go"><em>Chloris inflata</em><br>Purpletop Rhodes grass</h3>
+        </div></a>
+
+        <a href="lepidium_b.html"><div class="plant-box" class="coronopus">
+            <img alt="" src="./Images/weeds/Lepidium-bonariense.png">
+            <h3 id="go"><em>Lepidium bonariense</em><br>Argentine Cress</h3>
+        </div></a>
+
+        <a href="lepidium_d.html"><div class="plant-box" class="coronopus">
+            <img alt="" src="./Images/weeds/lepidium-rosette.png">
+            <h3 id="go"><em>Lepidium didymus</em><br>Lesser swinecress</h3>
+        </div></a>
+
+        <a href="cotula.html"><div class="plant-box" class="cotula">
+            <img alt="" src="./Images/weeds/cotula-1.png">
+            <h3 id="go"><em>Cotula australis</em><br>Common cotula</h3>
+        </div></a>
+
+        <a href="crasso.html"><div class="plant-box" class="crasso">
+            <img alt="" src="./Images/weeds/thickhead-1.png">
+            <h3 id="go"><em>Crassocephalum crepidioides</em><br>Thickhead</h3>
+        </div></a>
+
+        <a href="hawkweed.html"><div class="plant-box" class="hawkweed">
+            <img alt="" src="./Images/weeds/hawksbeard.png">
+            <h3 id="go"><em>Crepis capillaris</em><br>Smooth Hawksbeard</h3>
+        </div></a>
+
+        <a href="crotalaria.html"><div class="plant-box" class="crotalaria">
+            <img alt="" src="./Images/weeds/crotalaria-pallida.png">
+            <h3 id="go"><em>Crotalaria spp.</em><br>Rattlepods</h3>
+        </div></a>
+        
+        <a href="slendercelery.html"><div class="plant-box" class="slender-celery">
+            <img alt="" src="./Images/weeds/Cyclospermum-leptophyllum.jpg">
+            <h3 id="go"><em>Cyclospermum leptophyllum</em><br>Slender Celery</h3>
+        </div></a>
+
+        <a href="nutgrass.html"><div class="plant-box" class="nutgrass">
+            <img alt="" src="./Images/weeds/nutgrass.png">
+            <h3 id="go"><em>Cyperus spp.</em><br>Nutgrass</h3>
+        </div></a>
+
+        <a href="tropicalchick.html"><div class="plant-box" class="tropical-chick">
+            <img alt="" src="./Images/weeds/trop-chick-vert.png">
+            <h3 id="go"><em>Drymaria cordata</em><br>Tropical chickweed</h3>
+        </div></a>
+
+        <a href="eclipta.html"><div class="plant-box" class="eclipta">
+            <img alt="" src="./Images/weeds/eclipta.png">
+            <h3 id="go"><em>Eclipta prostata</em><br>False daisy</h3>
+        </div></a>
+
+        <a href="crabgrass.html"><div class="plant-box" class="crabgrass">
+            <img alt="" src="./Images/weeds/crabgrass_1.png">
+            <h3 id="go"><em>Eleusine indica</em><br>Crabgrass</h3>
+        </div></a>
+
+        <a href="emilia.html"><div class="plant-box" class="emilia">
+            <img alt="" src="./Images/weeds/emilia-1.png">
+            <h3 id="go"><em>Emilia sonchifolia</em><br>Lilac Tasselflower</h3>
+        </div></a>
+
+        <a href="willowherb.html"><div class="plant-box" class="willowherb">
+            <img alt="" src="./Images/weeds/willowherb.jpg">
+            <h3 id="go"><em>Epilobium ciliatum</em><br>Willowherb</h3>
+        </div></a>
+
+        <a href="fleabane.html"><div class="plant-box" class="fleabane">
+            <img alt="" src="./Images/weeds/fleabane_flower_bud.png">
+            <h3 id="go"><em>Erigeron spp.</em><br>Fleabane</h3>
+        </div></a>
+
+        <a href="euphorbia.html"><div class="plant-box" class="euphorbia">
+            <img alt="" src="./Images/weeds/spotted-spurge-close.png">
+            <h3 id="go"><em>Euphorbia maculata</em><br>Spotted spurge or Caustic weed</h3>
+        </div></a>
+
+        <a href="potato_weed.html"><div class="plant-box" class="potato-weed">
+            <img alt="" src="./Images/weeds/potato-weed-7.png">
+            <h3 id="go"><em>Galinsoga parviflora</em><br>Potato weed</h3>
+        </div></a>
+
+        <a href="cudweed.html"><div class="plant-box" class="cudweed">
+            <img alt="" src="./Images/weeds/cud-2.png">
+            <h3 id="go"><em>Gamochaeta spp. Gnaphalium spp.</em><br>Cudweed</h3>
+        </div></a>
+
+        <a href="ballooncotton.html"><div class="plant-box" class="ballooncotton">
+            <img alt="" src="./Images/weeds/Gomphocarpus_plant.png">
+            <h3 id="go"><em>Gomphocarpus spp.</em><br>Balloon Cotton</h3>
+        </div></a>
+
+        <a href="gomphrena.html"><div class="plant-box" class="gomphrena">
+            <img alt="" src="./Images/weeds/Gomphrena.png">
+            <h3 id="go"><em>Gomphrena celosioides</em><br>Gomphrena weed</h3>
+        </div></a>
+
+        <a href="heliotropium.html"><div class="plant-box" class="heliotropium">
+            <img alt="" src="./Images/weeds/heliotrope.png">
+            <h3 id="go"><em>Heliotropium amplexicaule</em><br>Blue Heliotrope</h3>
+        </div></a>
+
+        <a href="grass.html"><div class="plant-box" class="grass">
+            <img alt="" src="./Images/grasses/mixed-grasses-orchard.png">
+            <h3 id="go"><em>Poaceae</em><br>Grasses</h3>
+        </div></a>
+        
+        <a href="smoothcatsear.html"><div class="plant-box" class="smooth-catsear">
+            <img alt="" src="./Images/weeds/smooth-catsear-plant.png">
+            <h3 id="go"><em>Hypochaeris glabra</em><br>Smooth Catsear</h3>
+        </div></a>
+
+
+        <a href="catsear.html"><div class="plant-box" class="catsear">
+            <img alt="" src="./Images/weeds/catsear-plant.png">
+            <h3 id="go"><em>Hypochaeris radicata</em><br>Cat's ear</h3>
+        </div></a>
+
+        <a href="indigo.html"><div class="plant-box" class="indigo">
+            <img alt="" src="./Images/weeds/creeping-indigo.png">
+            <h3 id="go"><em>Indigofera spicata</em><br>Creeping indigo</h3>
+        </div></a>
+
+        <a href="mallow.html"><div class="plant-box" class="mallow">
+            <img alt="" src="./Images/weeds/Mallow-2.png">
+            <h3 id="go"><em>'Malva parviflora</em><br>Mallow</h3>
+        </div></a>
+
+        <a href="malvastrum.html"><div class="plant-box" class="malvastrum">
+            <img alt="" src="./Images/weeds/malvastrum.png">
+            <h3 id="go"><em>Malvastrum coromandelianum</em><br>Prickly Malvastrum</h3>
+        </div></a>
+
+        <a href="burmedic.html"><div class="plant-box" class="burmedic">
+            <img alt="" src="./Images/weeds/Medicago-polymorpha.png">
+            <h3 id="go"><em>Medicago polymorpha</em><br>Burr Medic</h3>
+        </div></a>
+        
+        <a href="melilotus.html"><div class="plant-box" class="melilotus">
+            <img alt="" src="./Images/weeds/melilotus.png">
+            <h3 id="go"><em>Melilotus indicus</em><br>Hexham scent</h3>
+        </div></a>
+
+        <a href="modiola.html"><div class="plant-box" class="modiola">
+            <img alt="" src="./Images/weeds/modiola_6.png">
+            <h3 id="go"><em>Modiola caroliniana</em><br>Red-flowered mallow</h3>
+        </div></a>
+        
+        <a href="mitracarpus.html"><div class="plant-box" class="mitracarpus">
+            <img alt="" src="./Images/weeds/mitracarpus.png">
+            <h3 id="go"><em>Mitracarpus hirtus</em><br>White Eye</h3>
+        </div></a>
+
+        <a href="lotononis.html"><div class="plant-box" class="lotononis">
+            <img alt="" src="./Images/weeds/Lotononis_bainesii.png">
+            <h3 id="go"><em>Lotononis bainesii</em><br>Lotononis</h3>
+        </div></a>
+
+        <a href="carpetweed.html"><div class="plant-box" class="carpetweed">
+            <img alt="" src="./Images/weeds/Mollugo_verticillata.png">
+            <h3 id="go"><em>Mollugo verticillata</em><br>Carpetweed</h3>
+        </div></a>
+        
+        <a href="plantago_lan.html"><div class="plant-box" class="plantago">
+            <img alt="Plantago lanceolata, Image by Josh Teyler" title="Plantago lanceolata. Image by Josh Teyler (https://www.inaturalist.org/photos/127256441)" src="./Images/weeds/plantago-lanceolata.png">
+            <h3 id="go"><em>Plantago lanceolata</em><br>Lamb's Tongues</h3>
+        </div></a>
+
+        <a href="plantain.html"><div class="plant-box" class="plantain">
+            <img alt="Native plantain, Plantago debilis" title="Plantago debilis" src="./Images/weeds/plantago_debilis_1.png">
+            <h3 id="go"><em>Plantago spp.</em><br>Plantain</h3>
+        </div></a>
+        
+        <a href="pigweed.html"><div class="plant-box" class="pigweed">
+            <img alt="" src="./Images/weeds/Portulaca_oleracea.png">
+            <h3 id="go"><em>Portulaca oleracea</em><br>Pigweed</h3>
+        </div></a>
+
+        <a href="portulaca-pilosa.html"><div class="plant-box" class="portulaca-pilosa">
+            <img alt="" src="./Images/weeds/Portulaca_pilosa_3.png">
+            <h3 id="go"><em>Portulaca pilosa</em><br>Kiss-me-quick</h3>
+        </div></a>
+        
+        <a href="raphanus.html"><div class="plant-box" class="raphanus">
+            <img alt="" src="./Images/weeds/wild-radish-1.png">
+            <h3 id="go"><em>Raphanus raphanistrum</em><br>Wild radish</h3>
+        </div></a>
+
+        <a href="richardia.html"><div class="plant-box" class="richardia">
+            <img alt="" src="./Images/weeds/richardia-1.png">
+            <h3 id="go"><em>Richardia brasiliensis</em><br>White Eye</h3>
+        </div></a>
+         
+        <a href="caster_oil.html"><div class="plant-box" class="caster_oil">
+            <img alt="" src="./Images/weeds/caster-oil-plant.png">
+            <h3 id="go"><em>Ricinus communis</em><br>Caster Oil Plant</h3>
+        </div></a>
+        
+        <a href="sidaacuta.html"><div class="plant-box" class="sida-acuta">
+            <img alt="" src="./Images/weeds/sida-acuta.png">
+            <h3 id="go"><em>Sida acuta</em><br>Sida</h3>
+        </div></a>
+
+        <a href="sidarhombifolia.html"><div class="plant-box" class="sida-rhombifolia">
+            <img alt="" src="./Images/weeds/Sida-rhom-1.png">
+            <h3 id="go"><em>Sida rhombifolia</em><br>Paddy's Lucerne</h3>
+        </div></a>
+        
+        <a href="sidacordifolia.html"><div class="plant-box" class="sida-cordifolia">
+            <img alt="" src="./Images/weeds/s-cordifolia.png">
+            <h3 id="go"><em>Sida cordifolia</em><br>Flannelweed</h3>
+        </div></a>
+
+        <a href="braz-nightshade.html"><div class="plant-box" class="braz-nightshade">
+            <img alt="" src="./Images/weeds/Brazilian-flower.png">
+            <h3 id="go"><em>Solanum seaforthianum</em><br>Brazilian nightshade</h3>
+        </div></a>
+        
+        <a href="shade.html"><div class="plant-box" class="shade">
+            <img alt="" src="./Images/weeds/solanum_nigrum_cover.png">
+            <h3 id="go"><em>Solanum nigrum</em><br>Blackberry nightshade</h3>
+        </div></a>
+
+        <a href="sonchus.html"><div class="plant-box" class="sonchus">
+            <img alt="" src="./Images/weeds/sonchus-plant-1.png">
+            <h3 id="go"><em>Sonchus oleraceus</em><br>Common sowthistle</h3>
+        </div></a>
+        
+        <a href="chickweed.html"><div class="plant-box" class="chickweed">
+            <img alt="" src="./Images/weeds/chickweed-1.png">
+            <h3 id="go"><em>Stellaria media</em><br>Chickweed</h3>
+        </div></a>
+
+        <a href="dandelion.html"><div class="plant-box" class="dandelion">
+            <img alt="" src="./Images/weeds/dandelion-1.png">
+            <h3 id="go"><em>Taraxacum officinale</em><br>Dandelion</h3>
+        </div></a>
+        
+        <a href="tridax.html"><div class="plant-box" class="tridax">
+            <img alt="" src="./Images/weeds/Tridax_daisy_flower-2.png">
+            <h3 id="go"><em>Tridax procumbens</em><br>Tridax daisy</h3>
+        </div></a>
+
+        <a href="purpletop.html"><div class="plant-box" class="purpletop">
+            <img alt="" src="./Images/weeds/Purpletop.png">
+            <h3 id="go"><em>Verbena bonariensis</em><br>Purpletop</h3>
+        </div></a>
+        
+        <a href="vicia.html"><div class="plant-box" class="vicia">
+            <img alt="" src="./Images/weeds/vetch.png">
+            <h3 id="go"><em>Vicia sativa</em><br>Common vetch</h3>
+        </div></a>
+        
+        <a href="apple-of-peru.html"><div class="plant-box" class="apple-of-peru">
+            <img alt="" src="./Images/weeds/Nicandra-5.png">
+            <h3 id="go"><em>Nicandra physalodes</em><br>Apple of Peru</h3>
+        </div></a>
+        
+        <a href="share.html"><div class="plant-box" class="sharing">
+            <img alt="" src="./Images/pests/FSB.jpg">
+            <h3 id="go">Add your weeds<br>Here</h3>
+        </div></a>
+
+       
+       
+    </div>
+    <div class="empty"></div>
+   
+    
+
+    <footer>
+        <section class="copyright">
+            <p><a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
+            <img alt="Creative Commons License"  src="https://i.creativecommons.org/l/by/4.0/88x31.png" />
+            </a><br>This work is licensed under a 
+            <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a></p>
+            <p>Website by: G. Chirgwin</p>
+        </section>
+    </footer>
+
+    <script src="./weed-display-page.js"></script>
+    <script src="./weed-description.js"></script>
+    
+    
+   
+</body>
+</html>

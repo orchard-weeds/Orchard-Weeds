@@ -1,0 +1,55 @@
+
+
+function showInfo_Brazilian_nightshade() {
+  
+  
+ 
+  heading.innerHTML = 
+  `<h1>${Brazilian_nightshade.common_name}</h1><br><br><br><br></br>`;
+
+  photo_1.innerHTML = `<img src="./Images/weeds/Brazilian-flower-1.jpg" style="width:100%">`;
+  photo_2.innerHTML = `<img src="./Images/weeds/Brazilian-flower-2.jpg" style="width:100%">`;
+  photo_3.innerHTML = `<img src="./Images/weeds/Brazilian.jpg" style="width:100%">`;
+  photo_4.innerHTML = `<img src="./Images/weeds/Brazilian-young.png" style="width:100%">`;
+  photo_5.innerHTML = `<img src="./Images/weeds/Brazilian-fruit-bush.png" style="width:100%">`;
+  photo_6.innerHTML = `<img src="./Images/weeds/Brazilian-fruit-bush-1.png" style="width:100%">`;
+  photo_7.innerHTML = `<img src="./Images/weeds/blank-photo.png" style="width:100%">`;
+  photo_8.innerHTML = `<img src="./Images/weeds/blank-photo.png" style="width:100%">`;
+  photo_text_1.innerHTML = `<p>Brazilian nightshade (<em>Solanum seaforthianum </em>)</p>`;
+  photo_text_2.innerHTML = `<p>Brazilian nightshade (<em>Solanum seaforthianum </em>)</p>`;
+  photo_text_3.innerHTML = `<p>Brazilian nightshade (<em>Solanum seaforthianum </em>)</p>`;
+  photo_text_4.innerHTML = `<p>Brazilian nightshade (<em>Solanum seaforthianum </em>)</p>`;
+  photo_text_5.innerHTML = `<p>Brazilian nightshade (<em>Solanum seaforthianum </em>)</p>`;
+  photo_text_6.innerHTML = `<p>Brazilian nightshade (<em>Solanum seaforthianum </em>)</p>`;
+  photo_text_7.innerHTML = `<p>Brazilian nightshade (<em>Solanum seaforthianum </em>)</p>`;
+  photo_text_8.innerHTML = `<p>Brazilian nightshade (<em>Solanum seaforthianum </em>)</p>`;
+ 
+
+
+  readMore.innerHTML = 
+  `<div class="paragraph"><h3>Botanical name: ${Brazilian_nightshade.botanical_name}</h3>\
+  <h3>Family: ${Brazilian_nightshade.family}</h3><h3>Other common names: ${Brazilian_nightshade.other_common_names}</h3>\
+  <br><p>${Brazilian_nightshade.cultural}</p>\
+  <p>${Brazilian_nightshade.hosts}</p><div class='pest_images'><p>${Brazilian_nightshade.pest_images[0]}</p> <p>${Brazilian_nightshade.pest_images[1]}</p>\
+  <p>${Brazilian_nightshade.pest_images[2]}</p> </div><p>Uses: ${Brazilian_nightshade.uses}</p>\
+  <p>Links: <a href='${Brazilian_nightshade.links[1]}' target='_blank'>${Brazilian_nightshade.links[0]}</a></p>\
+  <p>Links: <a href='${Brazilian_nightshade.links[3]}' target='_blank'>${Brazilian_nightshade.links[2]}</a>\
+  <p>Links: <a href='${Brazilian_nightshade.links[5]}' target='_blank'>${Brazilian_nightshade.links[4]}</a></p> \
+  <p>Links: <a href='${Brazilian_nightshade.links[7]}' target='_blank'>${Brazilian_nightshade.links[6]}</a></p>\
+  <p>Links: <a href='${Brazilian_nightshade.links[9]}' target='_blank'>${Brazilian_nightshade.links[8]}</a>\
+  <p>Links: <a href='${Brazilian_nightshade.links[11]}' target='_blank'>${Brazilian_nightshade.links[10]}</a></p> \
+  <p>Field Observations:</p>\
+  <p id="page-link"><a href='share.html'>${Brazilian_nightshade.observations}</a></p>\
+  <p>Location observations: ${Brazilian_nightshade.sightings}</p>\
+  </div>\
+  <div class="empty-1"></div>\
+  <footer id="footer" class="footerTest">\
+ <div class="copyright">\
+     <p><a rel="license" href="http://creativecommons.org/licenses/by/4.0/">\
+     <img alt="Creative Commons License"  src="https://i.creativecommons.org/l/by/4.0/88x31.png" />\
+     </a><br>This work is licensed under a \
+     <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a></p>\
+     <p>Website by: G. Chirgwin</p>\
+ </div>\
+</footer>`;
+}

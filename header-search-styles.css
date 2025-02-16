@@ -1,0 +1,272 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    min-width: 300px;
+    max-width: 2000px;
+}
+.header-bar {
+    width: 100%;
+    height: 200px;
+    background-color: midnightblue;
+    position: fixed;
+    z-index: 1;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.header-bar h1 {
+    color: white;
+    font-size: 3rem;
+}
+.header-bar p {
+    color: white;
+    font-size: 3rem;
+}
+
+.header-bar a {
+    color:white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+    font-size: 1.5rem;
+  }
+  
+  li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li.dropdown {
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    font-size: 1.2rem;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+/*.header-bar ul {
+    width: 30%;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-bar li {
+    margin-left: 10px;
+    margin-right: 10px;
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+.header-bar li a:hover {
+    color:slateblue;
+    font-size: 1.4rem;
+    font-weight: bolder;
+}
+*/
+.header-bar img {
+    width: 200px;
+    height: 300px;
+    object-fit: contain;
+}
+
+.header-bar img:hover {
+    transform: scale(1.9)
+}
+
+.empty {
+    height: 200px;
+}
+.empty1 {
+    height: 50px;
+}
+
+#formData {
+    width: 80%;
+    margin: 0 auto;
+    top: 20px;
+    border: 1px black solid;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    padding: 20px;
+}
+
+
+input[type="radio"] {
+    width: 20px;
+    height: 20px;
+    border-color: blue;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.cont:hover {
+    font-weight: bold;
+}
+
+#searchable {
+    width: 40%;
+    height: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    border: midnightblue 2px dotted;
+}
+#submit {
+    width: 60px;
+    height: 40px;
+    border-radius: 10px;
+    border: black 2px outset;
+    padding: 10px;
+    margin-top: 10px;
+}
+#submit:active {
+    border: blue 5px inset;
+}
+
+.search li a:hover {
+    color:slateblue;
+    font-size: 1.4rem;
+    font-weight: bolder;
+}
+/*
+.alphibetical {
+    width: 100%;
+    height: 200px;
+    position: relative;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    z-index: 2;
+}
+
+.alphibetical ul {
+    width: 30%;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    color: red;
+    font-size: 1rem;
+}
+
+.alphibetical li {
+    margin-left: 10px;
+    margin-right: 10px;
+    list-style: none;
+    font-size: 1.2rem;
+    color: black;
+}
+
+.alphibetical li a:hover {
+    color:slateblue;
+    font-size: rem;
+    font-weight: bolder;
+}*/
+
+@media only screen and (max-width: 950px) {
+    .header-bar h1 {
+        width: 200px;
+        text-align: center;
+        font-size: 2.5rem;
+    }
+    .header-bar img {
+        width: 150px;
+        height: 250px;
+        object-fit: contain;
+    }
+    
+    .header-bar img:hover {
+        transform: scale(1.9)
+    }
+
+    ul {
+        width: 300px;
+    }
+
+
+    li {
+        font-size: 1.3rem;
+        margin-left: 10px;
+    }
+    .dropdown-content {
+        font-size: 1.1rem;
+        width: 50px;
+    }
+    
+}
+
+@media only screen and (max-width: 600px) {
+    .header-bar img {
+        width: 120px;
+        height: 220px;
+        object-fit: contain;
+    }
+
+    ul {
+        width: 200px;
+    }
+
+    li {
+        margin-left: 2px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .header-bar img {
+        visibility: hidden;
+        width: 20px;
+        height: 50px;
+    }
+    #formData {
+        width: 90%;
+        font-size: 0.9rem;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    #formData {
+        width: 100%;
+        font-size: 0.rem;
+        display: block;
+        margin-left: 20px;
+        padding: 10px;
+    }
+}
