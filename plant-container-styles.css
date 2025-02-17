@@ -236,16 +236,22 @@ body {
   display: inline-flex;
   flex-wrap: wrap;
   justify-content: center;
-  width: 100%;
+  width: 90%;
 }
 .forms-1, .forms-2, .forms-3 {
   background-color: midnightblue;
-  width: 300px;
-  height: 150px;
-  padding: 32px;
+  width: 30%;
+  height: 10%;
+  padding: 15px;
   text-align: center;
-  margin: 20px;
-  font-size: 1.7rem;
+  margin: 10px;
+  border-radius: 12px;
+  transition-duration: 0.4s;
+}
+
+.forms p {
+  font-size: 1.2rem;
+  text-align:center;
 }
 
 .forms-1 a, .forms-2 a, .forms-3 a {
@@ -255,7 +261,7 @@ body {
 
 .forms-1:hover, .forms-2:hover, .forms-3:hover {
   border-radius: 25px;
-  background-color: blueviolet;
+  background-color: rgb(43, 226, 116);
 }
 
 .forms-1:active, .forms-2:active, .forms-3:active {
@@ -268,46 +274,12 @@ body {
 }
 
 
-.list1 {
-  background-color: midnightblue;
-  color: white;
-  width: 40%;
-  margin-left: 30%;
-  margin-top: 100px;
-  padding: 20px;
-}
-/*Weed share and about page*/
-.list1 ul {
-  display: flex;
-  flex-direction: column;
-}
-
-.list1 li {
- line-height: 2rem;
-}
-
-.gif_container {
-  text-align: center;
-}
-
-.gif_container h2 {
-  font-size: 2rem;
-}
-
-.gif_container img {
-  width: 700px;
-  height: 600px;
-}
-
 .contact {
   font-size: 2rem;
   text-align: center;
 }
 
-.orchardWeed_description {
-    text-align: center;
-    font-size: 1.5rem;
-}
+
 
 #footer {
   width: 100%;
@@ -349,24 +321,72 @@ body {
   text-align: center;
 }
 
+.gif_container {
+  width: 70%;
+  margin: auto;
+}
+
+.gif_container h2 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.gif_container img {
+  width: 90%;
+  margin:0%
+}
+
+.orchardWeed_description_text {
+  width: 100%;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
 /*insect walking on page*/
 .orchardWeed_description {
-  margin: 0 auto;
+  margin: auto;
   border: 1px yellow solid;
   color: black;
   font-weight: bolder;
   
   background-color: rgb(153, 219, 255);
-  width:100%;
-  padding: 10px;
+  
+  
   text-align: center;
   background-image: url('./images/vegBug-1.gif'), url('./images/vegBug-1.gif'), url('./images/vegBug-1.gif');
   background-repeat: no-repeat;
-  background-size: 10%, 20%, 30%;
+  background-size: 10%, 20%, 10%;
   background-position: left, center, right;
   opacity: 1;
 }
 
+
+@media only screen and (max-width: 1400px) {
+  .list1 {
+    width: 80%;
+  }
+
+  .forms {
+    display: inline-block;
+  }
+  
+  .forms p {
+    margin:0 auto;
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+
+  
+  .forms-1, .forms-2, .forms-3 {
+    background-color: midnightblue;
+    width: 40%;
+    height: 10%;
+    padding: 15px;
+    text-align: center;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+  }
+}
 
 
 @media only screen and (max-width: 800px) {
