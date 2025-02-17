@@ -393,9 +393,12 @@ body {
   .slideshow-container img {
     height: 500px;
   }
-
-  
-  
+   
+   .contact {
+    font-size: 1.2rem;
+    width: 70%;
+    margin: 0 auto;
+  }
 }
 
 @media only screen and (max-width: 600px) {
