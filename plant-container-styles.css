@@ -70,7 +70,7 @@ body {
   }
 
   .pest_images img:hover {
-    transform: scale(2);
+    transform: scale(1.6);
     border-radius: 100px;
   }
 
@@ -79,7 +79,7 @@ body {
     height: 200px;
   }
   #page-link a {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     color: blue;
   }
  
@@ -386,19 +386,52 @@ body {
     border-radius: 12px;
     transition-duration: 0.4s;
   }
+
+  .description_container p {
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+  }
+
+  .pest_images img:hover {
+    transform: scale(1.2);
+    border-radius: 100px;
+  }
 }
 
+@media only screen and (max-width: 960px) {
+  .pest_images img {
+    width: 150px;
+    height: 150px;
+  }
+}
 
 @media only screen and (max-width: 800px) {
   .slideshow-container img {
     height: 500px;
   }
-   
-   .contact {
+
+  .contact {
     font-size: 1.2rem;
     width: 70%;
     margin: 0 auto;
   }
+
+  .description_container p {
+    font-size: 0.9rem;
+    line-height: 1.1rem;
+  }
+
+  #page-link a {
+    font-size: 0.8rem;
+  }
+
+  .pest_images img {
+    width: 100px;
+    height: 100px;
+  }
+
+ 
+  
 }
 
 @media only screen and (max-width: 600px) {
@@ -407,6 +440,11 @@ body {
   .plant-box img {
     width: 100%;
     height: 100%;
+  }
+
+  .description_container p {
+    font-size: 0.9rem;
+    line-height: 1.1rem;
   }
 
   
