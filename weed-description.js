@@ -2841,11 +2841,11 @@ selected.addEventListener("submit", function (event) {
         case 'Ceratium glomeratum':
             window.location.href='./mouseear.html'
             break;
-        case 'Wynn casoa':
+        case 'Wynn cassia':
         case 'Chamaecrista rotundifolia':
             window.location.href='./chamaecrista.html'
             break;
-        case 'Fathen':
+        case 'Fat Hen':
         case 'Chenopodium album':
             window.location.href='./fathen.html'
             break;
