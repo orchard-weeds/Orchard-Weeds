@@ -206,36 +206,7 @@ input[type="radio"] {
     font-weight: bolder;
 }*/
 
-@media only screen and (max-width: 1300px) and (orientation: landscape) {
-    .header-bar {
-        height: 100px;
-    }
-    .header-bar h1 {
-        width: 200px;
-        text-align: center;
-        font-size: 1rem;
-    }
-    .header-bar img {
-        width: 120px;
-        height: 80px;
-        object-fit: contain;
-    }
-    
-    .header-bar img:hover {
-        transform: scale(1.1)
-    }
 
-    ul {
-        width: 100px;
-       
-    }
-
-
-    li {
-        font-size: 1.3rem;
-        margin-left: 10px;
-    }
-}
 
 @media only screen and (max-width: 1300px) {
     .header-bar {
@@ -276,8 +247,9 @@ input[type="radio"] {
 
     #formData {
         font-size: 1rem;
-        height: 300px;
+        
         border-radius: 12px;
+    }
 
     #searchable {
         width: 80%;
@@ -311,7 +283,7 @@ input[type="radio"] {
         height: 50px;
     }
     #formData {
-        font-size: 0.9rem;
+        font-size: 0.8rem;
         
     }
 
