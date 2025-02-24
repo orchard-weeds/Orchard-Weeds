@@ -43,7 +43,7 @@ body {
   .heading {
     text-align: center;
     margin-top: 50px;
-    heading: 50px;  
+    height: 50px;  
   }
 
   .description_container {
