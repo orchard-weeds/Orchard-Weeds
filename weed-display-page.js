@@ -1663,14 +1663,14 @@ function showInfo_fleabane() {
   heading.innerHTML = 
   `<h1>${fleabane.common_name}</h1><br><br><br><br></br>`;
 
-  photo_1.innerHTML = `<img src="./Images/weeds/fleabane_flower_bud.png" style="width:100%">`;
-  photo_2.innerHTML = `<img src="./Images/weeds/fleabane_flower_bud_1.png" style="width:100%">`;
-  photo_3.innerHTML = `<img src="./Images/weeds/fleabane_flower.jpg" style="width:100%">`;
+  photo_1.innerHTML = `<img src="./Images/weeds/Fleabane_flower_bud.png" style="width:100%">`;
+  photo_2.innerHTML = `<img src="./Images/weeds/Fleabane_flower_bud_1.png" style="width:100%">`;
+  photo_3.innerHTML = `<img src="./Images/weeds/Fleabane_flower.jpg" style="width:100%">`;
   photo_4.innerHTML = `<img src="./Images/weeds/fleabane-overgrowth-orchard.png" style="width:100%">`;
   photo_5.innerHTML = `<img src="./Images/weeds/fleabane-rossette.png" style="width:100%">`;
   photo_6.innerHTML = `<img src="./Images/weeds/fleabane-rossette-1.png" style="width:100%">`;
-  photo_7.innerHTML = `<img src="./Images/weeds/fleabane_flower_bud_1.png" style="width:100%">`;
-  photo_8.innerHTML = `<img src="./Images/weeds/fleabane_flower_bud.png" style="width:100%">`;
+  photo_7.innerHTML = `<img src="./Images/weeds/Fleabane_flower_bud_1.png" style="width:100%">`;
+  photo_8.innerHTML = `<img src="./Images/weeds/Fleabane_flower_bud.png" style="width:100%">`;
   photo_text_1.innerHTML = `<p>Fleabane (<em>Erigeron sp. </em>)</p>`;
   photo_text_2.innerHTML = `<p>Fleabane (<em>Erigeron sp. </em>)</p>`;
   photo_text_3.innerHTML = `<p>Fleabane (<em>Erigeron sp. </em>)</p>`;
