@@ -287,7 +287,7 @@ function showInfo_burmedic() {
  
   heading.innerHTML = 
   `<h1>${burmedic.common_name}</h1><br><br><br><br></br>`;
-
+/*
   photo_1.innerHTML = `<img src="./Images/weeds/Medicago-polymorpha-3.png" style="width:100%">`;
   photo_2.innerHTML = `<img src="./Images/weeds/Medicago-polymorpha-1.png" style="width:100%">`;
   photo_3.innerHTML = `<img src="./Images/weeds/Medicago-polymorpha-2.png" style="width:100%">`;
@@ -303,7 +303,7 @@ function showInfo_burmedic() {
   photo_text_5.innerHTML = `<p>MBurmedic (<em>Medicago polymorpha</em>)</p>`;
   photo_text_6.innerHTML = `<p>MBurmedic (<em>Medicago polymorpha</em>)</p>`;
   photo_text_7.innerHTML = `<p>MBurmedic (<em>Medicago polymorpha</em>)</p>`;
-  photo_text_8.innerHTML = `<p>MBurmedic (<em>Medicago polymorpha</em>)</p>`;
+  photo_text_8.innerHTML = `<p>MBurmedic (<em>Medicago polymorpha</em>)</p>`;*/
  
 
 
