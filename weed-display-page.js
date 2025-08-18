@@ -291,7 +291,7 @@ function showInfo_burmedic() {
   photo_1.innerHTML = `<img src="./Images/weeds/Medicago-polymorpha-5.png" style="width:100%">`;
   photo_2.innerHTML = `<img src="./Images/weeds/Medicago-polymorpha-1.png" style="width:100%">`;
   photo_3.innerHTML = `<img src="./Images/weeds/Medicago-polymorpha-6.png" style="width:100%">`;
-  photo_4.innerHTML = `<img src="./Images/weeds/Medicago-polymorpha.png" style="width:100%">`;
+  photo_4.innerHTML = `<img src="./Images/weeds/Medicago-polymorpha-5.png" style="width:100%">`;
   photo_5.innerHTML = `<img src="./Images/weeds/Medicago-polymorpha-1.png" style="width:100%">`;
   photo_6.innerHTML = `<img src="./Images/weeds/Medicago-polymorpha-7.png" style="width:100%">`;
   photo_7.innerHTML = `<img src="./Images/weeds/Medicago-polymorpha-8.png" style="width:100%">`;
@@ -3674,6 +3674,7 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   //dots[slideIndex-1].className += "active";
 }
+
 
 
 
