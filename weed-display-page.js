@@ -303,7 +303,7 @@ function showInfo_burmedic() {
   photo_text_5.innerHTML = `<p>Burmedic (<em>Medicago polymorpha</em>)</p>`;
   photo_text_6.innerHTML = `<p>Burmedic (<em>Medicago polymorpha</em>)</p>`;
   photo_text_7.innerHTML = `<p>Burmedic (<em>Medicago polymorpha</em>)</p>`;
-  photo_text_8.innerHTML = `<p>Burmedic (<em>Medicago polymorpha</em>)</p>`;*/
+  photo_text_8.innerHTML = `<p>Burmedic (<em>Medicago polymorpha</em>)</p>`;
  
 
 
@@ -3674,6 +3674,7 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   //dots[slideIndex-1].className += "active";
 }
+
 
 
 
