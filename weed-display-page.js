@@ -287,23 +287,23 @@ function showInfo_burmedic() {
  
   heading.innerHTML = 
   `<h1>${burmedic.common_name}</h1><br><br><br><br></br>`;
-/*
-  photo_1.innerHTML = `<img src="./Images/weeds/Medicago-polymorpha-3.png" style="width:100%">`;
+
+  photo_1.innerHTML = `<img src="./Images/weeds/Medicago-polymorpha-5.png" style="width:100%">`;
   photo_2.innerHTML = `<img src="./Images/weeds/Medicago-polymorpha-1.png" style="width:100%">`;
-  photo_3.innerHTML = `<img src="./Images/weeds/Medicago-polymorpha-2.png" style="width:100%">`;
+  photo_3.innerHTML = `<img src="./Images/weeds/Medicago-polymorpha-6.png" style="width:100%">`;
   photo_4.innerHTML = `<img src="./Images/weeds/Medicago-polymorpha.png" style="width:100%">`;
   photo_5.innerHTML = `<img src="./Images/weeds/Medicago-polymorpha-1.png" style="width:100%">`;
-  photo_6.innerHTML = `<img src="./Images/weeds/Medicago-polymorpha-2.png" style="width:100%">`;
-  photo_7.innerHTML = `<img src="./Images/weeds/Medicago-polymorpha-3.png" style="width:100%">`;
-  photo_8.innerHTML = `<img src="./Images/weeds/Medicago-polymorpha-1.png" style="width:100%">`;
-  photo_text_1.innerHTML = `<p>MBurmedic (<em>Medicago polymorpha</em>)</p>`;
-  photo_text_2.innerHTML = `<p>MBurmedic (<em>Medicago polymorpha</em>)</p>`;
-  photo_text_3.innerHTML = `<p>MBurmedic (<em>Medicago polymorpha</em>)</p>`;
-  photo_text_4.innerHTML = `<p>MBurmedic (<em>Medicago polymorpha</em>)</p>`;
-  photo_text_5.innerHTML = `<p>MBurmedic (<em>Medicago polymorpha</em>)</p>`;
-  photo_text_6.innerHTML = `<p>MBurmedic (<em>Medicago polymorpha</em>)</p>`;
-  photo_text_7.innerHTML = `<p>MBurmedic (<em>Medicago polymorpha</em>)</p>`;
-  photo_text_8.innerHTML = `<p>MBurmedic (<em>Medicago polymorpha</em>)</p>`;*/
+  photo_6.innerHTML = `<img src="./Images/weeds/Medicago-polymorpha-7.png" style="width:100%">`;
+  photo_7.innerHTML = `<img src="./Images/weeds/Medicago-polymorpha-8.png" style="width:100%">`;
+  photo_8.innerHTML = `<img src="./Images/weeds/Medicago-polymorpha-5.png" style="width:100%">`;
+  photo_text_1.innerHTML = `<p>Burmedic (<em>Medicago polymorpha</em>)</p>`;
+  photo_text_2.innerHTML = `<p>Burmedic (<em>Medicago polymorpha</em>)</p>`;
+  photo_text_3.innerHTML = `<p>Burmedic (<em>Medicago polymorpha</em>)</p>`;
+  photo_text_4.innerHTML = `<p>Burmedic (<em>Medicago polymorpha</em>)</p>`;
+  photo_text_5.innerHTML = `<p>Burmedic (<em>Medicago polymorpha</em>)</p>`;
+  photo_text_6.innerHTML = `<p>Burmedic (<em>Medicago polymorpha</em>)</p>`;
+  photo_text_7.innerHTML = `<p>Burmedic (<em>Medicago polymorpha</em>)</p>`;
+  photo_text_8.innerHTML = `<p>Burmedic (<em>Medicago polymorpha</em>)</p>`;*/
  
 
 
@@ -3674,6 +3674,7 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   //dots[slideIndex-1].className += "active";
 }
+
 
 
 
